@@ -47,7 +47,7 @@
 # text_annotator = DMA
 1	Indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	TokenRange=0:4
 2	puranga	puranga	ADJ	A	_	0	root	_	SpaceAfter=No|TokenRange=5:12
-3	,	,	PUNCT	PUNCT	_	0	punct	_	TokenRange=12:13
+3	,	,	PUNCT	PUNCT	_	2	punct	_	TokenRange=12:13
 4	Maria	maria	PROPN	PROPN	_	2	vocative	_	SpaceAfter=No|TokenRange=14:19
 5	!	!	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=19:20
 
