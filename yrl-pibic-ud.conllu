@@ -1,5 +1,5 @@
 # sent_id = Navarro2016:1:1:1
-# text = Maria anama. 
+# text = Maria anama.
 # text_eng = Mary's family.
 # text_por =  A família de Maria.
 # text_source = p. 9
@@ -9,7 +9,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=11:12
 
 # sent_id = Navarro2016:1:2:2
-# text = Puranga ara! 
+# text = Puranga ara!
 # text_eng = Good morning!
 # text_por =  Bom dia!
 # text_source = p. 9
@@ -19,7 +19,7 @@
 3	!	!	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=11:12
 
 # sent_id = Navarro2016:1:3:3
-# text = Awá taá indé? 
+# text = Awá taá indé?
 # text_eng = Who are you?
 # text_por =  Quem é você?
 # text_source = p. 9
@@ -30,7 +30,7 @@
 4	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=12:13
 
 # sent_id = Navarro2016:1:4:4
-# text = Ixé Maria. 
+# text = Ixé Maria.
 # text_eng = I am Maria.
 # text_por =  Eu sou Maria.
 # text_source = p. 9
@@ -40,7 +40,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=9:10
 
 # sent_id = Navarro2016:1:5:5
-# text = Indé puranga, Maria! 
+# text = Indé puranga, Maria!
 # text_eng = You are beautiful, Maria!
 # text_por =  Você é bonita, Maria!
 # text_source = p. 9
@@ -52,7 +52,7 @@
 5	!	!	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=19:20
 
 # sent_id = Navarro2016:1:6:6
-# text = Awá taá uikú iké? 
+# text = Awá taá uikú iké?
 # text_eng = Who's here?
 # text_por =  Quem está aqui?
 # text_source = p. 9
@@ -64,7 +64,7 @@
 5	?	?	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=16:17
 
 # sent_id = Navarro2016:1:7:7
-# text = Pedro, Maria mena, uikú iké. 
+# text = Pedro, Maria mena, uikú iké.
 # text_eng = Pedro, Maria's husband, is here.
 # text_por =  Pedro, marido de Maria, está aqui.
 # text_source = p. 9
@@ -79,7 +79,7 @@
 8	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|TokenRange=27:28
 
 # sent_id = Navarro2016:1:8:8
-# text = Puranga pituna, Pedro! 
+# text = Puranga pituna, Pedro!
 # text_eng = Good night, Peter!
 # text_por =  Boa noite, Pedro!
 # text_source = p. 9
@@ -91,7 +91,7 @@
 5	!	!	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=21:22
 
 # sent_id = Navarro2016:1:9:9
-# text = Mayé taá indé resasá? 
+# text = Mayé taá indé resasá?
 # text_eng = How do you do?
 # text_por =  Como você passa?
 # text_source = p. 9
@@ -103,7 +103,7 @@
 5	?	?	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=20:21
 
 # sent_id = Navarro2016:1:10:10
-# text = Puranga tẽ asasá. 
+# text = Puranga tẽ asasá.
 # text_eng = I'm doing fine.
 # text_por =  Passo bem mesmo.
 # text_source = p. 9
@@ -114,7 +114,7 @@
 4	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=16:17
 
 # sent_id = Navarro2016:1:11:11
-# text = Awá taá aé? 
+# text = Awá taá aé?
 # text_eng = Who is he?
 # text_por =  Quem é ele?
 # text_source = p. 10
@@ -125,7 +125,7 @@
 4	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=10:11
 
 # sent_id = Navarro2016:1:12:12
-# text = Aé Antônio, Maria mimbira. 
+# text = Aé Antônio, Maria mimbira.
 # text_eng = He is Antonio, son of Mary.
 # text_por =  Ele é Antônio, filho de Maria.
 # text_source = p. 10
@@ -138,7 +138,7 @@
 6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=25:26
 
 # sent_id = Navarro2016:1:13:13
-# text = Pedro, Antônio, aintá Maria anama-itá. 
+# text = Pedro, Antônio, aintá Maria anama-itá.
 # text_eng = Pedro and Antonio, they are Maria's relatives.
 # text_por =  Pedro e Antônio, eles são os  familiares de Maria.
 # text_source = p. 10
@@ -153,7 +153,7 @@
 8	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|TokenRange=37:38
 
 # sent_id = Navarro2016:1:14:14
-# text = Puranga karuka, Antônio! 
+# text = Puranga karuka, Antônio!
 # text_eng = Good afternoon, Antonio!
 # text_por =  Boa tarde, Antônio!
 # text_source = p. 10
@@ -165,7 +165,7 @@
 5	!	!	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=23:24
 
 # sent_id = Navarro2016:1:15:15
-# text = Indé puranga! 
+# text = Indé puranga!
 # text_eng = You are beautiful!
 # text_por =  Você é bonito!
 # text_source = p. 10
@@ -175,7 +175,7 @@
 3	!	!	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=12:13
 
 # sent_id = Navarro2016:1:16:16
-# text = Kwekatú reté! 
+# text = Kwekatú reté!
 # text_eng = Thank you very much!
 # text_por =  Muito obrigado!
 # text_source = p. 10
@@ -185,7 +185,7 @@
 3	!	!	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=12:13
 
 # sent_id = Navarro2016:1:17:17
-# text = Ixé kurumĩ. 
+# text = Ixé kurumĩ.
 # text_eng = I'm a boy.
 # text_por =  Eu sou menino.
 # text_source = p. 11
@@ -195,7 +195,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=10:11
 
 # sent_id = Navarro2016:1:18:18
-# text = Indé kunhã. 
+# text = Indé kunhã.
 # text_eng = You are woman.
 # text_por =  Tu és mulher.
 # text_source = p. 11
@@ -205,7 +205,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=10:11
 
 # sent_id = Navarro2016:1:19:19
-# text = Aé apigawa. 
+# text = Aé apigawa.
 # text_eng = He is man.
 # text_por =  Ele é homem.
 # text_source = p. 11
@@ -215,7 +215,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=10:11
 
 # sent_id = Navarro2016:1:20:20
-# text = Ixé aikú iké. 
+# text = Ixé aikú iké.
 # text_eng = I am here.
 # text_por =  Eu estou aqui.
 # text_source = p. 11
@@ -226,7 +226,7 @@
 4	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=12:13
 
 # sent_id = Navarro2016:1:21:21
-# text = Yandé yasasá puranga. 
+# text = Yandé yasasá puranga.
 # text_eng = We had a good time.
 # text_por =  Nós passamos bem.
 # text_source = p. 11
@@ -237,7 +237,7 @@
 4	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=20:21
 
 # sent_id = Navarro2016:1:22:22
-# text = Ixé puranga. 
+# text = Ixé puranga.
 # text_eng = I am cute.
 # text_por =  Eu sou bonito.
 # text_source = p. 11
@@ -247,7 +247,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=11:12
 
 # sent_id = Navarro2016:1:23:23
-# text = Se pusé. 
+# text = Se pusé.
 # text_eng = I'm heavy.
 # text_por =  Eu sou pesado.
 # text_source = p. 11
@@ -257,7 +257,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=7:8
 
 # sent_id = Navarro2016:1:24:24
-# text = kurumĩ puranga. 
+# text = kurumĩ puranga.
 # text_eng = Beautiful boy.
 # text_por =  Menino bonito.
 # text_source = p. 12
@@ -267,7 +267,7 @@
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=14:15
 
 # sent_id = Navarro2016:1:25:25
-# text = Kurumĩ puranga. 
+# text = Kurumĩ puranga.
 # text_eng = The boy is pretty.
 # text_por =  O menino é bonito.
 # text_source = p. 12
@@ -277,7 +277,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=14:15
 
 # sent_id = Navarro2016:1:26:26
-# text = Pedro pisasú. 
+# text = Pedro pisasú.
 # text_eng = Peter is new.
 # text_por =  Pedro é novo.
 # text_source = p. 12
@@ -287,7 +287,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=12:13
 
 # sent_id = Navarro2016:1:27:27
-# text = Maria puranga. 
+# text = Maria puranga.
 # text_eng = Maria is pretty.
 # text_por =  Maria é bonita.
 # text_source = p. 12
@@ -297,7 +297,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=13:14
 
 # sent_id = Navarro2016:1:28:28
-# text = Ixé pisasú. 
+# text = Ixé pisasú.
 # text_eng = I am young.
 # text_por =  Eu sou novo.
 # text_source = p. 12
@@ -307,7 +307,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=10:11
 
 # sent_id = Navarro2016:1:29:29
-# text = Puranga, eré, peikú iké. 
+# text = Puranga, eré, peikú iké.
 # text_eng = It is good, oh yes, that you are here.
 # text_por =  É bom, ó sim, que vocês estejam aqui.
 # text_source = p. 12
@@ -321,7 +321,7 @@
 7	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=23:24
 
 # sent_id = Navarro2016:1:30:30
-# text = Igara i pusé. 
+# text = Igara i pusé.
 # text_eng = The canoe is heavy.
 # text_por =  A canoa é pesada.
 # text_source = p. 12
@@ -332,7 +332,7 @@
 4	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=12:13
 
 # sent_id = Navarro2016:1:31:31
-# text = Kurumĩ i kiá. 
+# text = Kurumĩ i kiá.
 # text_eng = The boy is dirty.
 # text_por =  O menino é sujo.
 # text_source = p. 12
@@ -343,7 +343,7 @@
 4	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=12:13
 
 # sent_id = Navarro2016:1:32:32
-# text = Igara pisasú. 
+# text = Igara pisasú.
 # text_eng = The canoe is new.
 # text_por =  A canoa é nova.
 # text_source = p. 12
@@ -353,7 +353,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=12:13
 
 # sent_id = Navarro2016:1:33:33
-# text = Apigawa puranga. 
+# text = Apigawa puranga.
 # text_eng = The man is handsome.
 # text_por =  O homem é bonito.
 # text_source = p. 12
@@ -363,7 +363,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=15:16
 
 # sent_id = Navarro2016:1:34:34
-# text = Ara puranga. 
+# text = Ara puranga.
 # text_eng = Good day.
 # text_por =  Dia bom.
 # text_source = p. 12
@@ -373,7 +373,7 @@
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=11:12
 
 # sent_id = Navarro2016:1:35:35
-# text = Puranga ara! 
+# text = Puranga ara!
 # text_eng = Good morning!
 # text_por =  Bom dia!
 # text_source = p. 12
@@ -383,7 +383,7 @@
 3	!	!	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=11:12
 
 # sent_id = Navarro2016:1:36:36
-# text = Yepé pisasú ara usika. 
+# text = Yepé pisasú ara usika.
 # text_eng = A new day arrives.
 # text_por =  Um novo dia chega.
 # text_source = p. 12
@@ -395,7 +395,7 @@
 5	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=21:22
 
 # sent_id = Navarro2016:1:37:37
-# text = Aé puranga uikú. 
+# text = Aé puranga uikú.
 # text_eng = She is pretty.
 # text_por =  Ela está bonita.
 # text_source = p. 13
@@ -406,7 +406,7 @@
 4	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=15:16
 
 # sent_id = Navarro2016:1:38:38
-# text = Aé puranga. 
+# text = Aé puranga.
 # text_eng = She is beautiful.
 # text_por =  Ela é bonita.
 # text_source = p. 13
@@ -416,7 +416,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=10:11
 
 # sent_id = Navarro2016:1:39:39
-# text = Indé ne kiá. 
+# text = Indé ne kiá.
 # text_eng = You are dirty.
 # text_por =  Tu és sujo.
 # text_source = p. 13
@@ -427,7 +427,7 @@
 4	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=11:12
 
 # sent_id = Navarro2016:1:40:40
-# text = Yandé yané pusé. 
+# text = Yandé yané pusé.
 # text_eng = We are heavy.
 # text_por =  Nós somos pesados.
 # text_source = p. 13
@@ -437,7 +437,7 @@
 4	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=15:16
 
 # sent_id = Navarro2016:1:41:41
-# text = Kunhã puranga. 
+# text = Kunhã puranga.
 # text_eng = Right woman.
 # text_por =  Mulher direita.
 # text_source = p. 13
@@ -447,7 +447,7 @@
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=13:14
 
 # sent_id = Navarro2016:1:42:42
-# text = Reyenũ puranga! 
+# text = Reyenũ puranga!
 # text_eng = Lie down straight!
 # text_por =  Deita direito!
 # text_source = p. 13
@@ -457,7 +457,7 @@
 3	!	!	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=14:15
 
 # sent_id = Navarro2016:1:43:43
-# text = Taína surí. 
+# text = Taína surí.
 # text_eng = Cheerful child.
 # text_por =  Criança alegre.
 # text_source = p. 13
@@ -467,7 +467,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=10:11
 
 # sent_id = Navarro2016:1:44:44
-# text = Surí ayumbué. 
+# text = Surí ayumbué.
 # text_eng = I happily learn.
 # text_por =  Alegremente aprendo.
 # text_source = p. 13
@@ -477,7 +477,7 @@
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=12:13
 
 # sent_id = Navarro2016:1:45:45
-# text = Apigawa kirimbawa. 
+# text = Apigawa kirimbawa.
 # text_eng = Strong man.
 # text_por =  Homem forte.
 # text_source = p. 13
@@ -487,7 +487,7 @@
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=17:18
 
 # sent_id = Navarro2016:1:46:46
-# text = Reyapukúi kirimbawa. 
+# text = Reyapukúi kirimbawa.
 # text_eng = Row hard.
 # text_por =  Reme com força.
 # text_source = p. 13
@@ -497,7 +497,7 @@
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=19:20
 
 # sent_id = Navarro2016:1:47:47
-# text = Timbiú sé. 
+# text = Timbiú sé.
 # text_eng = Good food.
 # text_por =  Comida gostosa.
 # text_source = p. 13
@@ -507,7 +507,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=9:10
 
 # sent_id = Navarro2016:1:48:48
-# text = Repuká sé. 
+# text = Repuká sé.
 # text_eng = Laugh heartily.
 # text_por =  Rias gostosamente.
 # text_source = p. 13
@@ -517,7 +517,7 @@
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=9:10
 
 # sent_id = Navarro2016:1:49:49
-# text = Mamé Barcelos? 
+# text = Mamé Barcelos?
 # text_eng = Where is Barcelos?
 # text_por =  Onde é Barcelos?
 # text_source = p. 13
@@ -527,7 +527,7 @@
 3	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=13:14
 
 # sent_id = Navarro2016:1:50:50
-# text = Mamé taá Barcelos? 
+# text = Mamé taá Barcelos?
 # text_eng = Where is Barcelos?
 # text_por =  Onde é Barcelos?
 # text_source = p. 13
@@ -538,7 +538,7 @@
 4	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=17:18
 
 # sent_id = Navarro2016:1:51:51
-# text = Mimi katú aé. 
+# text = Mimi katú aé.
 # text_eng = It's right there.
 # text_por =  É bem ali.
 # text_source = p. 13
@@ -549,7 +549,7 @@
 4	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=12:13
 
 # sent_id = Navarro2016:1:52:52
-# text = Indé mimiwara. 
+# text = Indé mimiwara.
 # text_eng = You are from there.
 # text_por =  Você é de lá.
 # text_source = p. 13
@@ -559,7 +559,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=13:14
 
 # sent_id = Navarro2016:1:53:53
-# text = Joana mena. 
+# text = Joana mena.
 # text_eng = Joan's husband.
 # text_por =  Marido de Joana.
 # text_source = p. 13
@@ -569,7 +569,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=10:11
 
 # sent_id = Navarro2016:1:54:54
-# text = Pedro igara. 
+# text = Pedro igara.
 # text_eng = Peter's Canoe
 # text_por =  Canoa de Pedro.
 # text_source = p. 13
@@ -579,7 +579,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=11:12
 
 # sent_id = Navarro2016:1:55:55
-# text = Paranã ií. 
+# text = Paranã ií.
 # text_eng = River water.
 # text_por =  Água do rio.
 # text_source = p. 13
@@ -589,7 +589,7 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=9:10
 
 # sent_id = Navarro2016:1:56:56
-# text = Maria mimbira. 
+# text = Maria mimbira.
 # text_eng = Son of Mary.
 # text_por =  Filho de Maria.
 # text_source = p. 13
