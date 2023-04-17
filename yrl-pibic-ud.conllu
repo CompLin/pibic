@@ -3,7 +3,6 @@
 # text_eng = Mary's family.
 # text_por =  A família de Maria.
 # text_source = p. 9
-# teste
 # text_annotator = Dominick Maia Alexandre (DMA)
 1	Maria	maria	PROPN	PROPN	_	2	nmod:poss	_	TokenRange=0:5
 2	anama	anama	NOUN	N	Number=Sing	0	root	_	SpaceAfter=No|TokenRange=6:11
