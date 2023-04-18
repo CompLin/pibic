@@ -64,7 +64,7 @@
 1	Pedro	pedro	PROPN	PROPN	_	7	nsubj	_	SpaceAfter=No|TokenRange=0:5
 2	,	,	PUNCT	PUNCT	_	1	punct	_	TokenRange=5:6
 3	Maria	maria	PROPN	PROPN	_	4	nmod:poss	_	TokenRange=7:12
-4	mena	mena	NOUN	N	Number=Sing	1	_	_	SpaceAfter=No|TokenRange=13:17
+4	mena	mena	NOUN	N	Number=Sing	1	appos	_	SpaceAfter=No|TokenRange=13:17
 5	,	,	PUNCT	PUNCT	_	7	punct	_	TokenRange=17:18
 6	uikú	ikú	AUX	COP	Person=3|VerbForm=Fin	7	cop	_	TokenRange=19:23
 7	iké	iké	ADV	ADVDX	AdvType=Loc|Deixis=Prox|PronType=Dem	0	root	_	SpaceAfter=No|TokenRange=24:27
@@ -298,7 +298,7 @@
 2	,	,	PUNCT	PUNCT	_	1	punct	_	TokenRange=7:8
 3	eré	eré	PART	CONS	PartType=Mod|Polarity=Pos	1	advmod	_	SpaceAfter=No|TokenRange=9:12
 4	,	,	PUNCT	PUNCT	_	6	punct	_	TokenRange=12:13
-5	peikú	ikú	AUX	COP	Number=Plur|Person=2|VerbForm=Fin	1	cop	_	TokenRange=14:19
+5	peikú	ikú	AUX	COP	Number=Plur|Person=2|VerbForm=Fin	6	cop	_	TokenRange=14:19
 6	iké	iké	ADV	ADVDX	AdvType=Loc|Deixis=Prox|PronType=Dem	1	advmod	_	SpaceAfter=No|TokenRange=20:23
 7	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=23:24
 
@@ -345,16 +345,6 @@
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=15:16
 
 # sent_id = Navarro2016:0:0:32
-# text = Ara puranga.
-# text_eng = Good day.
-# text_por =  Dia bom.
-# text_source = Lesson 1, p. 12
-# text_annotator = DMA
-1	Ara	ara	NOUN	N	Number=Sing	0	root	_	TokenRange=0:3
-2	puranga	puranga	ADJ	A	_	1	amod	_	SpaceAfter=No|TokenRange=4:11
-3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=11:12
-
-# sent_id = Navarro2016:0:0:33
 # text = Puranga ara!
 # text_eng = Good morning!
 # text_por =  Bom dia!
@@ -364,7 +354,7 @@
 2	ara	ara	NOUN	N	Number=Sing	0	root	_	SpaceAfter=No|TokenRange=8:11
 3	!	!	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=11:12
 
-# sent_id = Navarro2016:0:0:34
+# sent_id = Navarro2016:0:0:33
 # text = Yepé pisasú ara usika.
 # text_eng = A new day arrives.
 # text_por =  Um novo dia chega.
@@ -376,7 +366,7 @@
 4	usika	sika	VERB	V	Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=16:21
 5	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=21:22
 
-# sent_id = Navarro2016:0:0:35
+# sent_id = Navarro2016:0:0:34
 # text = Aé puranga uikú.
 # text_eng = She is pretty.
 # text_por =  Ela está bonita.
@@ -387,7 +377,7 @@
 3	uikú	ikú	AUX	COP	Person=3|VerbForm=Fin	2	cop	_	SpaceAfter=No|TokenRange=11:15
 4	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=15:16
 
-# sent_id = Navarro2016:0:0:36
+# sent_id = Navarro2016:0:0:35
 # text = Aé puranga.
 # text_eng = She is beautiful.
 # text_por =  Ela é bonita.
@@ -397,7 +387,7 @@
 2	puranga	puranga	ADJ	A	_	0	root	_	SpaceAfter=No|TokenRange=3:10
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=10:11
 
-# sent_id = Navarro2016:0:0:37
+# sent_id = Navarro2016:0:0:36
 # text = Indé ne kiá.
 # text_eng = You are dirty.
 # text_por =  Tu és sujo.
@@ -408,17 +398,18 @@
 3	kiá	kiá	VERB	A2	_	0	root	_	SpaceAfter=No|TokenRange=8:11
 4	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=11:12
 
-# sent_id = Navarro2016:0:0:38
+# sent_id = Navarro2016:0:0:37
 # text = Yandé yané pusé.
 # text_eng = We are heavy.
 # text_por =  Nós somos pesados.
 # text_source = Lesson 1, p. 13
 # text_annotator = DMA
-1	Yandé	yandé	PRON	PRON	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	TokenRange=0:5
-2	pusé	pusé	VERB	A2	_	0	root	_	SpaceAfter=No|TokenRange=11:15
-3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=15:16
+1	Yandé	yandé	PRON	PRON	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	TokenRange=0:5
+2	yané	yané	PRON	PRON2	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	expl	_	TokenRange=6:10
+3	pusé	pusé	VERB	A2	_	0	root	_	SpaceAfter=No|TokenRange=11:15
+4	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=15:16
 
-# sent_id = Navarro2016:0:0:39
+# sent_id = Navarro2016:0:0:38
 # text = Reyenũ puranga!
 # text_eng = Lie down straight!
 # text_por =  Deita direito!
@@ -428,7 +419,7 @@
 2	puranga	puranga	ADV	ADVA	AdvType=Man	1	advmod	_	SpaceAfter=No|TokenRange=7:14
 3	!	!	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=14:15
 
-# sent_id = Navarro2016:0:0:40
+# sent_id = Navarro2016:0:0:39
 # text = Surí ayumbué.
 # text_eng = I happily learn.
 # text_por =  Alegremente aprendo.
@@ -438,7 +429,7 @@
 2	ayumbué	yumbué	VERB	V	Number=Sing|Person=1|VerbForm=Fin	1	parataxis	_	SpaceAfter=No|TokenRange=5:12
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=12:13
 
-# sent_id = Navarro2016:0:0:41
+# sent_id = Navarro2016:0:0:40
 # text = Reyapukúi kirimbawa.
 # text_eng = Row hard.
 # text_por =  Reme com força.
@@ -448,7 +439,7 @@
 2	kirimbawa	kirimbawa	ADV	ADVA	AdvType=Man	1	advmod	_	SpaceAfter=No|TokenRange=10:19
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=19:20
 
-# sent_id = Navarro2016:0:0:42
+# sent_id = Navarro2016:0:0:41
 # text = Repuká sé.
 # text_eng = Laugh heartily.
 # text_por =  Rias gostosamente.
@@ -458,7 +449,7 @@
 2	sé	sé	ADV	ADVA	AdvType=Man	1	advmod	_	SpaceAfter=No|TokenRange=7:9
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=9:10
 
-# sent_id = Navarro2016:0:0:43
+# sent_id = Navarro2016:0:0:42
 # text = Mamé Barcelos?
 # text_eng = Where is Barcelos?
 # text_por =  Onde é Barcelos?
@@ -468,7 +459,7 @@
 2	Barcelos	barcelos	PROPN	PROPN	_	1	nsubj	_	SpaceAfter=No|TokenRange=5:13
 3	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=13:14
 
-# sent_id = Navarro2016:0:0:44
+# sent_id = Navarro2016:0:0:43
 # text = Mamé taá Barcelos?
 # text_eng = Where is Barcelos?
 # text_por =  Onde é Barcelos?
@@ -479,7 +470,7 @@
 3	Barcelos	barcelos	PROPN	PROPN	_	1	nsubj	_	SpaceAfter=No|TokenRange=9:17
 4	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=17:18
 
-# sent_id = Navarro2016:0:0:45
+# sent_id = Navarro2016:0:0:44
 # text = Mimi katú aé.
 # text_eng = It's right there.
 # text_por =  É bem ali.
@@ -490,7 +481,7 @@
 3	aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	1	nsubj	_	SpaceAfter=No|TokenRange=10:12
 4	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=12:13
 
-# sent_id = Navarro2016:0:0:46
+# sent_id = Navarro2016:0:0:45
 # text = Indé mimiwara.
 # text_eng = You are from there.
 # text_por =  Você é de lá.
@@ -499,3 +490,4 @@
 1	Indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	TokenRange=0:4
 2	mimiwara	mimiwara	NOUN	N	Number=Sing	0	root	_	SpaceAfter=No|TokenRange=5:13
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=13:14
+
