@@ -7,6 +7,7 @@
 # title_eng = Maria's family
 # title_pt = A família de Maria
 # text_annotator = Dominick Maia Alexandre (DMA)
+# annotation_reviewer = Leonel Figueiredo de Alencar (LFdeA)
 1	Puranga	puranga	ADJ	A	_	2	amod	_	TokenRange=0:7
 2	ara	ara	NOUN	N	Number=Sing	0	root	_	SpaceAfter=No|TokenRange=8:11
 3	!	!	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=11:12
