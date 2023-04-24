@@ -571,34 +571,6 @@
 9	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=40:41
 
 # sent_id = Navarro2016:2:3:48
-# text = Aé unheẽ Maria supé:
-# text_eng = He says to Mary:
-# text_por = Ele diz à Maria:
-# text_source = Lesson 2, p. 16
-# text_annotator = DMA
-# reviewer = LFdeA
-1	Aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:2
-2	unheẽ	nheẽ	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=3:8
-3	Maria	maria	PROPN	PROPN	_	2	obl	_	TokenRange=9:14
-4	supé	supé	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=15:19
-5	:	:	PUNCT	PUNCT	_	2	punct	_	TokenRange=19:20
-
-# sent_id = Navarro2016:2:4:49
-# text = Maria, mamé taá pindá-itá uikú?
-# text_eng = Maria, where are the hooks?
-# text_por = Maria, onde os anzóis estão?
-# text_source = Lesson 2, p. 16
-# text_annotator = DMA
-# reviewer = LFdeA
-1	Maria	maria	PROPN	PROPN	_	3	vocative	_	SpaceAfter=No|TokenRange=0:5
-2	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=5:6
-3	mamé	mamé	ADV	ADVRC	AdvType=Loc|PronType=Int	0	root	_	TokenRange=7:11
-4	taá	taá	PART	CQ	PartType=Int	3	advmod	_	TokenRange=12:15
-5	pindá-itá	pindá	NOUN	N	Number=Plur	3	nsubj	_	TokenRange=16:25
-6	uikú	ikú	AUX	COP	Person=3|VerbForm=Fin	3	cop	_	SpaceAfter=No|TokenRange=26:30
-7	?	?	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=30:31
-
-# sent_id = Navarro2016:2:3:48-49
 # text = Aé unheẽ Maria supé: — Maria, mamé taá pindá-itá uikú?
 # text_eng = He says to Maria: "Maria, where are the hooks?"
 # text_por = Ele diz à Maria: — Maria, onde os anzóis estão?
