@@ -1147,6 +1147,7 @@
 # title_pt = No rio Negro
 # text_annotator = DMA
 # reviewer1 = Vivianne Anselmo Nascimento (VAN)
+# reviewer2 = LFdeA
 1	Maria	maria	PROPN	PROPN	_	2	nsubj	_	TokenRange=0:5
 2	usemu	semu	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=6:11
 3	igara	igara	NOUN	N	Number=Sing	2	obl	_	TokenRange=12:17
@@ -1160,6 +1161,7 @@
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
 # reviewer1 = VAN
+# reviewer2 = LFdeA
 1	Aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:2
 2	usú	sú	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=3:6
 3	São	são	PROPN	PROPN	_	2	obl	_	TokenRange=7:10
@@ -1174,12 +1176,13 @@
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
 # reviewer1 = VAN
+# reviewer2 = LFdeA
 1	São	são	PROPN	PROPN	_	3	nsubj	_	TokenRange=0:3
 2	Gabriel	gabriel	PROPN	PROPN	_	1	flat	_	TokenRange=4:11
 3	tawa	tawa	NOUN	N	Number=Sing	0	root	_	TokenRange=12:16
 4	puranga	puranga	ADJ	A	_	3	amod	_	SpaceAfter=No|TokenRange=17:24
-5	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=24:25
-6	apekatú	apekatú	ADV	ADVC	AdvType=Loc	3	advmod	_	TokenRange=26:33
+5	,	,	PUNCT	PUNCT	_	6	punct	_	TokenRange=24:25
+6	apekatú	apekatú	ADV	ADVC	AdvType=Loc	3	conj	_	TokenRange=26:33
 7	Barra	barra	PROPN	PROPN	_	6	obl	_	TokenRange=34:39
 8	suí	suí	ADP	ADP	_	7	case	_	SpaceAfter=No|TokenRange=40:43
 9	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=43:44
@@ -1191,6 +1194,7 @@
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
 # reviewer1 = VAN
+# reviewer2 = LFdeA
 1	Siía	siía	DET	INDQ	PronType=Ind	2	det	_	TokenRange=0:4
 2	mira	mira	NOUN	N	Number=Sing	3	nsubj	_	TokenRange=5:9
 3	umurari	murari	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=10:17
@@ -1204,18 +1208,19 @@
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
 # reviewer1 = VAN
+# reviewer2 = LFdeA
 1	Aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:2
 2	upiripana	piripana	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=3:12
 3	kurí	kurí	PART	FUT	Tense=Fut	2	advmod	_	TokenRange=13:17
 4	maã-itá	maã	NOUN	N	Number=Plur	2	obj	_	TokenRange=18:25
 5	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	TokenRange=26:27
-6	mimbira	mimbira	NOUN	N	Number=Sing	2	obl	_	TokenRange=28:35
+6	mimbira	mimbira	NOUN	N	Number=Sing	2	iobj	_	TokenRange=28:35
 7	supé	supé	ADP	ADP	_	6	case	_	SpaceAfter=No|TokenRange=36:40
-8	,	,	PUNCT	PUNCT	_	2	punct	_	TokenRange=40:41
+8	,	,	PUNCT	PUNCT	_	10	punct	_	TokenRange=40:41
 9	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	TokenRange=42:43
-10	mena	mena	NOUN	N	Number=Sing	2	obl	_	TokenRange=44:48
+10	mena	mena	NOUN	N	Number=Sing	6	conj	_	TokenRange=44:48
 11	supé	supé	ADP	ADP	_	10	case	_	TokenRange=49:53
-12	yuíri	yuíri	ADV	ADV	_	10	advmod	_	SpaceAfter=No|TokenRange=54:59
+12	yuíri	yuíri	CCONJ	CCONJ	_	10	cc	_	SpaceAfter=No|TokenRange=54:59
 13	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=59:60
 
 # sent_id = Navarro2016:3:6:95
@@ -1225,6 +1230,7 @@
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
 # reviewer1 = VAN
+# reviewer2 = LFdeA
 1	Aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:2
 2	usika	sika	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=3:8
 3	ape	ape	ADV	ADVDI	AdvType=Loc|Deixis=Remt|PronType=Dem	2	advmod	_	SpaceAfter=No|TokenRange=9:12
@@ -2236,3 +2242,4 @@
 11	kwá	kwá	DET	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	12	det	_	TokenRange=48:51
 12	tukunaré	tukunaré	NOUN	N	Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=52:60
 13	.	.	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|TokenRange=60:61
+
