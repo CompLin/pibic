@@ -1243,101 +1243,76 @@
 10	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=45:46
 
 # sent_id = Navarro2016:3:7:96
-# text = Aé unheẽ yepé meẽsara supé:
-# text_eng = She says to a seller:
-# text_por =  Ela diz a um vendedor:
-# text_source = Lesson 3, p. 21
-# text_annotator = DMA
-# reviewer1 = VAN
-1	Aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:2
-2	unheẽ	nheẽ	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=3:8
-3	yepé	yepé	DET	ART	Definite=Ind|PronType=Art	4	det	_	TokenRange=9:13
-4	meẽsara	meẽsara	NOUN	N	Number=Sing	2	obl	_	TokenRange=14:21
-5	supé	supé	ADP	ADP	_	4	case	_	SpaceAfter=No|TokenRange=22:26
-6	:	:	PUNCT	PUNCT	_	2	punct	_	TokenRange=26:27
-
-# sent_id = Navarro2016:3:8:97
-# text = Ixé aputari yepé kamixá se mimbira supé.
-# text_eng = I want a shirt for my son.
-# text_por =  Eu quero uma camisa para meu filho.
-# text_source = Lesson 3, p. 21
-# text_annotator = DMA
-# reviewer1 = VAN
-1	Ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	TokenRange=0:3
-2	aputari	putari	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=4:11
-3	yepé	yepé	DET	ART	Definite=Ind|PronType=Art	4	det	_	TokenRange=12:16
-4	kamixá	kamixá	NOUN	N	Number=Sing	2	obj	_	TokenRange=17:23
-5	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	TokenRange=24:26
-6	mimbira	mimbira	NOUN	N	Number=Sing	2	obl	_	TokenRange=27:34
-7	supé	supé	ADP	ADP	_	6	case	_	SpaceAfter=No|TokenRange=35:39
-8	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=39:40
-
-# sent_id = Navarro2016:3:7:96-97
 # text = Aé unheẽ yepé meẽsara supé: — Ixé aputari yepé kamixá se mimbira supé.
 # text_eng = She says to a salesperson, "I want a shirt for my son."
 # text_por =  Ela diz a um vendedor: — Eu quero uma camisa para meu filho.
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:2
 2	unheẽ	nheẽ	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=3:8
 3	yepé	yepé	DET	ART	Definite=Ind|PronType=Art	4	det	_	TokenRange=9:13
-4	meẽsara	meẽsara	NOUN	N	Number=Sing	2	obl	_	TokenRange=14:21
+4	meẽsara	meẽsara	NOUN	N	Number=Sing	2	iobj	_	TokenRange=14:21
 5	supé	supé	ADP	ADP	_	4	case	_	SpaceAfter=No|TokenRange=22:26
-6	:	:	PUNCT	PUNCT	_	2	punct	_	TokenRange=26:27
-7	—	—	PUNCT	PUNCT	_	2	punct	_	TokenRange=27:28
+6	:	:	PUNCT	PUNCT	_	9	punct	_	TokenRange=26:27
+7	—	—	PUNCT	PUNCT	_	9	punct	_	TokenRange=27:28
 8	Ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	TokenRange=29:32
-9	aputari	putari	VERB	V	Number=Sing|Person=1|VerbForm=Fin	2	parataxis	_	TokenRange=33:40
+9	aputari	putari	VERB	V	Number=Sing|Person=1|VerbForm=Fin	2	ccomp	_	TokenRange=33:40
 10	yepé	yepé	DET	ART	Definite=Ind|PronType=Art	11	det	_	TokenRange=41:45
 11	kamixá	kamixá	NOUN	N	Number=Sing	9	obj	_	TokenRange=46:52
 12	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	TokenRange=53:55
-13	mimbira	mimbira	NOUN	N	Number=Sing	9	obl	_	TokenRange=56:63
+13	mimbira	mimbira	NOUN	N	Number=Sing	9	iobj	_	TokenRange=56:63
 14	supé	supé	ADP	ADP	_	13	case	_	SpaceAfter=No|TokenRange=64:68
 15	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=68:69
 
-# sent_id = Navarro2016:3:9:98
+# sent_id = Navarro2016:3:8:97
 # text = Aé urikú mukũi akayú.
 # text_eng = He is two years old.
 # text_por =  Ele tem dois anos.
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
 # reviewer1 = VAN
+# reviewer2 = LFdeA
 1	Aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:2
 2	urikú	rikú	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=3:8
 3	mukũi	mukũi	NUM	CARD	NumType=Card	4	nummod	_	TokenRange=9:14
 4	akayú	akayú	NOUN	N	Number=Sing	2	obl	_	SpaceAfter=No|TokenRange=15:20
 5	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=20:21
 
-# sent_id = Navarro2016:3:10:99
+# sent_id = Navarro2016:3:9:98
 # text = Kwá kamixá puranga retana.
 # text_eng = This shirt is very beautiful.
 # text_por =  Esta camisa é muito bonita.
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
 # reviewer1 = VAN
+# reviewer2 = LFdeA
 1	Kwá	kwá	DET	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	2	det	_	TokenRange=0:3
 2	kamixá	kamixá	NOUN	N	Number=Sing	3	nsubj	_	TokenRange=4:10
 3	puranga	puranga	ADJ	A	_	0	root	_	TokenRange=11:18
 4	retana	retana	ADV	ADVS	AdvType=Deg	3	advmod	_	SpaceAfter=No|TokenRange=19:25
 5	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=25:26
 
-# sent_id = Navarro2016:3:11:100
+# sent_id = Navarro2016:3:10:99
 # text = Aé sepiasuíma.
 # text_eng = She is cheap.
 # text_por =  Ela é barata.
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
 # reviewer1 = VAN
+# reviewer2 = LFdeA
 1	Aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:2
 2	sepiasuíma	sepiasuíma	ADJ	A	_	0	root	_	SpaceAfter=No|TokenRange=3:13
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=13:14
 
-# sent_id = Navarro2016:3:12:101
+# sent_id = Navarro2016:3:11:100
 # text = Maã taá aikwé se mena supé?
-# text_eng = What's in it for my husband?
+# text_eng = What is there for my husband?
 # text_por =  Que há para o meu marido?
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
 # reviewer1 = VAN
+# reviewer2 = LFdeA
 1	Maã	maã	PRON	INT	PronType=Int	3	nsubj	_	TokenRange=0:3
 2	taá	taá	PART	CQ	PartType=Int	3	advmod	_	TokenRange=4:7
 3	aikwé	aikwé	PART	EXST	PartType=Exs	0	root	_	TokenRange=8:13
@@ -1346,29 +1321,31 @@
 6	supé	supé	ADP	ADP	_	5	case	_	SpaceAfter=No|TokenRange=22:26
 7	?	?	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=26:27
 
-# sent_id = Navarro2016:3:13:102
+# sent_id = Navarro2016:3:12:101
 # text = Maã taá indé reputari ne mena supé?
 # text_eng = What do you want for your husband?
 # text_por =  Que você quer para seu marido?
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
 # reviewer1 = VAN
+# reviewer2 = LFdeA
 1	Maã	maã	PRON	INT	PronType=Int	4	obj	_	TokenRange=0:3
 2	taá	taá	PART	CQ	PartType=Int	4	advmod	_	TokenRange=4:7
 3	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	TokenRange=8:12
 4	reputari	putari	AUX	AUXN	Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=13:21
 5	ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	TokenRange=22:24
-6	mena	mena	NOUN	N	Number=Sing	4	obl	_	TokenRange=25:29
+6	mena	mena	NOUN	N	Number=Sing	4	iobj	_	TokenRange=25:29
 7	supé	supé	ADP	ADP	_	6	case	_	SpaceAfter=No|TokenRange=30:34
 8	?	?	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=34:35
 
 # sent_id = Navarro2016:3:14:103
 # text = Se mena upurakí kurí garapá upé.
-# text_eng = My husband goes to work at the port.
+# text_eng = My husband will work at the port.
 # text_por =  Meu marido vai trabalhar no porto.
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
 # reviewer1 = VAN
+# reviewer2 = LFdeA
 1	Se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	TokenRange=0:2
 2	mena	mena	NOUN	N	Number=Sing	3	nsubj	_	TokenRange=3:7
 3	upurakí	purakí	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=8:15
@@ -1384,6 +1361,7 @@
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
 # reviewer1 = VAN
+# reviewer2 = LFdeA
 1	Aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:2
 2	uputari	putari	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=3:10
 3	yepé	yepé	DET	ART	Definite=Ind|PronType=Art	4	det	_	TokenRange=11:15
@@ -1398,6 +1376,7 @@
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
 # reviewer1 = VAN
+# reviewer2 = LFdeA
 1	I	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	TokenRange=0:1
 2	xirura-itá	xirura	NOUN	N	Number=Plur	3	nsubj	_	TokenRange=2:12
 3	suruka	suruka	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No|TokenRange=13:19
@@ -1410,6 +1389,7 @@
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
 # reviewer1 = VAN
+# reviewer2 = LFdeA
 1	Kwá	kwá	PRON	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	2	nsubj	_	TokenRange=0:3
 2	puranga	puranga	ADJ	A	_	0	root	_	SpaceAfter=No|TokenRange=4:11
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=11:12
@@ -1421,8 +1401,9 @@
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
 # reviewer1 = VAN
-1	Muíri	muíri	DET	INT	PronType=Int	0	root	_	TokenRange=0:5
-2	rupí	rupí	ADP	ADP	_	5	case	_	TokenRange=6:10
+# reviewer2 = LFdeA
+1	Muíri	muíri	PRON	INT	PronType=Int	0	root	_	TokenRange=0:5
+2	rupí	rupí	ADP	ADP	_	1	case	_	TokenRange=6:10
 3	taá	taá	PART	CQ	PartType=Int	1	advmod	_	TokenRange=11:14
 4	kwá	kwá	DET	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	5	det	_	TokenRange=15:18
 5	xirura	xirura	NOUN	N	Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=19:25
@@ -1435,6 +1416,7 @@
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
 # reviewer1 = VAN
+# reviewer2 = LFdeA
 1	Mukũi	mukũi	NUM	CARD	NumType=Card	2	nummod	_	TokenRange=0:5
 2	real	real	NOUN	NOUN	_	0	root	_	SpaceAfter=No|TokenRange=6:10
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=10:11
@@ -1446,7 +1428,8 @@
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
 # reviewer1 = VAN
-1	Muíri	muíri	DET	INT	PronType=Int	0	root	_	TokenRange=0:5
+# reviewer2 = LFdeA
+1	Muíri	muíri	PRON	INT	PronType=Int	0	root	_	TokenRange=0:5
 2	rupí	rupí	ADP	ADP	_	1	case	_	TokenRange=6:10
 3	nhaã	nhaã	PRON	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	1	nsubj	_	SpaceAfter=No|TokenRange=11:15
 4	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=15:16
@@ -1458,6 +1441,7 @@
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
 # reviewer1 = VAN
+# reviewer2 = LFdeA
 1	Nhaã	nhaã	DET	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	2	det	_	TokenRange=0:4
 2	xirura	xirura	NOUN	N	Number=Sing	4	nsubj	_	TokenRange=5:11
 3	mukũi	mukũi	NUM	CARD	NumType=Card	4	nummod	_	TokenRange=12:17
@@ -1472,6 +1456,7 @@
 # text_source = Lesson 3, p. 21
 # text_annotator = DMA
 # reviewer1 = VAN
+# reviewer2 = LFdeA
 1	Aputari	putari	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=0:7
 2	nhaã	nhaã	PRON	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	1	obj	_	SpaceAfter=No|TokenRange=8:12
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=12:13
@@ -2242,4 +2227,3 @@
 11	kwá	kwá	DET	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	12	det	_	TokenRange=48:51
 12	tukunaré	tukunaré	NOUN	N	Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=52:60
 13	.	.	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|TokenRange=60:61
-
