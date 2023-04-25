@@ -1574,6 +1574,7 @@
 # text_por =  Ele vai comigo.
 # text_source = Lesson 3, p. 23
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:2
 2	usú	sú	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=3:6
 3	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	obl	_	TokenRange=7:9
@@ -1586,6 +1587,7 @@
 # text_por =  Maria fica perto de ti.
 # text_source = Lesson 3, p. 23
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Maria	maria	PROPN	PROPN	_	2	nsubj	_	TokenRange=0:5
 2	upitá	pitá	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=6:11
 3	ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	obl	_	TokenRange=12:14
@@ -1598,6 +1600,7 @@
 # text_por =  Pedro vai longe de vocês.
 # text_source = Lesson 3, p. 23
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Pedro	pedro	PROPN	PROPN	_	2	nsubj	_	TokenRange=0:5
 2	usú	sú	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=6:9
 3	apekatú	apekatú	ADV	ADVC	AdvType=Loc	2	advmod	_	TokenRange=10:17
@@ -1611,9 +1614,10 @@
 # text_por =  Traga comida para mim.
 # text_source = Lesson 3, p. 23
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Reruri	ruri	VERB	V	Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=0:6
 2	timbiú	timbiú	NOUN	N	Number=Sing|Rel=Abs	1	obj	_	TokenRange=7:13
-3	ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	1	obl	_	TokenRange=14:17
+3	ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	1	iobj	_	TokenRange=14:17
 4	arama	arama	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=18:23
 5	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=23:24
 
@@ -1623,9 +1627,10 @@
 # text_por =  Faço anzóis para você.
 # text_source = Lesson 3, p. 23
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Amunhã	munhã	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=0:6
 2	pindá-itá	pindá	NOUN	N	Number=Plur	1	obj	_	TokenRange=7:16
-3	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	1	obl	_	TokenRange=17:21
+3	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	1	iobj	_	TokenRange=17:21
 4	arama	arama	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=22:27
 5	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=27:28
 
@@ -1635,6 +1640,7 @@
 # text_por =  Trabalho para ti.
 # text_source = Lesson 3, p. 23
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Apurakí	purakí	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=0:7
 2	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	1	obl	_	TokenRange=8:12
 3	arama	arama	ADP	ADP	_	2	case	_	SpaceAfter=No|TokenRange=13:18
@@ -1646,9 +1652,10 @@
 # text_por =  Traga-o para mim.
 # text_source = Lesson 3, p. 23
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Reruri	ruri	VERB	V	Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=0:6
 2	aé	aé	PRON	DEMSN	Deixis=Remt|PronType=Dem	1	obj	_	TokenRange=7:9
-3	ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	1	obl	_	TokenRange=10:13
+3	ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	1	iobj	_	TokenRange=10:13
 4	arama	arama	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=14:19
 5	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=19:20
 
@@ -1658,23 +1665,27 @@
 # text_por =  Trabalho para Maria.
 # text_source = Lesson 3, p. 23
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Apurakí	purakí	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=0:7
 2	Maria	maria	PROPN	PROPN	_	1	obl	_	TokenRange=8:13
 3	supé	supé	ADP	ADP	_	2	case	_	SpaceAfter=No|TokenRange=14:18
 4	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=18:19
 
 # sent_id = Navarro2016:0:0:131
-# text = Anheẽ puranga ara aintá supé.
+# text = Anheẽ "puranga ara" aintá supé.
 # text_eng = I say “good morning” to them.
 # text_por =  Digo “bom dia” para eles.
 # text_source = Lesson 3, p. 23
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Anheẽ	nheẽ	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=0:5
-2	puranga	puranga	ADJ	A	_	3	amod	_	TokenRange=6:13
-3	ara	ara	NOUN	N	Number=Sing	1	obj	_	TokenRange=14:17
-4	aintá	aintá	PRON	PRON	Number=Plur|Person=3|PronType=Prs	1	obl	_	TokenRange=18:23
-5	supé	supé	ADP	ADP	_	4	case	_	SpaceAfter=No|TokenRange=24:28
-6	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=28:29
+2	"	"	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=5:6
+3	puranga	puranga	ADJ	A	_	4	amod	_	TokenRange=7:14
+4	ara	ara	NOUN	N	Number=Sing	1	ccomp	_	SpaceAfter=No|TokenRange=15:18
+5	"	"	PUNCT	PUNCT	_	4	punct	_	TokenRange=18:19
+6	aintá	aintá	PRON	PRON2	Case=Gen|Number=Plur|Person=3|PronType=Prs	1	iobj	_	TokenRange=20:25
+7	supé	supé	ADP	ADP	_	6	case	_	SpaceAfter=No|TokenRange=26:30
+8	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=30:31
 
 # sent_id = Navarro2016:0:0:132
 # text = Unheẽ paá yepé ara i apigawa-itá supé…
@@ -1682,10 +1693,11 @@
 # text_por =  Contam que disse um dia aos seus homens…
 # text_source = Lesson 3, p. 23
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Unheẽ	nheẽ	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=0:5
 2	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	1	advmod	_	TokenRange=6:9
 3	yepé	yepé	DET	ART	Definite=Ind|PronType=Art	4	det	_	TokenRange=10:14
-4	ara	ara	NOUN	N	Number=Sing	1	obj	_	TokenRange=15:18
+4	ara	ara	NOUN	N	Number=Sing	1	obl	_	TokenRange=15:18
 5	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	TokenRange=19:20
 6	apigawa-itá	apigawa	NOUN	N	Number=Plur	1	obl	_	TokenRange=21:32
 7	supé	supé	ADP	ADP	_	6	case	_	SpaceAfter=No|TokenRange=33:37
@@ -1697,10 +1709,11 @@
 # text_por =  Eu compro calça para ele.
 # text_source = Lesson 3, p. 23
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	TokenRange=0:3
 2	apiripana	piripana	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=4:13
 3	xirura	xirura	NOUN	N	Number=Sing	2	obj	_	TokenRange=14:20
-4	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	obl	_	TokenRange=21:22
+4	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	iobj	_	TokenRange=21:22
 5	xupé	xupé	ADP	ADP	_	4	case	_	SpaceAfter=No|TokenRange=23:27
 6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=27:28
 
@@ -1710,6 +1723,7 @@
 # text_por =  Maria vai pelo meu caminho.
 # text_source = Lesson 3, p. 23
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Maria	maria	PROPN	PROPN	_	2	nsubj	_	TokenRange=0:5
 2	usú	sú	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=6:9
 3	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	TokenRange=10:12
@@ -1723,6 +1737,7 @@
 # text_por =  Agora vocês brigam por nós.
 # text_source = Lesson 3, p. 23
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Kuíri	kuíri	ADV	ADVT	AdvType=Tim	3	advmod	_	TokenRange=0:5
 2	penhẽ	penhẽ	PRON	PRON	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	TokenRange=6:11
 3	pemaramunhã	maramunhã	VERB	V	Number=Plur|Person=2|VerbForm=Fin	0	root	_	TokenRange=12:23
@@ -1732,12 +1747,13 @@
 
 # sent_id = Navarro2016:0:0:136
 # text = Renheẽ kariwa nheenga rupí.
-# text_eng = Speak in white language.
+# text_eng = Speak in white men's language.
 # text_por =  Fale em língua de brancos.
 # text_source = Lesson 3, p. 23
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Renheẽ	nheẽ	VERB	V	Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=0:6
-2	kariwa	kariwa	NOUN	N	Number=Sing	3	nmod	_	TokenRange=7:13
+2	kariwa	kariwa	NOUN	N	Number=Sing	3	nmod:poss	_	TokenRange=7:13
 3	nheenga	nheenga	NOUN	N	Number=Sing	1	obl	_	TokenRange=14:21
 4	rupí	rupí	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=22:26
 5	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=26:27
@@ -1748,6 +1764,7 @@
 # text_por =  Por quanto é esta camisa?
 # text_source = Lesson 3, p. 23
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Muíri	muíri	PRON	INT	PronType=Int	0	root	_	TokenRange=0:5
 2	rupí	rupí	ADP	ADP	_	1	case	_	TokenRange=6:10
 3	taá	taá	PART	CQ	PartType=Int	1	advmod	_	TokenRange=11:14
@@ -1761,6 +1778,7 @@
 # text_por =  Vim por mim.
 # text_source = Lesson 3, p. 23
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Ayuri	yuri	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=0:5
 2	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	obl	_	TokenRange=6:8
 3	rupí	rupí	ADP	ADP	_	2	case	_	SpaceAfter=No|TokenRange=9:13
@@ -1772,6 +1790,7 @@
 # text_por =  Faça de acordo com o modelo.
 # text_source = Lesson 3, p. 23
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Remunhã	munhã	VERB	V	Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=0:7
 2	sangawa	sangawa	NOUN	N	Number=Sing|Rel=Abs	1	obl	_	TokenRange=8:15
 3	rupí	rupí	ADP	ADP	_	2	case	_	SpaceAfter=No|TokenRange=16:20
@@ -1783,7 +1802,8 @@
 # text_por =  Por aqui há muitas árvores.
 # text_source = Lesson 3, p. 24
 # text_annotator = DMA
-1	Kwá	kwá	ADV	ADVDX	AdvType=Loc|Deixis=Prox|PronType=Dem	3	advmod	_	TokenRange=0:3
+# reviewer2 = LFdeA
+1	Kwá	kwá	ADV	ADVDX	AdvType=Loc|Deixis=Prox|PronType=Dem	3	obl	_	TokenRange=0:3
 2	rupí	rupí	ADP	ADP	_	1	case	_	TokenRange=4:8
 3	aikwé	aikwé	PART	EXST	PartType=Exs	0	root	_	TokenRange=9:14
 4	siía	siía	DET	INDQ	PronType=Ind	5	det	_	TokenRange=15:19
@@ -1796,10 +1816,11 @@
 # text_por =  Pelo meio da outra noite, ouvi uma voz.
 # text_source = Lesson 3, p. 24
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Amú	amú	DET	IND	Number=Sing|PronType=Ind	2	det	_	TokenRange=0:3
-2	pituna	pituna	NOUN	N	Number=Sing	3	obl	_	TokenRange=4:10
-3	piterarupí	piterarupí	ADP	ADP	_	5	case	_	SpaceAfter=No|TokenRange=11:21
-4	,	,	PUNCT	PUNCT	_	5	punct	_	TokenRange=21:22
+2	pituna	pituna	NOUN	N	Number=Sing	5	obl	_	TokenRange=4:10
+3	piterarupí	piterarupí	ADP	ADP	_	2	case	_	SpaceAfter=No|TokenRange=11:21
+4	,	,	PUNCT	PUNCT	_	2	punct	_	TokenRange=21:22
 5	asendú	sendú	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=23:29
 6	yepé	yepé	DET	ART	Definite=Ind|PronType=Art	7	det	_	TokenRange=30:34
 7	nheenga	nheenga	NOUN	N	Number=Sing	5	obj	_	SpaceAfter=No|TokenRange=35:42
@@ -1809,24 +1830,26 @@
 # text = Aintá usú nhaã tatatingawasú piterarupí…
 # text_eng = They went through that smoke...
 # text_por =  Elas foram pelo meio daquela fumaça…
-# text_source = Lesson 3, p. 24
+# text_source = Lesson 3, p. 24 (Amorim, p.252, 70)
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Aintá	aintá	PRON	PRON	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:5
 2	usú	sú	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=6:9
-3	nhaã	nhaã	PRON	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	4	obj	_	TokenRange=10:14
-4	tatatingawasú	tatatingawasú	NOUN	N	_	2	obl	_	TokenRange=15:28
+3	nhaã	nhaã	PRON	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	4	det	_	TokenRange=10:14
+4	tatatingawasú	tatatinga	NOUN	N	Degree=Aug|Number=Sing	2	obl	_	TokenRange=15:28
 5	piterarupí	piterarupí	ADP	ADP	_	4	case	_	SpaceAfter=No|TokenRange=29:39
-6	…	…	PUNCT	PUNCT	_	2	punct	_	TokenRange=39:40
+6	…	…	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=39:40
 
 # sent_id = Navarro2016:0:0:143
 # text = Aintá umuyeréu mirá-itawasú aintá ararupí.
 # text_eng = They rolled big sticks over them.
 # text_por =  Eles rolaram grandes paus por cima deles.
-# text_source = Lesson 3, p. 24
+# text_source = Lesson 3, p. 24 (Amorim, p. 31, 131)
 # text_annotator = DMA
+# reviewer2 = LFdeA
 1	Aintá	aintá	PRON	PRON	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:5
 2	umuyeréu	muyeréu	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=6:14
-3	mirá-itawasú	mirá-itawasú	NOUN	N	Number=Plur	2	obj	_	TokenRange=15:27
+3	mirá-itawasú	mirá	NOUN	N	Degree=Aug|Number=Plur	2	obj	_	TokenRange=15:27
 4	aintá	aintá	PRON	PRON2	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	obl	_	TokenRange=28:33
 5	ararupí	ararupí	ADP	ADP	_	4	case	_	SpaceAfter=No|TokenRange=34:41
 6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=41:42
@@ -2185,3 +2208,4 @@
 11	kwá	kwá	DET	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	12	det	_	TokenRange=48:51
 12	tukunaré	tukunaré	NOUN	N	Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=52:60
 13	.	.	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|TokenRange=60:61
+
