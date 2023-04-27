@@ -1858,9 +1858,9 @@
 # text = Iwí wirarupí paá aikwé pé…
 # text_eng = They say that, under the earth, there was a path...
 # text_por =  Contam que, por baixo da terra, havia caminho…
-# text_source = Lesson 3, p. 24
+# text_source = Lesson 3, p. 24 (Amorim, p. 94, 235)
 # text_annotator = DMA
-1	Iwí	iwí	NOUN	N	Number=Sing	5	obl	_	TokenRange=0:3
+1	Iwí	iwí	NOUN	N	Number=Sing	4	obl	_	TokenRange=0:3
 2	wirarupí	wirarupí	ADP	ADP	_	1	case	_	TokenRange=4:12
 3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	4	advmod	_	TokenRange=13:16
 4	aikwé	aikwé	PART	EXST	PartType=Exs	0	root	_	TokenRange=17:22
@@ -1889,7 +1889,7 @@
 # text_annotator = DMA
 1	Murasí	murasí	NOUN	N	Number=Sing	5	obl	_	TokenRange=0:6
 2	riré	riré	ADP	ADP	_	1	case	_	SpaceAfter=No|TokenRange=7:11
-3	,	,	PUNCT	PUNCT	_	5	punct	_	TokenRange=11:12
+3	,	,	PUNCT	PUNCT	_	1	punct	_	TokenRange=11:12
 4	aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	TokenRange=13:15
 5	ukiri	kiri	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=16:21
 6	ana	ana	PART	PFV	Aspect=Perf	5	advmod	_	TokenRange=22:25
@@ -1943,7 +1943,7 @@
 1	Aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:2
 2	uyupirú	yupirú	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=3:10
 3	ana	ana	PART	PFV	Aspect=Perf	2	advmod	_	TokenRange=11:14
-4	uwatá	watá	VERB	V	Person=3|VerbForm=Fin	2	parataxis	_	TokenRange=15:20
+4	uwatá	watá	VERB	V	Person=3|VerbForm=Fin	2	xcomp	_	TokenRange=15:20
 5	garapá	garapá	NOUN	N	Number=Sing	4	obl	_	TokenRange=21:27
 6	suí	suí	ADP	ADP	_	5	case	_	SpaceAfter=No|TokenRange=28:31
 7	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=31:32
@@ -1952,7 +1952,7 @@
 # text = Ixé asarú indé amukwesé suí.
 # text_eng = I've been waiting for you since the day before yesterday.
 # text_por =  Eu te espero desde anteontem.
-# text_source = Lesson 3, p. 24
+# text_source = Lesson 3, p. 24 (Stradelli, 175)
 # text_annotator = DMA
 1	Ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	TokenRange=0:3
 2	asarú	sarú	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=4:9
@@ -1965,7 +1965,7 @@
 # text = Ixé asarú indé amukwesé suiwara.
 # text_eng = I've been waiting for you since the day before yesterday.
 # text_por =  Eu te espero desde anteontem.
-# text_source = Lesson 3, p. 24
+# text_source = Lesson 3, p. 24 (Stradelli, 175)
 # text_annotator = DMA
 1	Ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	TokenRange=0:3
 2	asarú	sarú	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=4:9
@@ -2075,9 +2075,9 @@
 1	Kwá	kwá	DET	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	2	det	_	TokenRange=0:3
 2	garapá	garapá	NOUN	N	Number=Sing	3	nsubj	_	TokenRange=4:10
 3	mirĩ	mirĩ	ADJ	A	_	0	root	_	SpaceAfter=No|TokenRange=11:15
-4	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=15:16
-5	nhaã	nhaã	PRON	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	3	parataxis	_	TokenRange=17:21
-6	umbaá	umbaá	PART	NEG	PartType=Neg|Polarity=Neg	5	advmod	_	SpaceAfter=No|TokenRange=22:27
+4	,	,	PUNCT	PUNCT	_	6	punct	_	TokenRange=15:16
+5	nhaã	nhaã	PRON	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	6	nsubj	_	TokenRange=17:21
+6	umbaá	umbaá	PART	NEG	PartType=Neg|Polarity=Neg	3	parataxis	_	SpaceAfter=No|TokenRange=22:27
 7	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=27:28
 
 # sent_id = Navarro2016:0:0:162
@@ -2089,10 +2089,10 @@
 1	Kwá	kwá	DET	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	2	det	_	TokenRange=0:3
 2	tawa	tawa	NOUN	N	Number=Sing	3	nsubj	_	TokenRange=4:8
 3	puranga	puranga	ADJ	A	_	0	root	_	SpaceAfter=No|TokenRange=9:16
-4	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=16:17
+4	,	,	PUNCT	PUNCT	_	7	punct	_	TokenRange=16:17
 5	nhaã	nhaã	DET	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	6	det	_	TokenRange=18:22
-6	tawa	tawa	NOUN	N	Number=Sing	3	parataxis	_	TokenRange=23:27
-7	puxiwera	puxiwera	ADJ	A	_	6	amod	_	SpaceAfter=No|TokenRange=28:36
+6	tawa	tawa	NOUN	N	Number=Sing	7	nsubj	_	TokenRange=23:27
+7	puxiwera	puxiwera	ADJ	A	_	3	parataxis	_	SpaceAfter=No|TokenRange=28:36
 8	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=36:37
 
 # sent_id = Navarro2016:0:0:163
@@ -2104,9 +2104,9 @@
 1	Kwá-itá	kwá	DET	DEMX	Deixis=Prox|Number=Plur|PronType=Dem	2	det	_	TokenRange=0:7
 2	mirá	mirá	NOUN	N	Number=Sing	3	nsubj	_	TokenRange=8:12
 3	santá	santá	ADJ	A	_	0	root	_	SpaceAfter=No|TokenRange=13:18
-4	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=18:19
-5	nhaã-itá	nhaã	DET	DEMS	Deixis=Remt|Number=Plur|PronType=Dem	3	parataxis	_	TokenRange=20:28
-6	membeka	membeka	ADJ	A	_	5	amod	_	SpaceAfter=No|TokenRange=29:36
+4	,	,	PUNCT	PUNCT	_	6	punct	_	TokenRange=18:19
+5	nhaã-itá	nhaã	DET	DEMS	Deixis=Remt|Number=Plur|PronType=Dem	6	nsubj	_	TokenRange=20:28
+6	membeka	membeka	ADJ	A	_	3	parataxis	_	SpaceAfter=No|TokenRange=29:36
 7	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=36:37
 
 # sent_id = Navarro2016:0:0:164
@@ -2118,9 +2118,9 @@
 1-2	Amaã-putari	_	_	_	_	_	_	_	TokenRange=0:11
 1	Amaã	maã	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
 2	putari	putari	AUX	AUXN	Compound=Yes|VerbForm=Inf	1	aux	_	_
-3	kwá	kwá	PRON	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	4	nsubj	_	TokenRange=13:16
-4	uri	yuri	VERB	V	Person=3|VerbForm=Fin	1	acl:relcl	_	TokenRange=17:20
-5	waá-itá	waá	PRON	REL	Number=Plur|PronType=Rel	1	obj	_	SpaceAfter=No|TokenRange=21:28
+3	kwá	kwá	PRON	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	1	obj	_	TokenRange=13:16
+4	uri	yuri	VERB	V	Person=3|VerbForm=Fin	3	acl:relcl	_	TokenRange=17:20
+5	waá-itá	waá	PRON	REL	Number=Plur|PronType=Rel	4	nsubj	_	SpaceAfter=No|TokenRange=21:28
 6	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=28:29
 
 # sent_id = Navarro2016:0:0:165
@@ -2131,7 +2131,7 @@
 # text_annotator = DMA
 1	Asú	sú	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=0:3
 2	kurí	kurí	PART	FUT	Tense=Fut	1	advmod	_	TokenRange=4:8
-3	São	são	PROPN	PROPN	_	1	obj	_	TokenRange=9:12
+3	São	são	PROPN	PROPN	_	1	obl	_	TokenRange=9:12
 4	Gabriel	gabriel	PROPN	PROPN	_	3	flat	_	TokenRange=13:20
 5	kití	kití	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=21:25
 6	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=25:26
@@ -2203,9 +2203,8 @@
 6	asú	sú	AUX	AUXFR	Number=Sing|Person=1|VerbForm=Fin	8	aux	_	TokenRange=22:25
 7	kurí	kurí	PART	FUT	Tense=Fut	8	advmod	_	TokenRange=26:30
 8	ayuká	yuká	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=31:36
-9	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	8	obl	_	TokenRange=37:41
+9	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	8	iobj	_	TokenRange=37:41
 10	arama	arama	PART	FUT	Tense=Fut	8	advmod	_	TokenRange=42:47
 11	kwá	kwá	DET	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	12	det	_	TokenRange=48:51
 12	tukunaré	tukunaré	NOUN	N	Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=52:60
 13	.	.	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|TokenRange=60:61
-
