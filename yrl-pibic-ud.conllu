@@ -1911,9 +1911,9 @@
 1	Apurandú	purandú	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=0:8
 2	ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|PronType=Prs	1	obl	_	TokenRange=9:11
 3	suí	suí	ADP	ADP	_	2	case	_	TokenRange=12:15
-4	maã	maã	PRON	INT	PronType=Int	5	obj	_	TokenRange=16:19
-5	aputari	putari	AUX	AUXN	Number=Sing|Person=1|VerbForm=Fin	1	ccomp	_	TokenRange=20:27
-6	akwáu	kwáu	AUX	AUXN	Number=Sing|Person=1|VerbForm=Fin	5	xcomp	_	SpaceAfter=No|TokenRange=28:33
+4	maã	maã	PRON	INT	PronType=Int	1	obj	_	TokenRange=16:19
+5	aputari	putari	AUX	AUXN	Number=Sing|Person=1|VerbForm=Fin	6	aux	_	TokenRange=20:27
+6	akwáu	kwáu	VERB	V	Number=Sing|Person=1|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No|TokenRange=28:33
 7	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=33:34
 
 # sent_id = Navarro2016:0:0:148
