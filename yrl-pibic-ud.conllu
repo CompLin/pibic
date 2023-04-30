@@ -591,7 +591,7 @@
 12	uikú	ikú	AUX	COP	Person=3|VerbForm=Fin	9	cop	_	SpaceAfter=No|TokenRange=48:52
 13	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=52:53
 
-# sent_id = Navarro2016:2:5:50
+# sent_id = Navarro2016:2:5:49
 # text = Ixé nti akwáu.
 # text_eng = I don't know.
 # text_por = Eu não sei.
@@ -603,7 +603,7 @@
 3	akwáu	kwáu	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=8:13
 4	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=13:14
 
-# sent_id = Navarro2016:2:6:51
+# sent_id = Navarro2016:2:6:50
 # text = Indé reputari será pindá-itá puranga?
 # text_eng = Do you want good hooks?
 # text_por = Você quer bons anzóis?
@@ -617,7 +617,7 @@
 5	puranga	puranga	ADJ	A	_	4	amod	_	SpaceAfter=No|TokenRange=29:36
 6	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=36:37
 
-# sent_id = Navarro2016:2:7:52
+# sent_id = Navarro2016:2:7:51
 # text = Eẽ.
 # text_eng = Yes.
 # text_por = Sim.
@@ -627,7 +627,7 @@
 1	Eẽ	eẽ	PART	AFF	_	0	root	_	SpaceAfter=No|TokenRange=0:2
 2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=2:3
 
-# sent_id = Navarro2016:2:8:53
+# sent_id = Navarro2016:2:8:52
 # text = Ixé apinaitika siía pirá.
 # text_eng = I catch a lot of fish.
 # text_por = Eu pesco muitos peixes.
@@ -640,7 +640,7 @@
 4	pirá	pirá	NOUN	N	Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=20:24
 5	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=24:25
 
-# sent_id = Navarro2016:2:9:54
+# sent_id = Navarro2016:2:9:53
 # text = Uií ara nti puranga pinaitikasara supé.
 # text_eng = Today is not a good day for fishermen.
 # text_por = Hoje o dia não é bom para os pescadores.
@@ -655,7 +655,7 @@
 6	supé	supé	ADP	ADP	_	5	case	_	SpaceAfter=No|TokenRange=34:38
 7	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=38:39
 
-# sent_id = Navarro2016:2:10:55
+# sent_id = Navarro2016:2:10:54
 # text = Pirá-itá uyawáu igarapé kití.
 # text_eng = The fish fled to the igarapé.
 # text_por = Os peixes fugiram para o igarapé.
@@ -668,7 +668,7 @@
 4	kití	kití	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=24:28
 5	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=28:29
 
-# sent_id = Navarro2016:0:0:56
+# sent_id = Navarro2016:0:0:55
 # text = Maria upitá São Gabriel upé.
 # text_eng = Maria is in São Gabriel.
 # text_por = Maria fica em São Gabriel.
@@ -682,7 +682,7 @@
 5	upé	upé	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=24:27
 6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=27:28
 
-# sent_id = Navarro2016:0:0:57
+# sent_id = Navarro2016:0:0:56
 # text = Maria unheẽ nheenga-itá puranga Pedro supé.
 # text_eng = Maria says beautiful words to Pedro.
 # text_por = Maria diz palavras bonitas a Pedro.
@@ -697,7 +697,7 @@
 6	supé	supé	ADP	ADP	_	5	case	_	SpaceAfter=No|TokenRange=38:42
 7	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=42:43
 
-# sent_id = Navarro2016:0:0:58
+# sent_id = Navarro2016:0:0:57
 # text = Pedro uikú Maria irũmu.
 # text_eng = Peter is with Mary.
 # text_por = Pedro está com Maria.
@@ -710,7 +710,7 @@
 4	irũmu	irũmu	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=17:22
 5	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=22:23
 
-# sent_id = Navarro2016:0:0:59
+# sent_id = Navarro2016:0:0:58
 # text = Pedro usú igarapé kití.
 # text_eng = Pedro goes to the creek.
 # text_por = Pedro vai ao igarapé.
@@ -723,7 +723,7 @@
 4	kití	kití	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=18:22
 5	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=22:23
 
-# sent_id = Navarro2016:0:0:60
+# sent_id = Navarro2016:0:0:59
 # text = Ixé apitá té wirandé.
 # text_eng = I stay until tomorrow.
 # text_por = Eu fico até amanhã.
@@ -736,7 +736,7 @@
 4	wirandé	wirandé	ADV	ADVT	AdvType=Tim	2	obl	_	SpaceAfter=No|TokenRange=13:20
 5	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=20:21
 
-# sent_id = Navarro2016:0:0:61
+# sent_id = Navarro2016:0:0:60
 # text = Nti akwáu masuí Pedro usika.
 # text_eng = I don't know where Pedro came from.
 # text_por = Não sei donde Pedro chegou.
@@ -750,7 +750,7 @@
 5	usika	sika	VERB	V	Person=3|VerbForm=Fin	2	ccomp	_	SpaceAfter=No|TokenRange=22:27
 6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=27:28
 
-# sent_id = Navarro2016:0:0:62
+# sent_id = Navarro2016:0:0:61
 # text = Makití resú?
 # text_eng = Where are you going?
 # text_por = Aonde vais?
@@ -761,7 +761,7 @@
 2	resú	sú	VERB	V	Number=Sing|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=7:11
 3	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=11:12
 
-# sent_id = Navarro2016:0:0:63
+# sent_id = Navarro2016:0:0:62
 # text = Asú makití aputari.
 # text_eng = I go where I want.
 # text_por = Vou aonde quero.
@@ -773,7 +773,7 @@
 3	aputari	putari	VERB	V	Number=Sing|Person=1|VerbForm=Fin	2	advcl:relcl	_	SpaceAfter=No|TokenRange=11:18
 4	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=18:19
 
-# sent_id = Navarro2016:0:0:64
+# sent_id = Navarro2016:0:0:63
 # text = Marupí pirá usemu?
 # text_eng = Where does the fish come out?
 # text_por = Por onde o peixe sai?
@@ -785,7 +785,7 @@
 3	usemu	semu	VERB	V	Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=12:17
 4	?	?	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=17:18
 
-# sent_id = Navarro2016:0:0:65
+# sent_id = Navarro2016:0:0:64
 # text = Ixé nti aputari pirá.
 # text_eng = I don't want fish.
 # text_por = Eu não quero peixe.
@@ -798,7 +798,7 @@
 4	pirá	pirá	NOUN	N	Number=Sing	3	obj	_	SpaceAfter=No|TokenRange=16:20
 5	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=20:21
 
-# sent_id = Navarro2016:0:0:66
+# sent_id = Navarro2016:0:0:65
 # text = Maria nti umaã João.
 # text_eng = Mary does not see John.
 # text_por = Maria não vê João.
@@ -811,7 +811,7 @@
 4	João	joão	PROPN	PROPN	_	3	obj	_	SpaceAfter=No|TokenRange=15:19
 5	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=19:20
 
-# sent_id = Navarro2016:0:0:67
+# sent_id = Navarro2016:0:0:66
 # text = Pinaitikasara nti puranga.
 # text_eng = The fisherman is not good.
 # text_por = O pescador não é bom.
@@ -823,7 +823,7 @@
 3	puranga	puranga	ADJ	A	_	0	root	_	SpaceAfter=No|TokenRange=18:25
 4	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=25:26
 
-# sent_id = Navarro2016:0:0:68
+# sent_id = Navarro2016:0:0:67
 # text = Indé nti puranga.
 # text_eng = You are not beautiful.
 # text_por = Você não é bonita.
@@ -835,7 +835,7 @@
 3	puranga	puranga	ADJ	A	_	0	root	_	SpaceAfter=No|TokenRange=9:16
 4	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=16:17
 
-# sent_id = Navarro2016:0:0:69
+# sent_id = Navarro2016:0:0:68
 # text = Maria uikú será igara upé?
 # text_eng = Is Mary in the canoe?
 # text_por = Maria está na canoa?
@@ -849,7 +849,7 @@
 5	upé	upé	ADP	ADP	_	4	case	_	SpaceAfter=No|TokenRange=22:25
 6	?	?	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=25:26
 
-# sent_id = Navarro2016:0:0:70
+# sent_id = Navarro2016:0:0:69
 # text = Reputari será pirá?
 # text_eng = Do you want the fish?
 # text_por = Queres o peixe?
@@ -861,7 +861,7 @@
 3	pirá	pirá	NOUN	N	Number=Sing	1	obj	_	SpaceAfter=No|TokenRange=14:18
 4	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=18:19
 
-# sent_id = Navarro2016:0:0:71
+# sent_id = Navarro2016:0:0:70
 # text = Remunhã será maã amunhã?
 # text_eng = Do you do what I do?
 # text_por = Você faz o que eu faço?
@@ -874,7 +874,7 @@
 4	amunhã	munhã	VERB	V	Number=Sing|Person=1|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No|TokenRange=17:23
 5	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=23:24
 
-# sent_id = Navarro2016:0:0:72
+# sent_id = Navarro2016:0:0:71
 # text = Nti será indé?
 # text_eng = Isn't it you?
 # text_por = Não é você?
@@ -886,7 +886,7 @@
 3	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	0	root	_	SpaceAfter=No|TokenRange=9:13
 4	?	?	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=13:14
 
-# sent_id = Navarro2016:0:0:73
+# sent_id = Navarro2016:0:0:72
 # text = Mira será indé?
 # text_eng = Are you people?
 # text_por = Você é gente?
@@ -898,7 +898,7 @@
 3	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	1	nsubj	_	SpaceAfter=No|TokenRange=10:14
 4	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=14:15
 
-# sent_id = Navarro2016:0:0:74
+# sent_id = Navarro2016:0:0:73
 # text = Maã taá indé reputari Maria supé?
 # text_eng = What do you want for Mary?
 # text_por = Que você quer para Maria?
@@ -913,7 +913,7 @@
 6	supé	supé	ADP	ADP	_	5	case	_	SpaceAfter=No|TokenRange=28:32
 7	?	?	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=32:33
 
-# sent_id = Navarro2016:0:0:75
+# sent_id = Navarro2016:0:0:74
 # text = Kuíri taá?
 # text_eng = And now?
 # text_por = E agora?
@@ -924,7 +924,7 @@
 2	taá	taá	PART	CQ	PartType=Int	1	advmod	_	SpaceAfter=No|TokenRange=6:9
 3	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=9:10
 
-# sent_id = Navarro2016:0:0:76
+# sent_id = Navarro2016:0:0:75
 # text = Asuí taá?
 # text_eng = And?
 # text_por = E daí?
@@ -935,7 +935,7 @@
 2	taá	taá	PART	CQ	PartType=Int	1	advmod	_	SpaceAfter=No|TokenRange=5:8
 3	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=8:9
 
-# sent_id = Navarro2016:0:0:77
+# sent_id = Navarro2016:0:0:76
 # text = Maã taá kurí yamunhã?
 # text_eng = What shall we do?
 # text_por = Que faremos?
@@ -948,7 +948,7 @@
 4	yamunhã	munhã	VERB	V	Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=23:30
 5	?	?	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=30:31
 
-# sent_id = Navarro2016:0:0:78
+# sent_id = Navarro2016:0:0:77
 # text = Mamé taá té remaã se manha?
 # text_eng = Where did you even see my mother?
 # text_por = Onde mesmo você viu minha mãe?
@@ -963,7 +963,7 @@
 6	manha	manha	NOUN	N	Number=Sing	4	obj	_	SpaceAfter=No|TokenRange=21:26
 7	?	?	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=26:27
 
-# sent_id = Navarro2016:0:0:79
+# sent_id = Navarro2016:0:0:78
 # text = Masuí taá reyuri kuxiíma?
 # text_eng = Where did you come from in the past?
 # text_por = Donde você veio antigamente?
@@ -976,7 +976,7 @@
 4	kuxiíma	kuxiíma	ADV	ADVT	AdvType=Tim	3	advmod	_	SpaceAfter=No|TokenRange=17:24
 5	?	?	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=24:25
 
-# sent_id = Navarro2016:0:0:80
+# sent_id = Navarro2016:0:0:79
 # text = Muíri kuya taá aé uú?
 # text_eng = How many gourds did he drink?
 # text_por = Quantas cuias ele bebeu?
@@ -990,7 +990,7 @@
 5	uú	ú	VERB	V	Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=18:20
 6	?	?	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=20:21
 
-# sent_id = Navarro2016:0:0:81
+# sent_id = Navarro2016:0:0:80
 # text = Awá taá usika ana?
 # text_eng = Who arrived?
 # text_por = Quem chegou?
@@ -1003,7 +1003,7 @@
 4	ana	ana	PART	PFV	Aspect=Perf	3	advmod	_	SpaceAfter=No|TokenRange=14:17
 5	?	?	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=17:18
 
-# sent_id = Navarro2016:0:0:82
+# sent_id = Navarro2016:0:0:81
 # text = Awá taá uyuká awá?
 # text_eng = Who killed who?
 # text_por = Quem matou quem?
@@ -1016,7 +1016,7 @@
 4	awá	awá	PRON	INT	PronType=Int	3	obj	_	SpaceAfter=No|TokenRange=14:17
 5	?	?	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=17:18
 
-# sent_id = Navarro2016:0:0:83
+# sent_id = Navarro2016:0:0:82
 # text = Maã miapé taá rerikú?
 # text_eng = Which bread do you have?
 # text_por = Qual pão você tem?
@@ -1029,7 +1029,7 @@
 4	rerikú	rikú	VERB	V	Number=Sing|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=14:20
 5	?	?	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=20:21
 
-# sent_id = Navarro2016:0:0:84
+# sent_id = Navarro2016:0:0:83
 # text = Ukwáu maã i murakí.
 # text_eng = He knows what his job is.
 # text_por = Sabe qual é seu trabalho.
@@ -1042,7 +1042,7 @@
 4	murakí	murakí	NOUN	N	Number=Sing	2	nsubj	_	SpaceAfter=No|TokenRange=12:18
 5	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=18:19
 
-# sent_id = Navarro2016:0:0:85
+# sent_id = Navarro2016:0:0:84
 # text = Mayé waá kunhã taá usika ana?
 # text_eng = Which woman arrived?
 # text_por = Qual mulher chegou?
@@ -1057,7 +1057,7 @@
 6	ana	ana	PART	PFV	Aspect=Perf	5	advmod	_	SpaceAfter=No|TokenRange=25:28
 7	?	?	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=28:29
 
-# sent_id = Navarro2016:0:0:86
+# sent_id = Navarro2016:0:0:85
 # text = Awá taá penhé suí usú-putari?
 # text_eng = Which one of you want to go?
 # text_por = Qual de vocês quer ir?
@@ -1073,7 +1073,7 @@
 6	putari	putari	AUX	AUXN	Compound=Yes|VerbForm=Inf	5	aux	_	_
 7	?	?	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=29:30
 
-# sent_id = Navarro2016:0:0:87
+# sent_id = Navarro2016:0:0:86
 # text = Awá penhé suí usú-putari?
 # text_eng = Which one of you want to go?
 # text_por = Qual de vocês quer ir?
@@ -1088,7 +1088,7 @@
 5	putari	putari	AUX	AUXN	Compound=Yes|VerbForm=Inf	4	aux	_	_
 6	?	?	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=25:26
 
-# sent_id = Navarro2016:0:0:88
+# sent_id = Navarro2016:0:0:87
 # text = Kunhã-itá usika.
 # text_eng = The women arrive.
 # text_por = As mulheres chegam.
@@ -1099,7 +1099,7 @@
 2	usika	sika	VERB	V	Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=10:15
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=15:16
 
-# sent_id = Navarro2016:0:0:89
+# sent_id = Navarro2016:0:0:88
 # text = Uka-itá mirĩ.
 # text_eng = The houses are small.
 # text_por = As casas são pequenas.
@@ -1110,7 +1110,7 @@
 2	mirĩ	mirĩ	ADJ	A	_	0	root	_	SpaceAfter=No|TokenRange=8:12
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=12:13
 
-# sent_id = Navarro2016:3:1:90
+# sent_id = Navarro2016:3:1:89
 # text = Maria usemu igara irũmu.
 # text_eng = Maria leaves with the canoe.
 # text_por = Maria sai com a canoa.
@@ -1126,7 +1126,7 @@
 4	irũmu	irũmu	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=18:23
 5	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=23:24
 
-# sent_id = Navarro2016:3:2:91
+# sent_id = Navarro2016:3:2:90
 # text = Aé usú São Gabriel kití.
 # text_eng = She goes to São Gabriel.
 # text_por = Ela vai a São Gabriel.
@@ -1141,7 +1141,7 @@
 5	kití	kití	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=19:23
 6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=23:24
 
-# sent_id = Navarro2016:3:3:92
+# sent_id = Navarro2016:3:3:91
 # text = São Gabriel tawa puranga, apekatú Barra suí.
 # text_eng = São Gabriel is a beautiful city, far from Manaus.
 # text_por = São Gabriel é uma cidade bonita, distante de Manaus.
@@ -1159,7 +1159,7 @@
 8	suí	suí	ADP	ADP	_	7	case	_	SpaceAfter=No|TokenRange=40:43
 9	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=43:44
 
-# sent_id = Navarro2016:3:4:93
+# sent_id = Navarro2016:3:4:92
 # text = Siía mira umurari ape.
 # text_eng = Many people live there.
 # text_por = Muitas pessoas moram ali.
@@ -1173,7 +1173,7 @@
 4	ape	ape	ADV	ADVDI	AdvType=Loc|Deixis=Remt|PronType=Dem	3	advmod	_	SpaceAfter=No|TokenRange=18:21
 5	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=21:22
 
-# sent_id = Navarro2016:3:5:94
+# sent_id = Navarro2016:3:5:93
 # text = Aé upiripana kurí maã-itá i mimbira supé, i mena supé yuíri.
 # text_eng = She will buy things for her son, for her husband too.
 # text_por = Ela vai comprar coisas para seu filho, para seu marido também.
@@ -1195,7 +1195,7 @@
 12	yuíri	yuíri	CCONJ	CCONJ	_	10	cc	_	SpaceAfter=No|TokenRange=54:59
 13	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=59:60
 
-# sent_id = Navarro2016:3:6:95
+# sent_id = Navarro2016:3:6:94
 # text = Aé usika ape, usú yepé piripanasawa ruka kití.
 # text_eng = She gets there, goes to a store.
 # text_por = Ela chega lá, vai a uma loja.
@@ -1214,7 +1214,7 @@
 9	kití	kití	ADP	ADP	_	8	case	_	SpaceAfter=No|TokenRange=41:45
 10	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=45:46
 
-# sent_id = Navarro2016:3:7:96
+# sent_id = Navarro2016:3:7:95
 # text = Aé unheẽ yepé meẽsara supé: — Ixé aputari yepé kamixá se mimbira supé.
 # text_eng = She says to a salesperson, "I want a shirt for my son."
 # text_por = Ela diz a um vendedor: — Eu quero uma camisa para meu filho.
@@ -1237,7 +1237,7 @@
 14	supé	supé	ADP	ADP	_	13	case	_	SpaceAfter=No|TokenRange=64:68
 15	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=68:69
 
-# sent_id = Navarro2016:3:8:97
+# sent_id = Navarro2016:3:8:96
 # text = Aé urikú mukũi akayú.
 # text_eng = He is two years old.
 # text_por = Ele tem dois anos.
@@ -1251,7 +1251,7 @@
 4	akayú	akayú	NOUN	N	Number=Sing	2	obl	_	SpaceAfter=No|TokenRange=15:20
 5	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=20:21
 
-# sent_id = Navarro2016:3:9:98
+# sent_id = Navarro2016:3:9:97
 # text = Kwá kamixá puranga retana.
 # text_eng = This shirt is very beautiful.
 # text_por = Esta camisa é muito bonita.
@@ -1265,7 +1265,7 @@
 4	retana	retana	ADV	ADVS	AdvType=Deg	3	advmod	_	SpaceAfter=No|TokenRange=19:25
 5	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=25:26
 
-# sent_id = Navarro2016:3:10:99
+# sent_id = Navarro2016:3:10:98
 # text = Aé sepiasuíma.
 # text_eng = She is cheap.
 # text_por = Ela é barata.
@@ -1277,7 +1277,7 @@
 2	sepiasuíma	sepiasuíma	ADJ	A	_	0	root	_	SpaceAfter=No|TokenRange=3:13
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=13:14
 
-# sent_id = Navarro2016:3:11:100
+# sent_id = Navarro2016:3:11:99
 # text = Maã taá aikwé se mena supé?
 # text_eng = What is there for my husband?
 # text_por = Que há para o meu marido?
@@ -1293,7 +1293,7 @@
 6	supé	supé	ADP	ADP	_	5	case	_	SpaceAfter=No|TokenRange=22:26
 7	?	?	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=26:27
 
-# sent_id = Navarro2016:3:12:101
+# sent_id = Navarro2016:3:12:100
 # text = Maã taá indé reputari ne mena supé?
 # text_eng = What do you want for your husband?
 # text_por = Que você quer para seu marido?
@@ -1310,7 +1310,7 @@
 7	supé	supé	ADP	ADP	_	6	case	_	SpaceAfter=No|TokenRange=30:34
 8	?	?	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=34:35
 
-# sent_id = Navarro2016:3:14:103
+# sent_id = Navarro2016:3:14:101
 # text = Se mena upurakí kurí garapá upé.
 # text_eng = My husband will work at the port.
 # text_por = Meu marido vai trabalhar no porto.
@@ -1326,7 +1326,7 @@
 6	upé	upé	ADP	ADP	_	5	case	_	SpaceAfter=No|TokenRange=28:31
 7	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=31:32
 
-# sent_id = Navarro2016:3:15:104
+# sent_id = Navarro2016:3:15:102
 # text = Aé uputari yepé xirura pisasú.
 # text_eng = He wants new pants.
 # text_por = Ele quer uma calça nova.
@@ -1341,7 +1341,7 @@
 5	pisasú	pisasú	ADJ	A	_	4	amod	_	SpaceAfter=No|TokenRange=23:29
 6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=29:30
 
-# sent_id = Navarro2016:3:16:105
+# sent_id = Navarro2016:3:16:103
 # text = I xirura-itá suruka.
 # text_eng = His pants are ripped.
 # text_por = As calças dele estão rasgadas.
@@ -1354,7 +1354,7 @@
 3	suruka	suruka	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No|TokenRange=13:19
 4	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=19:20
 
-# sent_id = Navarro2016:3:17:106
+# sent_id = Navarro2016:3:17:104
 # text = Kwá puranga.
 # text_eng = This one is beautiful.
 # text_por = Esta é bonita.
@@ -1366,7 +1366,7 @@
 2	puranga	puranga	ADJ	A	_	0	root	_	SpaceAfter=No|TokenRange=4:11
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=11:12
 
-# sent_id = Navarro2016:3:18:107
+# sent_id = Navarro2016:3:18:105
 # text = Muíri rupí taá kwá xirura?
 # text_eng = How much are these pants for?
 # text_por = Por quanto é esta calça?
@@ -1381,7 +1381,7 @@
 5	xirura	xirura	NOUN	N	Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=19:25
 6	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=25:26
 
-# sent_id = Navarro2016:3:19:108
+# sent_id = Navarro2016:3:19:106
 # text = Mukũi real.
 # text_eng = Two reais.
 # text_por = Dois reais.
@@ -1393,7 +1393,7 @@
 2	real	real	NOUN	NOUN	_	0	root	_	SpaceAfter=No|TokenRange=6:10
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=10:11
 
-# sent_id = Navarro2016:3:20:109
+# sent_id = Navarro2016:3:20:107
 # text = Muíri rupí nhaã?
 # text_eng = How much is that one?
 # text_por = Por quanto é aquela?
@@ -1406,7 +1406,7 @@
 3	nhaã	nhaã	PRON	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	1	nsubj	_	SpaceAfter=No|TokenRange=11:15
 4	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=15:16
 
-# sent_id = Navarro2016:3:21:110
+# sent_id = Navarro2016:3:21:108
 # text = Nhaã xirura mukũi real yuíri.
 # text_eng = Those pants are two reais too.
 # text_por = Aquela calça é dois reais também.
@@ -1421,7 +1421,7 @@
 5	yuíri	yuíri	ADV	ADV	_	4	advmod	_	SpaceAfter=No|TokenRange=23:28
 6	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=28:29
 
-# sent_id = Navarro2016:3:22:111
+# sent_id = Navarro2016:3:22:109
 # text = Aputari nhaã.
 # text_eng = I want that one.
 # text_por = Quero aquela.
@@ -1433,7 +1433,7 @@
 2	nhaã	nhaã	PRON	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	1	obj	_	SpaceAfter=No|TokenRange=8:12
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=12:13
 
-# sent_id = Navarro2016:3:22:112
+# sent_id = Navarro2016:3:22:110
 # text = Xukúi xirura.
 # text_eng = Here's the pants.
 # text_por = Aqui está a calça.
@@ -1444,7 +1444,7 @@
 2	xirura	xirura	NOUN	N	Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=6:12
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=12:13
 
-# sent_id = Navarro2016:3:24:113
+# sent_id = Navarro2016:3:24:111
 # text = Nti reputari nẽ maã indé arama?
 # text_eng = Don't you want anything for you?
 # text_por = Não quer nada para você?
@@ -1461,7 +1461,7 @@
 6	arama	arama	ADP	ADP	_	5	case	_	SpaceAfter=No|TokenRange=25:30
 7	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=30:31
 
-# sent_id = Navarro2016:3:25:114
+# sent_id = Navarro2016:3:25:112
 # text = Umbaá.
 # text_eng = No.
 # text_por = Não.
@@ -1472,7 +1472,7 @@
 1	Umbaá	umbaá	PART	NEG	PartType=Neg|Polarity=Neg	0	root	_	SpaceAfter=No|TokenRange=0:5
 2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=5:6
 
-# sent_id = Navarro2016:3:26:115
+# sent_id = Navarro2016:3:26:113
 # text = Ariré kurí apiripana maã-itá ixé arama.
 # text_eng = Then I'll buy things for myself.
 # text_por = Depois comprarei coisas para mim.
@@ -1488,7 +1488,7 @@
 6	arama	arama	ADP	ADP	_	5	case	_	SpaceAfter=No|TokenRange=33:38
 7	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=38:39
 
-# sent_id = Navarro2016:3:27:116
+# sent_id = Navarro2016:3:27:114
 # text = Xukúi sekuyara.
 # text_eng = Here's the money.
 # text_por = Aqui está o dinheiro.
@@ -1499,7 +1499,7 @@
 2	sekuyara	sekuyara	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	1	nsubj	_	SpaceAfter=No|TokenRange=6:14
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=14:15
 
-# sent_id = Navarro2016:3:28:117
+# sent_id = Navarro2016:3:28:115
 # text = Maria usepimeẽ.
 # text_eng = Mary pays.
 # text_por = Maria paga.
@@ -1511,7 +1511,7 @@
 2	usepimeẽ	sepimeẽ	VERB	V	Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=6:14
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=14:15
 
-# sent_id = Navarro2016:3:29:118
+# sent_id = Navarro2016:3:29:116
 # text = Meẽsara upupeka panhẽ maã-itá.
 # text_eng = The seller wraps all things.
 # text_por = O vendedor embrulha todas as coisas.
@@ -1525,7 +1525,7 @@
 4	maã-itá	maã	NOUN	N	Number=Plur	2	obj	_	SpaceAfter=No|TokenRange=22:29
 5	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=29:30
 
-# sent_id = Navarro2016:3:30:119
+# sent_id = Navarro2016:3:30:117
 # text = Xukúi sekuyaramirĩ.
 # text_eng = Here's the change.
 # text_por = Aqui está o troco.
@@ -1537,7 +1537,7 @@
 2	sekuyaramirĩ	sekuyaramirĩ	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	1	nsubj	_	SpaceAfter=No|TokenRange=6:18
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=18:19
 
-# sent_id = Navarro2016:3:31:120
+# sent_id = Navarro2016:3:31:118
 # text = Maria umukwekatú: — Kwekatú reté!
 # text_eng = Maria thanks: "Thank you very much!"
 # text_por = Maria agradece: — Muito obrigada!
@@ -1552,7 +1552,7 @@
 6	reté	reté	ADV	ADVS	AdvType=Deg	5	advmod	_	SpaceAfter=No|TokenRange=27:31
 7	!	!	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=31:32
 
-# sent_id = Navarro2016:3:33:122
+# sent_id = Navarro2016:3:33:119
 # text = Ariré, aé usú amú piripanasawa ruka kití.
 # text_eng = Then she goes to another store.
 # text_por = Depois, ela vai a uma outra loja.
@@ -1570,7 +1570,7 @@
 8	kití	kití	ADP	ADP	_	7	case	_	SpaceAfter=No|TokenRange=36:40
 9	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=40:41
 
-# sent_id = Navarro2016:0:0:123
+# sent_id = Navarro2016:0:0:120
 # text = Aé usú se irũmu.
 # text_eng = He goes with me.
 # text_por = Ele vai comigo.
@@ -1583,7 +1583,7 @@
 4	irũmu	irũmu	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=10:15
 5	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=15:16
 
-# sent_id = Navarro2016:0:0:124
+# sent_id = Navarro2016:0:0:121
 # text = Maria upitá ne ruakí.
 # text_eng = Maria stays close to you.
 # text_por = Maria fica perto de ti.
@@ -1596,7 +1596,7 @@
 4	ruakí	ruakí	ADP	ADP	Rel=Cont	3	case	_	SpaceAfter=No|TokenRange=15:20
 5	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=20:21
 
-# sent_id = Navarro2016:0:0:125
+# sent_id = Navarro2016:0:0:122
 # text = Pedro usú apekatú pe suí.
 # text_eng = Peter goes away from you.
 # text_por = Pedro vai longe de vocês.
@@ -1610,7 +1610,7 @@
 5	suí	suí	ADP	ADP	_	4	case	_	SpaceAfter=No|TokenRange=21:24
 6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=24:25
 
-# sent_id = Navarro2016:0:0:126
+# sent_id = Navarro2016:0:0:123
 # text = Reruri timbiú ixé arama.
 # text_eng = Bring me food.
 # text_por = Traga comida para mim.
@@ -1623,7 +1623,7 @@
 4	arama	arama	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=18:23
 5	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=23:24
 
-# sent_id = Navarro2016:0:0:127
+# sent_id = Navarro2016:0:0:124
 # text = Amunhã pindá-itá indé arama.
 # text_eng = I make hooks for you.
 # text_por = Faço anzóis para você.
@@ -1636,7 +1636,7 @@
 4	arama	arama	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=22:27
 5	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=27:28
 
-# sent_id = Navarro2016:0:0:128
+# sent_id = Navarro2016:0:0:125
 # text = Apurakí indé arama.
 # text_eng = I work for you.
 # text_por = Trabalho para ti.
@@ -1648,7 +1648,7 @@
 3	arama	arama	ADP	ADP	_	2	case	_	SpaceAfter=No|TokenRange=13:18
 4	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=18:19
 
-# sent_id = Navarro2016:0:0:129
+# sent_id = Navarro2016:0:0:126
 # text = Reruri aé ixé arama.
 # text_eng = Bring it to me.
 # text_por = Traga-o para mim.
@@ -1661,7 +1661,7 @@
 4	arama	arama	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=14:19
 5	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=19:20
 
-# sent_id = Navarro2016:0:0:130
+# sent_id = Navarro2016:0:0:127
 # text = Apurakí Maria supé.
 # text_eng = I work for Mary.
 # text_por = Trabalho para Maria.
@@ -1673,7 +1673,7 @@
 3	supé	supé	ADP	ADP	_	2	case	_	SpaceAfter=No|TokenRange=14:18
 4	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=18:19
 
-# sent_id = Navarro2016:0:0:131
+# sent_id = Navarro2016:0:0:128
 # text = Anheẽ "puranga ara" aintá supé.
 # text_eng = I say “good morning” to them.
 # text_por = Digo “bom dia” para eles.
@@ -1689,7 +1689,7 @@
 7	supé	supé	ADP	ADP	_	6	case	_	SpaceAfter=No|TokenRange=26:30
 8	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=30:31
 
-# sent_id = Navarro2016:0:0:132
+# sent_id = Navarro2016:0:0:129
 # text = Unheẽ paá yepé ara i apigawa-itá supé…
 # text_eng = They say that one day he said to his men...
 # text_por = Contam que disse um dia aos seus homens…
@@ -1705,7 +1705,7 @@
 7	supé	supé	ADP	ADP	_	6	case	_	SpaceAfter=No|TokenRange=33:37
 8	…	…	PUNCT	PUNCT	_	1	punct	_	TokenRange=37:38
 
-# sent_id = Navarro2016:0:0:133
+# sent_id = Navarro2016:0:0:130
 # text = Ixé apiripana xirura i xupé.
 # text_eng = I buy pants for him.
 # text_por = Eu compro calça para ele.
@@ -1719,7 +1719,7 @@
 5	xupé	xupé	ADP	ADP	_	4	case	_	SpaceAfter=No|TokenRange=23:27
 6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=27:28
 
-# sent_id = Navarro2016:0:0:134
+# sent_id = Navarro2016:0:0:131
 # text = Maria usú se rapé rupí.
 # text_eng = Maria goes my way.
 # text_por = Maria vai pelo meu caminho.
@@ -1733,7 +1733,7 @@
 5	rupí	rupí	ADP	ADP	_	4	case	_	SpaceAfter=No|TokenRange=18:22
 6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=22:23
 
-# sent_id = Navarro2016:0:0:135
+# sent_id = Navarro2016:0:0:132
 # text = Kuíri penhẽ pemaramunhã yané rupí.
 # text_eng = Now you fight for us.
 # text_por = Agora vocês brigam por nós.
@@ -1747,7 +1747,7 @@
 5	rupí	rupí	ADP	ADP	_	4	case	_	SpaceAfter=No|TokenRange=29:33
 6	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=33:34
 
-# sent_id = Navarro2016:0:0:136
+# sent_id = Navarro2016:0:0:133
 # text = Renheẽ kariwa nheenga rupí.
 # text_eng = Speak in white men's language.
 # text_por = Fale em língua de brancos.
@@ -1760,7 +1760,7 @@
 4	rupí	rupí	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=22:26
 5	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=26:27
 
-# sent_id = Navarro2016:0:0:137
+# sent_id = Navarro2016:0:0:134
 # text = Muíri rupí taá kwá kamixá?
 # text_eng = How much is this shirt for?
 # text_por = Por quanto é esta camisa?
@@ -1774,7 +1774,7 @@
 5	kamixá	kamixá	NOUN	N	Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=19:25
 6	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=25:26
 
-# sent_id = Navarro2016:0:0:138
+# sent_id = Navarro2016:0:0:135
 # text = Ayuri se rupí.
 # text_eng = I came for myself.
 # text_por = Vim por mim.
@@ -1786,7 +1786,7 @@
 3	rupí	rupí	ADP	ADP	_	2	case	_	SpaceAfter=No|TokenRange=9:13
 4	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=13:14
 
-# sent_id = Navarro2016:0:0:139
+# sent_id = Navarro2016:0:0:136
 # text = Remunhã sangawa rupí.
 # text_eng = Make according to the model.
 # text_por = Faça de acordo com o modelo.
@@ -1798,7 +1798,7 @@
 3	rupí	rupí	ADP	ADP	_	2	case	_	SpaceAfter=No|TokenRange=16:20
 4	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=20:21
 
-# sent_id = Navarro2016:0:0:140
+# sent_id = Navarro2016:0:0:137
 # text = Kwá rupí aikwé siía mirá.
 # text_eng = There are many trees around here.
 # text_por = Por aqui há muitas árvores.
@@ -1812,7 +1812,7 @@
 5	mirá	mirá	NOUN	N	Number=Sing	3	nsubj	_	SpaceAfter=No|TokenRange=20:24
 6	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=24:25
 
-# sent_id = Navarro2016:0:0:141
+# sent_id = Navarro2016:0:0:138
 # text = Amú pituna piterarupí, asendú yepé nheenga.
 # text_eng = In the middle of the other night, I heard a voice.
 # text_por = Pelo meio da outra noite, ouvi uma voz.
@@ -1828,7 +1828,7 @@
 7	nheenga	nheenga	NOUN	N	Number=Sing	5	obj	_	SpaceAfter=No|TokenRange=35:42
 8	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=42:43
 
-# sent_id = Navarro2016:0:0:142
+# sent_id = Navarro2016:0:0:139
 # text = Aintá usú nhaã tatatingawasú piterarupí…
 # text_eng = They went through that smoke...
 # text_por = Elas foram pelo meio daquela fumaça…
@@ -1842,7 +1842,7 @@
 5	piterarupí	piterarupí	ADP	ADP	_	4	case	_	SpaceAfter=No|TokenRange=29:39
 6	…	…	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=39:40
 
-# sent_id = Navarro2016:0:0:143
+# sent_id = Navarro2016:0:0:140
 # text = Aintá umuyeréu mirá-itawasú aintá ararupí.
 # text_eng = They rolled big sticks over them.
 # text_por = Eles rolaram grandes paus por cima deles.
@@ -1856,7 +1856,7 @@
 5	ararupí	ararupí	ADP	ADP	_	4	case	_	SpaceAfter=No|TokenRange=34:41
 6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=41:42
 
-# sent_id = Navarro2016:0:0:144
+# sent_id = Navarro2016:0:0:141
 # text = Iwí wirarupí paá aikwé pé…
 # text_eng = They say that, under the earth, there was a path...
 # text_por = Contam que, por baixo da terra, havia caminho…
@@ -1870,7 +1870,7 @@
 5	pé	pé	NOUN	N	Number=Sing|Rel=Abs	4	nsubj	_	SpaceAfter=No|TokenRange=23:25
 6	…	…	PUNCT	PUNCT	_	4	punct	_	TokenRange=25:26
 
-# sent_id = Navarro2016:0:0:145
+# sent_id = Navarro2016:0:0:142
 # text = Se riré usika ana amú apigawa.
 # text_eng = After me came another man.
 # text_por = Depois de mim chegou outro homem.
@@ -1885,7 +1885,7 @@
 6	apigawa	apigawa	NOUN	N	Number=Sing	3	nsubj	_	SpaceAfter=No|TokenRange=22:29
 7	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=29:30
 
-# sent_id = Navarro2016:0:0:146
+# sent_id = Navarro2016:0:0:143
 # text = Murasí riré, aé ukiri ana retana.
 # text_eng = After the ball, he slept a lot.
 # text_por = Após o baile, ele dormiu muito.
@@ -1901,7 +1901,7 @@
 7	retana	retana	ADV	ADVS	AdvType=Deg	5	advmod	_	SpaceAfter=No|TokenRange=26:32
 8	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=32:33
 
-# sent_id = Navarro2016:0:0:147
+# sent_id = Navarro2016:0:0:144
 # text = Apurandú ne suí maã aputari akwáu.
 # text_eng = I ask of you what I want to know.
 # text_por = Pergunto de você o que quero saber.
@@ -1916,7 +1916,7 @@
 6	akwáu	kwáu	VERB	V	Number=Sing|Person=1|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No|TokenRange=28:33
 7	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=33:34
 
-# sent_id = Navarro2016:0:0:148
+# sent_id = Navarro2016:0:0:145
 # text = Indé resemu se suí.
 # text_eng = You were born of me.
 # text_por = Você nasceu (ou saiu) de mim.
@@ -1929,7 +1929,7 @@
 4	suí	suí	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=15:18
 5	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=18:19
 
-# sent_id = Navarro2016:0:0:149
+# sent_id = Navarro2016:0:0:146
 # text = Ixé ayuri paranã suí.
 # text_eng = I come from the river.
 # text_por = Eu venho do rio.
@@ -1942,7 +1942,7 @@
 4	suí	suí	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=17:20
 5	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=20:21
 
-# sent_id = Navarro2016:0:0:150
+# sent_id = Navarro2016:0:0:147
 # text = Aé uyupirú ana uwatá garapá suí.
 # text_eng = He started walking from the port.
 # text_por = Ele começou a andar desde o porto.
@@ -1957,7 +1957,7 @@
 6	suí	suí	ADP	ADP	_	5	case	_	SpaceAfter=No|TokenRange=28:31
 7	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=31:32
 
-# sent_id = Navarro2016:0:0:151
+# sent_id = Navarro2016:0:0:148
 # text = Ixé asarú indé amukwesé suí.
 # text_eng = I've been waiting for you since the day before yesterday.
 # text_por = Eu te espero desde anteontem.
@@ -1971,7 +1971,7 @@
 5	suí	suí	ADP	ADP	_	4	case	_	SpaceAfter=No|TokenRange=24:27
 6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=27:28
 
-# sent_id = Navarro2016:0:0:152
+# sent_id = Navarro2016:0:0:149
 # text = Ixé asarú indé amukwesé suiwara.
 # text_eng = I've been waiting for you since the day before yesterday.
 # text_por = Eu te espero desde anteontem.
@@ -1985,7 +1985,7 @@
 5	suiwara	suiwara	ADP	ADP	_	4	case	_	SpaceAfter=No|TokenRange=24:31
 6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=31:32
 
-# sent_id = Navarro2016:0:0:153
+# sent_id = Navarro2016:0:0:150
 # text = Aikwé kamixá-itá puranga nhaã piripanasawa ruka upé.
 # text_eng = There are nice shirts in that store.
 # text_por = Há camisas bonitas naquela loja.
@@ -2001,7 +2001,7 @@
 7	upé	upé	ADP	ADP	_	6	case	_	SpaceAfter=No|TokenRange=48:51
 8	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=51:52
 
-# sent_id = Navarro2016:0:0:154
+# sent_id = Navarro2016:0:0:151
 # text = Aikwé mukũi igara paranã upé.
 # text_eng = There are two canoes on the river.
 # text_por = Há duas canoas no rio.
@@ -2015,7 +2015,7 @@
 5	upé	upé	ADP	ADP	_	4	case	_	SpaceAfter=No|TokenRange=25:28
 6	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=28:29
 
-# sent_id = Navarro2016:0:0:155
+# sent_id = Navarro2016:0:0:152
 # text = Aikwé raẽ será tuxawa tuyuwé?
 # text_eng = Does the old tuxaua still exist?
 # text_por = Existe ainda o velho tuxaua?
@@ -2029,7 +2029,7 @@
 5	tuyuwé	tuyuwé	ADJ	A	_	4	amod	_	SpaceAfter=No|TokenRange=22:28
 6	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=28:29
 
-# sent_id = Navarro2016:0:0:156
+# sent_id = Navarro2016:0:0:153
 # text = Aiwã amana.
 # text_eng = There will already be rain.
 # text_por = Já haverá chuva.
@@ -2040,7 +2040,7 @@
 2	amana	amana	NOUN	N	Number=Sing	0	root	_	SpaceAfter=No|TokenRange=5:10
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=10:11
 
-# sent_id = Navarro2016:0:0:157
+# sent_id = Navarro2016:0:0:154
 # text = Aiwã pituna.
 # text_eng = Soon comes the night.
 # text_por = Logo vem a noite.
@@ -2051,7 +2051,7 @@
 2	pituna	pituna	NOUN	N	Number=Sing	0	root	_	SpaceAfter=No|TokenRange=5:11
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=11:12
 
-# sent_id = Navarro2016:0:0:158
+# sent_id = Navarro2016:0:0:155
 # text = Aiwã tẽ kurí.
 # text_eng = Soon it will be.
 # text_por = Logo será (ou daqui a pouco).
@@ -2063,7 +2063,7 @@
 3	kurí	kurí	PART	FUT	Tense=Fut	1	advmod	_	SpaceAfter=No|TokenRange=8:12
 4	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=12:13
 
-# sent_id = Navarro2016:0:0:159
+# sent_id = Navarro2016:0:0:156
 # text = Xukúi kamixá.
 # text_eng = Here's the shirt.
 # text_por = Aqui está a camisa.
@@ -2074,7 +2074,7 @@
 2	kamixá	kamixá	NOUN	N	Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=6:12
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=12:13
 
-# sent_id = Navarro2016:0:0:160
+# sent_id = Navarro2016:0:0:157
 # text = Xukúi sekuyara.
 # text_eng = Here's the money.
 # text_por = Aqui está o dinheiro.
@@ -2085,7 +2085,7 @@
 2	sekuyara	sekuyara	NOUN	N	Number=Sing|Rel=Abs	1	nsubj	_	SpaceAfter=No|TokenRange=6:14
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=14:15
 
-# sent_id = Navarro2016:0:0:161
+# sent_id = Navarro2016:0:0:158
 # text = Kwá garapá mirĩ, nhaã umbaá.
 # text_eng = This port is small, that one is not.
 # text_por = Este porto é pequeno, aquele não.
@@ -2100,7 +2100,7 @@
 6	umbaá	umbaá	PART	NEG	PartType=Neg|Polarity=Neg	3	parataxis	_	SpaceAfter=No|TokenRange=22:27
 7	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=27:28
 
-# sent_id = Navarro2016:0:0:162
+# sent_id = Navarro2016:0:0:159
 # text = Kwá tawa puranga, nhaã tawa puxiwera.
 # text_eng = This city is beautiful, that city is ugly.
 # text_por = Esta cidade é bonita, aquela cidade é feia.
@@ -2116,7 +2116,7 @@
 7	puxiwera	puxiwera	ADJ	A	_	3	parataxis	_	SpaceAfter=No|TokenRange=28:36
 8	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=36:37
 
-# sent_id = Navarro2016:0:0:163
+# sent_id = Navarro2016:0:0:160
 # text = Kwá-itá mirá santá, nhaã-itá membeka.
 # text_eng = These woods are hard, those are soft.
 # text_por = Estas madeiras são duras, aquelas são moles.
@@ -2131,7 +2131,7 @@
 6	membeka	membeka	ADJ	A	_	3	parataxis	_	SpaceAfter=No|TokenRange=29:36
 7	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=36:37
 
-# sent_id = Navarro2016:0:0:164
+# sent_id = Navarro2016:0:0:161
 # text = Amaã-putari kwá uri waá-itá.
 # text_eng = I want to see these coming.
 # text_por = Quero ver estes que vêm.
@@ -2146,7 +2146,7 @@
 5	waá-itá	waá	PRON	REL	Number=Plur|PronType=Rel	4	nsubj	_	SpaceAfter=No|TokenRange=21:28
 6	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=28:29
 
-# sent_id = Navarro2016:0:0:165
+# sent_id = Navarro2016:0:0:162
 # text = Asú kurí São Gabriel kití.
 # text_eng = I will go to São Gabriel.
 # text_por = Irei a São Gabriel.
@@ -2160,7 +2160,7 @@
 5	kití	kití	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=21:25
 6	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=25:26
 
-# sent_id = Navarro2016:0:0:166
+# sent_id = Navarro2016:0:0:163
 # text = Wirandé kurí yamunhã yané ruka.
 # text_eng = Tomorrow we will make our home.
 # text_por = Amanhã faremos nossa casa.
@@ -2174,7 +2174,7 @@
 5	ruka	uka	NOUN	N	Number=Sing|Rel=Cont	3	obj	_	SpaceAfter=No|TokenRange=26:30
 6	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=30:31
 
-# sent_id = Navarro2016:0:0:167
+# sent_id = Navarro2016:0:0:164
 # text = Repitá kurí wirandé iké?
 # text_eng = Are you staying here tomorrow?
 # text_por = Você vai ficar amanhã aqui?
@@ -2187,7 +2187,7 @@
 4	iké	iké	ADV	ADVDX	AdvType=Loc|Deixis=Prox|PronType=Dem	1	advmod	_	SpaceAfter=No|TokenRange=20:23
 5	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=23:24
 
-# sent_id = Navarro2016:0:0:168
+# sent_id = Navarro2016:0:0:165
 # text = Mairamé taá kurí indé repurungitá nheengatú?
 # text_eng = When will you speak nheengatu?
 # text_por = Quando você falará nheengatu?
@@ -2202,7 +2202,7 @@
 6	nheengatú	nheengatú	NOUN	N	Number=Sing	5	obj	_	SpaceAfter=No|TokenRange=34:43
 7	?	?	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=43:44
 
-# sent_id = Navarro2016:0:0:169
+# sent_id = Navarro2016:0:0:166
 # text = Se mena usika kurí paranã suí.
 # text_eng = My husband will arrive from the river.
 # text_por = Meu marido vai chegar do rio.
@@ -2217,7 +2217,7 @@
 6	suí	suí	ADP	ADP	_	5	case	_	SpaceAfter=No|TokenRange=26:29
 7	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=29:30
 
-# sent_id = Navarro2016:0:0:170
+# sent_id = Navarro2016:0:0:167
 # text = Mairamé kurí bũa, ixé asú kurí ayuká indé arama kwá tukunaré.
 # text_eng = When I'm big, I'm going to kill this peacock bass for you.
 # text_por = Quando eu for grande, eu vou matar para você este tucunaré.
