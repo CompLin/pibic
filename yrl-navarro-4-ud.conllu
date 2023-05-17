@@ -5,6 +5,7 @@
 # text_source = Lesson 4, p 30
 # text_annotator = VAN
 # reviewer1 = DMA
+# reviewer2 = LFdeA
 1	Maria	maria	PROPN	PROPN	_	2	nsubj	_	TokenRange=0:5
 2	uwatá	watá	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=6:11
 3	ara	ara	NOUN	N	Number=Sing	2	obl	_	TokenRange=12:15
@@ -21,6 +22,7 @@
 # text_source = Lesson 4, p 30
 # text_annotator = VAN
 # reviewer1 = DMA
+# reviewer2 = LFdeA
 1	São	são	PROPN	PROPN	_	3	nsubj	_	TokenRange=0:3
 2	Gabriel	gabriel	PROPN	PROPN	_	1	flat	_	TokenRange=4:11
 3	mairí	mairí	NOUN	N	Number=Sing	0	root	_	TokenRange=12:17
@@ -39,6 +41,7 @@
 # text_source = Lesson 4, p 30
 # text_annotator = VAN
 # reviewer1 = DMA
+# reviewer2 = LFdeA
 1	I	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	TokenRange=0:1
 2	garapá	garapá	NOUN	N	Number=Sing	4	obl	_	TokenRange=2:8
 3	upé	upé	ADP	ADP	_	2	case	_	TokenRange=9:12
@@ -50,7 +53,7 @@
 9	waá	waá	PRON	REL	Number=Sing|PronType=Rel	8	nsubj	_	TokenRange=43:46
 10	tendawa-itá	tendawa	NOUN	N	Number=Plur|Rel=Abs	8	obl	_	TokenRange=47:58
 11	kití	kití	ADP	ADP	_	10	case	_	TokenRange=59:63
-12	uikú	ikú	AUX	AUXFS	Person=3|VerbForm=Fin	15	acl:relcl	_	TokenRange=64:68
+12	uikú	ikú	AUX	AUXFS	Person=3|VerbForm=Fin	15	cop	_	TokenRange=64:68
 13	waá	waá	PRON	REL	Number=Sing|PronType=Rel	15	nsubj	_	TokenRange=69:72
 14	paranã	paranã	NOUN	N	Number=Sing	15	nmod:poss	_	TokenRange=73:79
 15	rembiwa	tembiwa	NOUN	N	Number=Sing|Rel=Cont	10	acl:relcl	_	TokenRange=80:87
@@ -64,6 +67,7 @@
 # text_source = Lesson 4, p. 30
 # text_annotator = VAN
 # reviewer1 = DMA
+# reviewer2 = LFdeA
 1	Siía	siía	DET	INDQ	PronType=Ind	2	det	_	TokenRange=0:4
 2	mira	mira	NOUN	N	Number=Sing	3	nsubj	_	TokenRange=5:9
 3	upurungitá	purungitá	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=10:20
@@ -78,13 +82,14 @@
 # text_source = Lesson 4, p. 30
 # text_annotator = VAN
 # reviewer1 = DMA
+# reviewer2 = LFdeA
 1	Aikwé	aikwé	PART	EXST	PartType=Exs	0	root	_	TokenRange=0:5
 2	mira-itá	mira	NOUN	N	Number=Plur	1	nsubj	_	TokenRange=6:14
 3	upurungitá	purungitá	VERB	V	Person=3|VerbForm=Fin	2	acl:relcl	_	TokenRange=15:25
 4	waá	waá	PRON	REL	Number=Sing|PronType=Rel	3	nsubj	_	TokenRange=26:29
 5	amú	amú	DET	IND	Number=Sing|PronType=Ind	6	amod	_	TokenRange=30:33
 6	nheenga-itá	nheenga	NOUN	N	Number=Plur	3	obj	_	TokenRange=34:45
-7	São	são	PROPN	PROPN	_	6	nmod	_	TokenRange=46:49
+7	São	são	PROPN	PROPN	_	3	obl	_	TokenRange=46:49
 8	Gabriel	gabriel	PROPN	PROPN	_	7	flat	_	TokenRange=50:57
 9	upé	upé	ADP	ADP	_	7	case	_	SpaceAfter=No|TokenRange=58:61
 10	:	:	PUNCT	PUNCT	_	11	punct	_	TokenRange=61:62
@@ -104,6 +109,7 @@
 # text_source = Lesson 4, p. 30
 # text_annotator = VAN
 # reviewer1 = DMA
+# reviewer2 = LFdeA
 1	Nhaã	nhaã	DET	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	2	det	_	TokenRange=0:4
 2	tawa	tawa	NOUN	N	Number=Sing	4	obl	_	TokenRange=5:9
 3	ruakí	ruakí	ADP	ADP	Rel=Cont	2	case	_	TokenRange=10:15
@@ -124,6 +130,7 @@
 # text_source = Lesson 4, p. 30
 # text_annotator = VAN
 # reviewer1 = DMA
+# reviewer2 = LFdeA
 1	Maria	maria	PROPN	PROPN	_	2	nsubj	_	TokenRange=0:5
 2	uwatá	watá	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=6:11
 3	ana	ana	PART	PFV	Aspect=Perf	2	advmod	_	TokenRange=12:15
@@ -137,18 +144,19 @@
 # text_source = Lesson 4, p. 30
 # text_annotator = VAN
 # reviewer1 = DMA
+# reviewer2 = LFdeA
 1	Aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:2
 2	uwapika	wapika	VERB	V	Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=3:10
-3	,	,	PUNCT	PUNCT	_	4	punct	_	TokenRange=10:11
+3	,	,	PUNCT	PUNCT	_	5	punct	_	TokenRange=10:11
 4	asuí	asuí	CCONJ	CCONJ	_	5	cc	_	TokenRange=12:16
 5	umbaú	mbaú	VERB	V	Person=3|VerbForm=Fin	2	conj	_	TokenRange=17:22
 6	pirá	pirá	NOUN	N	Number=Sing	5	obj	_	TokenRange=23:27
 7	uí	uí	NOUN	N	Number=Sing	5	obl	_	TokenRange=28:30
 8	irũmu	irũmu	ADP	ADP	_	7	case	_	TokenRange=31:36
-9	nhaãsé	nhaãsé	SCONJ	SCONJ	_	12	mark	_	TokenRange=37:43
+9	nhaãsé	nhaãsé	SCONJ	SCONJR	_	12	mark	_	TokenRange=37:43
 10	aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	12	nsubj	_	TokenRange=44:46
 11	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|PronType=Prs	12	expl	_	TokenRange=47:48
-12	yumasí	yumasí	VERB	A2	_	5	parataxis	_	SpaceAfter=No|TokenRange=49:55
+12	yumasí	yumasí	VERB	A2	_	5	advcl	_	SpaceAfter=No|TokenRange=49:55
 13	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=55:56
 
 # sent_id = Navarro2016:4:9:176
@@ -158,14 +166,15 @@
 # text_source = Lesson 4, p. 30
 # text_annotator = VAN
 # reviewer1 = DMA
+# reviewer2 = LFdeA
 1	Aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:2
 2	urasú	rasú	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=3:8
 3	pirá	pirá	NOUN	N	Number=Sing	2	obj	_	TokenRange=9:13
-4	suka	uka	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	2	nmod	_	TokenRange=14:18
+4	suka	uka	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	3	nmod	_	TokenRange=14:18
 5	suí	suí	ADP	ADP	_	4	case	_	TokenRange=19:22
-6	sukwera	sukwera	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	8	acl:relcl	_	TokenRange=23:30
-7	waá	waá	PRON	REL	Number=Sing|PronType=Rel	6	nsubj	_	TokenRange=31:34
-8	membeka	membeka	ADJ	A	_	3	xcomp	_	SpaceAfter=No|TokenRange=35:42
+6	sukwera	sukwera	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	8	nsubj	_	TokenRange=23:30
+7	waá	waá	PRON	REL	Number=Sing|PronType=Rel	6	nmod:poss	_	TokenRange=31:34
+8	membeka	membeka	ADJ	A	_	3	acl:relcl	_	SpaceAfter=No|TokenRange=35:42
 9	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=42:43
 
 # sent_id = Navarro2016:4:10:177
@@ -175,18 +184,19 @@
 # text_source = Lesson 4, p. 30
 # text_annotator = VAN
 # reviewer1 = DMA
+# reviewer2 = LFdeA
 1	Maria	maria	PROPN	PROPN	_	2	nsubj	_	TokenRange=0:5
 2	umbaú	mbaú	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=6:11
 3	pirá	pirá	NOUN	N	Number=Sing	2	obj	_	TokenRange=12:16
 4	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	TokenRange=17:18
-5	pú	pú	NOUN	N	Number=Sing	2	iobj	_	TokenRange=19:21
+5	pú	pú	NOUN	N	Number=Sing	2	obl	_	TokenRange=19:21
 6	irũmu	irũmu	ADP	ADP	_	5	case	_	SpaceAfter=No|TokenRange=22:27
 7	,	,	PUNCT	PUNCT	_	9	punct	_	TokenRange=27:28
 8	ma	ma	CCONJ	CCONJ	_	9	cc	_	TokenRange=29:31
 9	uú	ú	VERB	V	Person=3|VerbForm=Fin	2	conj	_	TokenRange=32:34
 10	ií	ií	NOUN	N	Number=Sing	9	obj	_	TokenRange=35:37
 11	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	TokenRange=38:39
-12	kuya	kuya	NOUN	N	Number=Sing	9	iobj	_	TokenRange=40:44
+12	kuya	kuya	NOUN	N	Number=Sing	9	obl	_	TokenRange=40:44
 13	irũmu	irũmu	ADP	ADP	_	12	case	_	SpaceAfter=No|TokenRange=45:50
 14	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=50:51
 
@@ -687,19 +697,21 @@
 # text = Asuiwara kwera, mukũi apigawa nhũ upitá umanhana uikú yané itá uka.
 # text_eng = Since then, only two men have been guarding our stone house.
 # text_por =  Desde então, somente dois homens ficaram vigiando nossa casa de pedra.
-# text_source = Lesson 4, p. 36
+# text_source = Lesson 4, p. 36 (Amorim, p. 36, 229)
 # text_annotator = VAN
 # reviewer1 = DMA
-1	Asuiwara	asuiwara	_	_	_	2	case	_	TokenRange=0:8
-2	kwera	kwera	PART	PRET	Tense=Past	8	advmod	_	SpaceAfter=No|TokenRange=9:14
-3	,	,	PUNCT	PUNCT	_	4	punct	_	TokenRange=14:15
+# reviewer2 = LFdeA
+1	Asuiwara	asuí	ADV	ADVT	AdvType=Tim|Aspect=Freq|Tense=Pres	7	advmod	_	TokenRange=0:8
+2	kwera	kwera	PART	PRET	Tense=Past	7	advmod	_	SpaceAfter=No|TokenRange=9:14
+3	,	,	PUNCT	PUNCT	_	7	punct	_	TokenRange=14:15
 4	mukũi	mukũi	NUM	CARD	NumType=Card	5	nummod	_	TokenRange=16:21
-5	apigawa	apigawa	NOUN	N	Number=Sing	8	nsubj	_	TokenRange=22:29
-6	nhũ	nhũ	ADV	ADV	_	4	advmod	_	TokenRange=30:33
-7	upitá	pitá	VERB	V	Person=3|VerbForm=Fin	8	parataxis	_	TokenRange=34:39
-8	umanhana	manhana	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=40:48
+5	apigawa	apigawa	NOUN	N	Number=Sing	7	nsubj	_	TokenRange=22:29
+6	nhũ	nhũ	ADV	ADV	_	5	advmod	_	TokenRange=30:33
+7	upitá	pitá	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=34:39
+8	umanhana	manhana	VERB	V	Person=3|VerbForm=Fin	7	parataxis	_	TokenRange=40:48
 9	uikú	ikú	AUX	AUXFS	Person=3|VerbForm=Fin	8	aux	_	TokenRange=49:53
-10	yané	yané	PRON	PRON2	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	TokenRange=54:58
-11	itá	itá	NOUN	N	Number=Sing	12	nmod:poss	_	TokenRange=59:62
-12	uka	uka	NOUN	N	Number=Sing|Rel=Abs	8	obj	_	SpaceAfter=No|TokenRange=63:66
-13	.	.	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|TokenRange=66:67
+10	yané	yané	PRON	PRON2	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	TokenRange=54:58
+11	itá	itá	NOUN	N	Number=Sing	8	obj	_	TokenRange=59:62
+12	uka	uka	NOUN	N	Number=Sing|Rel=Abs	11	compound	_	SpaceAfter=No|TokenRange=63:66
+13	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|TokenRange=66:67
+
