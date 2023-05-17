@@ -25,9 +25,9 @@
 2	Gabriel	gabriel	PROPN	PROPN	_	1	flat	_	TokenRange=4:11
 3	mairí	mairí	NOUN	N	Number=Sing	0	root	_	TokenRange=12:17
 4	turusú	turusú	ADJ	A	_	3	amod	_	TokenRange=18:24
-5	uikú	ikú	AUX	COP	Person=3|VerbForm=Fin	3	cop	_	TokenRange=25:29
+5	uikú	ikú	AUX	COP	Person=3|VerbForm=Fin	8	cop	_	TokenRange=25:29
 6	waá	waá	PRON	REL	Number=Sing|PronType=Rel	8	nsubj	_	TokenRange=30:33
-7	Paranãwasú	paranãwasú	NOUN	N	Number=Sing	8	compound	_	TokenRange=34:44
+7	Paranãwasú	paranãwasú	PROPN	PROPN	_	8	nmod:poss	_	TokenRange=34:44
 8	rembiwa	tembiwa	NOUN	N	Number=Sing|Rel=Cont	3	acl:relcl	_	TokenRange=45:52
 9	upé	upé	ADP	ADP	_	8	case	_	SpaceAfter=No|TokenRange=53:56
 10	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=56:57
@@ -703,4 +703,3 @@
 11	itá	itá	NOUN	N	Number=Sing	12	nmod:poss	_	TokenRange=59:62
 12	uka	uka	NOUN	N	Number=Sing|Rel=Abs	8	obj	_	SpaceAfter=No|TokenRange=63:66
 13	.	.	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|TokenRange=66:67
-
