@@ -2,7 +2,7 @@
 # text = Maria uwatá ara pukusawa tawa rapé-itá rupí.
 # text_eng = Maria walks the streets of the city during the day.
 # text_por =  Maria anda durante o dia pelas ruas da cidade.
-# text_source = Lesson 4, p 30
+# text_source = Lesson 4, p. 30
 # text_annotator = VAN
 # reviewer1 = DMA
 # reviewer2 = LFdeA
@@ -19,7 +19,7 @@
 # text = São Gabriel mairí turusú uikú waá Paranãwasú rembiwa upé.
 # text_eng = São Gabriel is a city on the banks of the Rio Negro.
 # text_por =  São Gabriel é uma cidade que está nas margens do rio Negro.
-# text_source = Lesson 4, p 30
+# text_source = Lesson 4, p. 30
 # text_annotator = VAN
 # reviewer1 = DMA
 # reviewer2 = LFdeA
@@ -38,7 +38,7 @@
 # text = I garapá upé aikwé siía igara turusú usemu waá tendawa-itá kití uikú waá paranã rembiwa upé.
 # text_eng = In her port there are many large canoes that go out to the communities that are on the banks of the river.
 # text_por =  No porto dela há muitas canoas grandes que saem para as comunidades que estão nas margens do rio.
-# text_source = Lesson 4, p 30
+# text_source = Lesson 4, p. 30
 # text_annotator = VAN
 # reviewer1 = DMA
 # reviewer2 = LFdeA
@@ -643,23 +643,23 @@
 # text_annotator = VAN
 # reviewer1 = DMA
 # reviewer2 = LFdeA
-1	Awá	awá	PRON	IND	PronType=Ind	5	nsubj	_	TokenRange=0:3
+1	Awá	awá	PRON	RELF	PronType=Rel	5	nsubj	_	TokenRange=0:3
 2	urikú	rikú	VERB	V	Person=3|VerbForm=Fin	1	acl:relcl	_	TokenRange=4:9
 3	turusú	turusú	ADJ	A	_	4	amod	_	TokenRange=10:16
 4	iwí	iwí	NOUN	N	Number=Sing	2	obj	_	TokenRange=17:20
 5-6	umeẽ-kwáu	_	_	_	_	_	_	_	TokenRange=21:30
 5	umeẽ	meẽ	VERB	V	Person=3|VerbForm=Fin	0	root	_	_
 6	kwáu	kwáu	AUX	AUXN	Compound=Yes|VerbForm=Inf	5	aux	_	_
-7	awá	awá	PRON	IND	PronType=Ind	5	iobj	_	TokenRange=32:35
+7	awá	awá	PRON	RELF	PronType=Rel	5	iobj	_	TokenRange=32:35
 8	nti	nti	PART	NEG	PartType=Neg|Polarity=Neg	9	advmod	_	TokenRange=36:39
 9	urikú	rikú	VERB	V	Person=3|VerbForm=Fin	7	acl:relcl	_	TokenRange=40:45
 10	supé	supé	ADP	ADP	_	7	case	_	SpaceAfter=No|TokenRange=46:50
 11	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=50:51
 
 # sent_id = Navarro2016:0:0:207
-# text = Kwaíra ramé rẽ, paá, ixé, purangamirĩ aikú.
-# text_eng = They say that when I was still little, I was cute.
-# text_por =  Dizem que, quando eu ainda era pequeno, bonitinho estava.
+# text = Kwaíra ramé rẽ, paá, ixé, purangamirĩ [...] aikú.
+# text_eng = They say that when I was still little, I was cute [...].
+# text_por =  Dizem que, quando eu ainda era pequeno, bonitinho [...] era. [Corr. transl.]
 # text_source = Lesson 4, p. 35 (Ademarzinho da Gaita, São Gabriel da Cachoeira, AM)
 # text_annotator = VAN
 # reviewer1 = DMA
@@ -672,9 +672,10 @@
 6	,	,	PUNCT	PUNCT	_	5	punct	_	TokenRange=19:20
 7	ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	1	nsubj	_	SpaceAfter=No|TokenRange=21:24
 8	,	,	PUNCT	PUNCT	_	1	punct	_	TokenRange=24:25
-9	purangamirĩ	puranga	ADJ	A	Degree=Dim	0	root	_	TokenRange=26:37
-10	aikú	ikú	AUX	COP	Number=Sing|Person=1|VerbForm=Fin	9	cop	_	SpaceAfter=No|TokenRange=38:42
-11	.	.	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No|TokenRange=42:43
+9	purangamirĩ	puranga	ADJ	A	Degree=Dim	0	root	_	SpaceAfter=No|TokenRange=26:37
+10	[...]	[...]	PUNCT	ELIP	PunctType=Elip	9	punct	_	TokenRange=38:43
+11	aikú	ikú	AUX	COP	Number=Sing|Person=1|VerbForm=Fin	9	cop	_	SpaceAfter=No|TokenRange=44:48
+12	.	.	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No|TokenRange=48:49
 
 # sent_id = Navarro2016:0:0:208
 # text = Aé kwera, taité!
@@ -749,4 +750,3 @@
 11	itá	itá	NOUN	N	Number=Sing	8	obj	_	TokenRange=59:62
 12	uka	uka	NOUN	N	Number=Sing|Rel=Abs	11	compound	_	SpaceAfter=No|TokenRange=63:66
 13	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|TokenRange=66:67
-
