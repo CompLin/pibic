@@ -821,3 +821,119 @@
 7	supé	supé	ADP	ADP	_	6	case	_	SpaceAfter=No|TokenRange=40:44
 8	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=44:45
 
+# sent_id = Navarro2016:0:0:271
+# text = Aputari apurungitá ne irũmu.
+# text_eng = I want to talk to you.
+# text_por =  Quero falar com você.
+# text_source = Lesson 5, p. 43
+# text_annotator = VAN
+1	Aputari	putari	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=0:7
+2	apurungitá	purungitá	VERB	V	Number=Sing|Person=1|VerbForm=Fin	1	advcl	_	TokenRange=8:18
+3	ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	obl	_	TokenRange=19:21
+4	irũmu	irũmu	ADP	ADP	_	3	case	_	SpaceAfter=No|TokenRange=22:27
+5	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=27:28
+
+# sent_id = Navarro2016:0:0:272
+# text = Pedro usú upurungitá Maria irũmu suka upé.
+# text_eng = Pedro goes to talk to Maria at her house.
+# text_por =  Pedro vai falar com Maria na sua casa.
+# text_source = Lesson 5, p. 43
+# text_annotator = VAN
+1	Pedro	pedro	PROPN	PROPN	_	3	nsubj	_	TokenRange=0:5
+2	usú	sú	AUX	AUXFR	Person=3|VerbForm=Fin	3	aux	_	TokenRange=6:9
+3	upurungitá	purungitá	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=10:20
+4	Maria	maria	PROPN	PROPN	_	3	obl	_	TokenRange=21:26
+5	irũmu	irũmu	ADP	ADP	_	4	case	_	TokenRange=27:32
+6	suka	uka	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	3	iobj	_	TokenRange=33:37
+7	upé	upé	ADP	ADP	_	6	case	_	SpaceAfter=No|TokenRange=38:41
+8	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|TokenRange=41:42
+
+# sent_id = Navarro2016:0:0:273
+# text = Ixé axari usasá pituna.
+# text_eng = I let it go overnight.
+# text_por =  Eu deixo passar a noite.
+# text_source = Lesson 5, p. 43
+# text_annotator = VAN
+1	Ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	TokenRange=0:3
+2	axari	xari	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=4:9
+3	usasá	sasá	VERB	V	Person=3|VerbForm=Fin	2	parataxis	_	TokenRange=10:15
+4	pituna	pituna	NOUN	N	Number=Sing	3	obj	_	SpaceAfter=No|TokenRange=16:22
+5	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=22:23
+
+# sent_id = Navarro2016:0:0:274
+# text = Maria upiripana-putari kamixá-itá i mena supé.
+# text_eng = Maria wants to buy shirts for her husband.
+# text_por =  Maria quer comprar camisas para seu marido.
+# text_source = Lesson 5, p. 44
+# text_annotator = VAN
+1	Maria	maria	PROPN	PROPN	_	2	nsubj	_	TokenRange=0:5
+2-3	upiripana-putari	_	_	_	_	_	_	_	TokenRange=6:22
+2	upiripana	piripana	VERB	V	Person=3|VerbForm=Fin	0	root	_	_
+3	putari	putari	AUX	AUXN	Compound=Yes|VerbForm=Inf	2	aux	_	_
+4	kamixá-itá	kamixá	NOUN	N	Number=Plur	2	obj	_	TokenRange=24:34
+5	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	TokenRange=35:36
+6	mena	mena	NOUN	N	Number=Sing	2	iobj	_	TokenRange=37:41
+7	supé	supé	ADP	ADP	_	6	case	_	SpaceAfter=No|TokenRange=42:46
+8	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=46:47
+
+# sent_id = Navarro2016:0:0:275
+# text = Maria mimbira upurungitá-kwáu nheengatú.
+# text_eng = Maria's son can speak Nheengatu.
+# text_por =  O filho de Maria sabe falar nheengatu.
+# text_source = Lesson 5, p. 44
+# text_annotator = VAN
+1	Maria	maria	PROPN	PROPN	_	2	nmod:poss	_	TokenRange=0:5
+2	mimbira	mimbira	NOUN	N	Number=Sing	3	nsubj	_	TokenRange=6:13
+3-4	upurungitá-kwáu	_	_	_	_	_	_	_	TokenRange=14:29
+3	upurungitá	purungitá	VERB	V	Person=3|VerbForm=Fin	0	root	_	_
+4	kwáu	kwáu	AUX	AUXN	Compound=Yes|VerbForm=Inf	3	aux	_	_
+5	nheengatú	nheengatú	NOUN	N	Number=Sing	3	obj	_	SpaceAfter=No|TokenRange=31:40
+6	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=40:41
+
+# sent_id = Navarro2016:0:0:276
+# text = Amunhã-pawa se purakisawa.
+# text_eng = I just did my job.
+# text_por =  Acabei de fazer meu trabalho.
+# text_source = Lesson 5, p. 44
+# text_annotator = DMA
+1-2	Amunhã-pawa	_	_	_	_	_	_	_	TokenRange=0:11
+1	Amunhã	munhã	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=0:6
+2	pawa	pawa	VERB	V	VerbForm=Inf	1	parataxis	_	TokenRange=7:11
+3	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	TokenRange=12:14
+4	purakisawa	purakisawa	NOUN	N	Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=15:25
+5	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=25:26
+
+# sent_id = Navarro2016:0:0:277
+# text = Usika-pawa.
+# text_eng = Just arrived.
+# text_por =  Acabou de chegar.
+# text_source = Lesson 5, p. 44
+# text_annotator = DMA
+1-2	Usika-pawa	_	_	_	_	_	_	_	SpaceAfter=No|TokenRange=0:10
+1	Usika	sika	VERB	V	Person=3|VerbForm=Fin	0	root	_	TokenRange=0:5
+2	pawa	pawa	VERB	V	VerbForm=Inf	1	parataxis	_	TokenRange=6:10
+3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=10:11
+
+# sent_id = Navarro2016:0:0:278
+# text = Uyenũ-yuíri.
+# text_eng = He went back to bed.
+# text_por =  Voltou a deitar.
+# text_source = Lesson 5, p. 44
+# text_annotator = DMA
+1-2	Uyenũ-yuíri	_	_	_	_	_	_	_	SpaceAfter=No|TokenRange=0:11
+1	Uyenũ	yenũ	VERB	V	Person=3|VerbForm=Fin	0	root	_	_
+2	yuíri	yuíri	AUX	AUXN	Aspect=Iter|Compound=Yes|VerbForm=Inf	1	parataxis	_	_
+3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=12:13
+
+# sent_id = Navarro2016:0:0:279
+# text = Aputari Pedro usika uií.
+# text_eng = I want Pedro to arrive today.
+# text_por =  Quero que Pedro chegue hoje.
+# text_source = Lesson 5, p. 44
+# text_annotator = VAN
+1	Aputari	putari	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=0:7
+2	Pedro	pedro	PROPN	PROPN	_	3	nsubj	_	TokenRange=8:13
+3	usika	sika	VERB	V	Person=3|VerbForm=Fin	1	parataxis	_	TokenRange=14:19
+4	uií	uií	ADV	ADV	_	3	advmod	_	SpaceAfter=No|TokenRange=20:23
+5	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=23:24
+
