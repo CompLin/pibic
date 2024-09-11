@@ -357,6 +357,25 @@
 12	tutira	tutira	NOUN	N	Number=Sing	5	conj	_	SpaceAfter=No|TokenRange=51:57
 13	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=57:58
 
+# sent_id = Navarro2016:0:0:185
+# text = Amaã ana yepé kurumĩ, kunhã puranga waá mimbira.
+# text_eng = I saw a boy, the son of the woman who is beautiful.
+# text_por = Vi um menino, filho da mulher que é bonita.
+# text_source = Lesson 4, p. 31
+# text_annotator = VAN
+# reviewer1 = DMA
+# reviewer2 = LFdeA
+1	Amaã	maã	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=0:4
+2	ana	ana	PART	PFV	Aspect=Perf	1	advmod	_	TokenRange=5:8
+3	yepé	yepé	DET	ART	Definite=Ind|PronType=Art	4	det	_	TokenRange=9:13
+4	kurumĩ	kurumĩ	NOUN	N	Number=Sing	1	obj	_	SpaceAfter=No|TokenRange=14:20
+5	,	,	PUNCT	PUNCT	_	9	punct	_	TokenRange=20:21
+6	kunhã	kunhã	NOUN	N	Number=Sing	9	nmod:poss	_	TokenRange=22:27
+7	puranga	puranga	ADJ	A	_	6	acl:relcl	_	TokenRange=28:35
+8	waá	waá	PRON	REL	Number=Sing|PronType=Rel	7	nsubj	_	TokenRange=36:39
+9	mimbira	mimbira	NOUN	N	Number=Sing	1	nmod	_	SpaceAfter=No|TokenRange=40:47
+10	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=47:48
+
 # sent_id = Navarro2016:0:0:195
 # text = Aintá ruka puranga.
 # text_eng = Their house is beautiful.
@@ -728,6 +747,26 @@
 17	resé	resé	ADP	ADP	AdpType=Post|Rel=Cont	16	case	_	SpaceAfter=No|TokenRange=71:75
 18	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=75:76
 
+# sent_id = Avila2021:0:0:239
+# text = Ixé, Paulo, ampinima penhẽ arama kwá kwekatú se pú irumu.
+# text_eng = I, Paul, write this greeting to you with my own hand.
+# text_por = Eu, Paulo, escrevo a vós essa saudação de próprio punho.
+# text_source = O Novo Testamento em nyengatu, 2 Tessalonicenses 3:17, adap.
+# text_annotator = LFdeA
+1	Ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No|TokenRange=0:3
+2	,	,	PUNCT	PUNCT	_	1	punct	_	TokenRange=3:4
+3	Paulo	paulo	PROPN	PROPN	_	1	appos	_	SpaceAfter=No|TokenRange=5:10
+4	,	,	PUNCT	PUNCT	_	1	punct	_	TokenRange=10:11
+5	ampinima	mpinima	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=12:20
+6	penhẽ	penhẽ	PRON	PRON	Number=Plur|Person=2|PronType=Prs	5	iobj	_	TokenRange=21:26
+7	arama	arama	ADP	ADP	AdpType=Post	6	case	_	TokenRange=27:32
+8	kwá	kwá	DET	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	9	det	_	TokenRange=33:36
+9	kwekatú	kwekatú	NOUN	N	Number=Sing	5	obj	_	TokenRange=37:44
+10	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	TokenRange=45:47
+11	pú	pú	NOUN	N	Number=Sing	5	obl	_	TokenRange=48:50
+12	irumu	irumu	ADP	ADP	AdpType=Post	11	case	_	SpaceAfter=No|TokenRange=51:56
+13	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=56:57
+
 # sent_id = Avila2021:0:0:243
 # text = Ape nhaã kunhã i akanhemu usikari sapé, ma kuté ti ã uyukwá sapé, uyana até usika igara upé.
 # text_eng = Then that woman looked for her path scared, but then her path didn't appear anymore, she ran until she reached the canoe.
@@ -932,6 +971,21 @@
 4	kaá	kaá	NOUN	N	Number=Sing	1	obl	_	_
 5	pe	upé	ADP	ADP	AdpType=Post|Clitic=Yes	4	case	_	_
 6	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=26:27
+
+# sent_id = Avila2021:0:0:349
+# text = Indé paá rerikú ne rayera kunhamukú ana?
+# text_eng = You, by all accounts, have a young daughter?
+# text_por = Tu, pelo que consta, tens uma filha já moça?
+# text_source = Magalhães, 265, adap.
+# text_annotator = LFdeA
+1	Indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	TokenRange=0:4
+2	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	3	advmod	_	TokenRange=5:8
+3	rerikú	rikú	VERB	V	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=9:15
+4	ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	TokenRange=16:18
+5	rayera	tayera	NOUN	N	Number=Sing|Rel=Cont	3	obj	_	TokenRange=19:25
+6	kunhamukú	kunhamukú	ADJ	A	_	5	acl	_	TokenRange=26:35
+7	ana	ana	PART	PFV	Aspect=Perf	6	advmod	_	SpaceAfter=No|TokenRange=36:39
+8	?	?	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=39:40
 
 # sent_id = Avila2021:0:0:350
 # text = Asuí kutara tiapú aintá usendú iwaka suí kwayé iwitú upeyú waá yawé, asuí umuteresemu panhẽ uka aintá uwapika waá upé.
@@ -1412,6 +1466,16 @@
 4	arama	arama	SCONJ	SCONJ	_	3	mark	_	SpaceAfter=No|TokenRange=24:29
 5	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=29:30
 
+# sent_id = Avila2021:0:0:649
+# text = Akaá-kaá aikú.
+# text_eng = I got diarrhea.
+# text_por = Estou com diarreia.
+# text_source = Hartt, 377, adap.
+# text_annotator = LFdeA
+1	Akaá-kaá	kaá	VERB	V	Mood=Ind|Number=Sing|Person=1|Red=Yes|VerbForm=Fin	0	root	_	TokenRange=0:8
+2	aikú	ikú	AUX	AUXFS	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	1	aux	_	SpaceAfter=No|TokenRange=9:13
+3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=13:14
+
 # sent_id = Avila2021:0:0:662
 # text = Siiya kwá-itá usenúi waá-itá, ma muiriira aintá kwá-itá uparawaka waá-itá.
 # text_eng = Many are called, but few are chosen.
@@ -1465,6 +1529,16 @@
 2	Adí	adí	INTJ	INTJ	_	3	discourse	_	TokenRange=1:4
 3	tupana	tupana	NOUN	N	Number=Sing	0	root	_	SpaceAfter=No|TokenRange=5:11
 4	!	!	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=11:12
+
+# sent_id = Avila2021:0:0:709
+# text = Ixé sasiára.
+# text_eng = I am sad.
+# text_por = Estou triste.
+# text_source = Studart, 37
+# text_annotator = LFdeA
+1	Ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	TokenRange=0:3
+2	sasiára	sasiára	ADJ	A	_	0	root	_	SpaceAfter=No|TokenRange=4:11
+3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=11:12
 
 # sent_id = NTLN2019:0:0:10
 # text = Asuí kwá buya utumuna ií i yurú suí kwayé paraná yawé sakakwera kwá kunhã, uputari paraná uyuká arama aé.
@@ -1736,730 +1810,52 @@
 8	rupí	rupí	ADP	ADP	AdpType=Post	7	case	_	SpaceAfter=No|TokenRange=44:48
 9	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=48:49
 
-# sent_id = Casasnovas2006:1:4:4
-# text = Asuí, paá, upurandú aé: Compadre, marã taá sasiára retana indé.
-# text_eng = and asked him: Compadre, why are you so sad?
-# text_por = e perguntou-lhe: Compadre, por que você está muito triste?
-# text_source = p. 66, No. 3-4
-# text_orig = Asuí, paá, upurandú aé: Compadre, marã taá sasiara retana indé.
-# text_annotator = JLG
-# acknowledgement = DACILAT Project, FAPESP's Process No. 2022/09158-5
-# reviewer1 = LFdeA
-# inputline = Asuí/advt, paá, upurandú aé/pron: Compadre/=n:o|pt, marã taá sasiára retana indé.
-1	Asuí	asuí	ADV	ADVT	AdvType=Tim	5	advmod	_	SpaceAfter=No|TokenRange=0:4
-2	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=4:5
-3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	5	advmod	_	SpaceAfter=No|TokenRange=6:9
-4	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=9:10
-5	upurandú	purandú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=11:19
-6	aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	5	iobj	_	SpaceAfter=No|TokenRange=20:22
-7	:	:	PUNCT	PUNCT	_	12	punct	_	TokenRange=22:23
-8	Compadre	compadre	NOUN	N	_	12	vocative	_	OrigLang=por|SpaceAfter=No|TokenRange=24:32
-9	,	,	PUNCT	PUNCT	_	8	punct	_	TokenRange=32:33
-10	marã	marã	ADV	ADVRU	AdvType=Cau|PronType=Int	12	advmod	_	TokenRange=34:38
-11	taá	taá	PART	CQ	PartType=Int	12	advmod	_	TokenRange=39:42
-12	sasiára	sasiára	ADJ	A	_	5	ccomp	_	TokenRange=43:50
-13	retana	retana	ADV	ADVS	AdvType=Deg	12	advmod	_	TokenRange=51:57
-14	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	12	nsubj	_	SpaceAfter=No|TokenRange=58:62
-15	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=62:63
-
-# sent_id = Casasnovas2006:2:3:17
-# text = Ape yawaraté uyusikí usú merupí sesé.
-# text_eng = Then the jaguar crawled slowly over him.
-# text_por = Aí a onça arrastando-se foi devagar sobre ele.
-# text_source = p. 70, No. 3
-# text_orig = Ape yawaraté uyusikí usú merupí sesé
-# text_annotator = JLG
-# text_sec = Ape yawaraté uyusikí usú sesé.
-# text_por_sec = Aí a onça foi arrastando-se sobre ele.
-# text_sec_source = Avila (2021)
-# text_por_sec_source = Avila (2021)
-# acknowledgement = DACILAT Project, FAPESP's Process No. 2022/09158-5
-# reviewer1 = LFdeA
-1	Ape	ape	ADV	ADVT	AdvType=Tim	3	advmod	_	TokenRange=0:3
-2	yawaraté	yawaraté	NOUN	N	Number=Sing	3	nsubj	_	TokenRange=4:12
-3	uyusikí	uyusikí	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=13:20
-4	usú	sú	AUX	AUXFR	Mood=Ind|Person=3|VerbForm=Fin	3	aux	_	TokenRange=21:24
-5	merupí	merupí	ADV	ADVA	AdvType=Man	3	advmod	_	TokenRange=25:31
-6	sesé	resé	ADP	ADP	Number[grnd]=Sing|Person[grnd]=3|Rel=NCont	3	obl	_	SpaceAfter=No|TokenRange=32:36
-7	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=36:37
-
-# sent_id = Casasnovas2006:3:4:28
-# text = Ape, paá, uka yara-itá tameẽ taú arã kutakutara garapa.
-# text_eng = The partygoers gave them lots of drinks.
-# text_por = Os festeiros deram-lhes muita bebida.
-# text_source = p. 73, No. 5
-# text_orig = Ape, paá, uka yaraitá tameé taú arã kutakutara garapa.
-# text_annotator = JLG
-# text_sec = Ape paá uka yara-itá ta umeẽ ta uú arã kutakutara garapa.
-# text_por_sec = Aí dizem que os donos da casa deram garapa muitas vezes para eles tomarem.
-# text_sec_source = Avila (2021)
-# text_por_sec_source = Avila (2021)
-# acknowledgement = DACILAT Project, FAPESP's Process No. 2022/09158-5
-# reviewer1 = LFdeA
-1	Ape	ape	ADV	ADVT	AdvType=Tim	7	advmod	_	SpaceAfter=No|TokenRange=0:3
-2	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=3:4
-3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	7	advmod	_	SpaceAfter=No|TokenRange=5:8
-4	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=8:9
-5	uka	uka	NOUN	N	Number=Sing|Rel=Abs	6	nmod:poss	_	TokenRange=10:13
-6	yara-itá	yara	NOUN	N	Number=Plur	7	nsubj	_	TokenRange=14:22
-7	tameẽ	meẽ	VERB	V	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	TokenRange=26:30
-8	taú	ú	VERB	V	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	7	advcl	_	TokenRange=34:36
-9	arã	arã	SCONJ	SCONJ	_	8	mark	_	TokenRange=37:40
-10	kutakutara	kutakutara	ADV	ADVT	AdvType=Tim	7	advmod	_	TokenRange=41:51
-11	garapa	garapa	NOUN	N	Number=Sing	7	obj	_	SpaceAfter=No|TokenRange=52:58
-12	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|TokenRange=58:59
-
-# sent_id = Casasnovas2006:3:10:34
-# text = Asuí taumaã aé upuri, uyumusarái paraná ara rupí, uyeréu ã pirayawara.
-# text_eng = TODO
-# text_eng_ggl = Soon after, they saw him jumping and playing on the surface of the water. It had already turned into a porpoise.
-# text_por = logo depois viram-no pulando e brincando na superfície da água. Já se tinha transformado em boto.
-# text_source = p. 73, No. 14-15
-# text_orig = Asuí taumaã aé upuri, uyumusarai paraná ara rupí, uyeréuã pirayawara.
-# text_annotator = JLG
-# title = Pirayawara mira
-# title_por = Homem boto
-# title_eng = Boto man
-# text_sec = Asuí ta umaã aé upuri, uyumusarái paraná ara rupí, uyeréu ã pirayawara.
-# text_por_sec = Depois eles viram-no pular, brincar pela superfície da água, já se tinha transformado em boto.
-# text_sec_source = Avila (2021)
-# text_por_sec_source = Avila (2021)
-# acknowledgement = DACILAT Project, FAPESP's Process No. 2022/09158-5
-# reviewer1 = LFdeA
-1	Asuí	asuí	ADV	ADVT	AdvType=Tim	2	advmod	_	TokenRange=0:4
-2	taumaã	maã	VERB	V	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	TokenRange=8:12
-3	aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	TokenRange=13:15
-4	upuri	puri	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	2	ccomp	_	SpaceAfter=No|TokenRange=16:21
-5	,	,	PUNCT	PUNCT	_	6	punct	_	TokenRange=21:22
-6	uyumusarái	musarái	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	4	parataxis	_	TokenRange=23:33
-7	paraná	paraná	NOUN	N	Number=Sing	8	nmod:poss	_	TokenRange=34:40
-8	ara	ara	NOUN	N	Number=Sing	6	obl	_	TokenRange=41:44
-9	rupí	rupí	ADP	ADP	AdpType=Post	8	case	_	SpaceAfter=No|TokenRange=45:49
-10	,	,	PUNCT	PUNCT	_	11	punct	_	TokenRange=49:50
-11	uyeréu	yeréu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	6	parataxis	_	TokenRange=51:57
-12	ã	ã	PART	PFV	Aspect=Perf	11	advmod	_	TokenRange=58:59
-13	pirayawara	pirayawara	NOUN	N	Number=Sing	11	xcomp	_	SpaceAfter=No|TokenRange=60:70
-14	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=70:71
-
-# sent_id = Casasnovas2006:5:10:58
-# text = Upisika paá nhaã mirá-piranga, unupá kirimbawa siía viáji, asuí uyapí usú apekatú kití, unheẽ kwayé: Maã-puxiwera! Indé ti puranga, remaraúna reikú ixé!
-# text_eng = TODO
-# text_eng_ggl = He took the stick, hit it hard again and again, threw it away and said: Damn it!, you're no good, you're giving me bad omens.
-# text_por = pegou o pedaço de pau, bateu forte repetidas vezes, o jogou para longe e disse: Maldito!, você não é bom, está me dando mau agouro.
-# text_source = p. 79, No. 11-13
-# text_orig = Upisika paa nhaã mirá-piranga, unupá kirimbawa siía viaje, asuí uyapí usú apekatú kití, unheé kwayé: Mapuxuwera! Indé ti puranga, remaraúna reikú ixé!
-# text_annotator = JLG
-# title_orig = Kurupira
-# title_por_orig = Curupira
-# title_eng = Curupira
-# text_sec = Maã-puxiwera! Indé ti puranga, remaraúna reikú ixé!
-# text_por_sec = Maldito! Você não é bom, está me dando mau agouro!
-# text_sec_source = Avila (2021)
-# text_por_sec_source = Avila (2021)
-# acknowledgement = DACILAT Project, FAPESP's Process No. 2022/09158-5
-1	Upisika	pisika	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=0:7
-2	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	1	advmod	_	TokenRange=8:11
-3	nhaã	nhaã	PRON	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	4	det	_	TokenRange=12:16
-4	mirá-piranga	mirá-piranga	NOUN	N	Number=Sing	1	obj	_	SpaceAfter=No|TokenRange=17:29
-5	,	,	PUNCT	PUNCT	_	6	punct	_	TokenRange=29:30
-6	unupá	nupá	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	1	parataxis	_	TokenRange=31:36
-7	kirimbawa	kirimbawa	ADV	ADVA	AdvType=Man	6	advmod	_	TokenRange=37:46
-8	siía	siía	PRON	INDQ	PronType=Ind	9	det	_	TokenRange=47:51
-9	viáji	viáji	NOUN	N	Number=Sing	6	obl	_	SpaceAfter=No|TokenRange=52:57
-10	,	,	PUNCT	PUNCT	_	12	punct	_	TokenRange=57:58
-11	asuí	asuí	ADV	ADVT	AdvType=Tim	12	advmod	_	TokenRange=59:63
-12	uyapí	yapí	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	1	parataxis	_	TokenRange=64:69
-13	usú	sú	AUX	AUXFR	Mood=Ind|Person=3|VerbForm=Fin	12	aux	_	TokenRange=70:73
-14	apekatú	apekatú	ADV	ADVC	AdvType=Loc	12	obl	_	TokenRange=74:81
-15	kití	kití	ADP	ADP	AdpType=Post	14	case	_	SpaceAfter=No|TokenRange=82:86
-16	,	,	PUNCT	PUNCT	_	17	punct	_	TokenRange=86:87
-17	unheẽ	nheẽ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	1	parataxis	_	TokenRange=88:93
-18	kwayé	kwayé	ADV	ADVA	AdvType=Man	17	advmod	_	SpaceAfter=No|TokenRange=94:99
-19	:	:	PUNCT	PUNCT	_	24	punct	_	TokenRange=99:100
-20	Maã-puxiwera	maã-puxiwera	NOUN	N	Number=Sing	24	discourse	_	SpaceAfter=No|TokenRange=101:113
-21	!	!	PUNCT	PUNCT	_	20	punct	_	TokenRange=113:114
-22	Indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	24	nsubj	_	TokenRange=115:119
-23	ti	ti	PART	NEG	PartType=Neg|Polarity=Neg	24	advmod	_	TokenRange=120:122
-24	puranga	puranga	ADJ	A	_	17	ccomp	_	SpaceAfter=No|TokenRange=123:130
-25	,	,	PUNCT	PUNCT	_	26	punct	_	TokenRange=130:131
-26	remaraúna	remaraúna	VERB	V	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	24	parataxis	_	TokenRange=132:141
-27	reikú	ikú	AUX	AUXFS	Mood=Imp,Ind|Number=Sing|Person=2|VerbForm=Fin	26	aux	_	TokenRange=142:147
-28	ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	26	obj	_	SpaceAfter=No|TokenRange=148:151
-29	!	!	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=151:152
-
-# sent_id = Casasnovas2006:6:1:60
-# text = Aikwé paá yepé tetama puranga waá yepé ipawawasú rimbiwa upé.
-# text_eng = TODO
-# text_eng_ggl = There was a very beautiful city, on the edge of a large lake.
-# text_por = Havia uma cidade muito bonita, na beira de um grande lago.
-# text_source = p. 80, No. 1
-# text_orig = Aikwé paá yepé tetama puranga waá yepé ipawa wasú rimbiwa upé.
-# text_annotator = JLG
-# title_orig = Wakará
-# title_por_orig = A garça
-# title_eng = The heron
-# acknowledgement = DACILAT Project, FAPESP's Process No. 2022/09158-5
-1	Aikwé	aikwé	PART	EXST	PartType=Exs	0	root	_	TokenRange=0:5
-2	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	1	advmod	_	TokenRange=6:9
-3	yepé	yepé	DET	ART	Definite=Ind|PronType=Art	4	det	_	TokenRange=10:14
-4	tetama	tetama	NOUN	N	Number=Sing|Rel=Abs	1	nsubj	_	TokenRange=15:21
-5	puranga	puranga	ADJ	A	_	4	acl:relcl	_	TokenRange=22:29
-6	waá	waá	PRON	REL	Number=Sing|PronType=Rel	5	nsubj	_	TokenRange=30:33
-7	yepé	yepé	DET	ART	Definite=Ind|PronType=Art	8	det	_	TokenRange=34:38
-8	ipawawasú	ipawa	NOUN	N	Degree=Aug|Number=Sing	9	nmod:poss	_	TokenRange=39:48
-9	rimbiwa	timbiwa	NOUN	N	Number=Sing|Rel=Cont	1	obl	_	TokenRange=49:56
-10	upé	upé	ADP	ADP	AdpType=Post	9	case	_	SpaceAfter=No|TokenRange=57:60
-11	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=60:61
-
-# sent_id = Casasnovas2006:6:5:64
-# text = Mairamé ta usú ã ta uikú, kwá ta aría waimĩ umbeú aintá: Se rimiarirú-itá, penhẽ ayupuí ã, kuíri pesú ã, ti ã kurí marã penhẽ arã timbiú.
-# text_eng = TODO
-# text_eng_ggl = When they were leaving, the grandmother gave advice: "My granddaughters, you are already fed, now you can go, as you will no longer need food."
-# text_por = Quando já estavam partindo, a avó dava um conselho: "Minhas netas, vocês já estão alimentadas, agora podem ir, pois não terão mais necessidade de comida."
-# text_source = p. 80, No. 6-8
-# text_orig = Mairamé tausuã taikú, kwá ta aría waimí umbeú aintá: Se rimiarirúitá, penhé ayupuíã, kuíri pesuã, tiã kurí marã penharã timbiú.
-# text_annotator = JLG
-# title_orig = Wakará
-# title_por_orig = A garça
-# title_eng = The heron
-# text_sec = Se rimiarirú-itá, penhẽ ayupuí ã, kuíri pesú ã, ti ã kurí marã penhẽ arã timbiú.
-# text_por_sec = Minhas netas, eu já as alimentei, agora vão, não terão mais necessidade de comida.
-# text_sec_source = Avila (2021)
-# text_por_sec_source = Avila (2021)
-# acknowledgement = DACILAT Project, FAPESP's Process No. 2022/09158-5
-1	Mairamé	mairamé	SCONJ	SCONJR	_	3	mark	_	TokenRange=0:7
-2	ta	ta	PRON	PRON	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	TokenRange=8:10
-3	usú	sú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	12	advcl	_	TokenRange=11:14
-4	ã	ã	PART	PFV	Aspect=Perf	3	advmod	_	TokenRange=15:16
-5	ta	ta	PRON	PRON	Number=Plur|Person=3|PronType=Prs	3	expl	_	TokenRange=17:19
-6	uikú	ikú	AUX	AUXFS	Mood=Ind|Person=3|VerbForm=Fin	3	aux	_	SpaceAfter=No|TokenRange=20:24
-7	,	,	PUNCT	PUNCT	_	12	punct	_	TokenRange=24:25
-8	kwá	kwá	DET	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	10	det	_	TokenRange=26:29
-9	ta	ta	PRON	PRON2	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	TokenRange=30:32
-10	aría	aría	NOUN	N	Number=Sing	12	nsubj	_	TokenRange=33:37
-11	waimĩ	waimĩ	ADJ	A	_	10	amod	_	TokenRange=38:43
-12	umbeú	mbeú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=44:49
-13	aintá	aintá	PRON	PRON	Number=Plur|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No|TokenRange=50:55
-14	:	:	PUNCT	PUNCT	_	19	punct	_	TokenRange=55:56
-15	Se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	TokenRange=57:59
-16	rimiarirú-itá	timiarirú	NOUN	N	Number=Plur|Rel=Cont	19	vocative	_	SpaceAfter=No|TokenRange=60:73
-17	,	,	PUNCT	PUNCT	_	16	punct	_	TokenRange=73:74
-18	penhẽ	penhẽ	PRON	PRON	Number=Plur|Person=2|PronType=Prs	19	obj	_	TokenRange=75:80
-19	ayupuí	yupuí	VERB	V	Mood=Ind|Person=1|VerbForm=Fin	12	ccomp	_	TokenRange=81:87
-20	ã	ã	PART	PFV	Aspect=Perf	19	advmod	_	SpaceAfter=No|TokenRange=88:89
-21	,	,	PUNCT	PUNCT	_	23	punct	_	TokenRange=89:90
-22	kuíri	kuíri	ADV	ADVT	AdvType=Tim	23	advmod	_	TokenRange=91:96
-23	pesú	sú	VERB	V	Mood=Imp,Ind|Number=Plur|Person=2|VerbForm=Fin	19	parataxis	_	TokenRange=97:101
-24	ã	ã	PART	PFV	Aspect=Perf	23	advmod	_	SpaceAfter=No|TokenRange=102:103
-25	,	,	PUNCT	PUNCT	_	32	punct	_	TokenRange=103:104
-26	ti	ti	PART	NEG	PartType=Neg|Polarity=Neg	29	advmod	_	TokenRange=105:107
-27	ã	ã	PART	PFV	Aspect=Perf	29	advmod	_	TokenRange=108:109
-28	kurí	kurí	PART	FUT	Tense=Fut	29	advmod	_	TokenRange=110:114
-29	marã	marã	ADV	ADVRU	AdvType=Cau|PronType=Int	32	acl	_	TokenRange=115:119
-30	penhẽ	penhẽ	PRON	PRON	Number=Plur|Person=2|PronType=Prs	29	obl	_	TokenRange=120:125
-31	arã	arã	ADP	ADP	AdpType=Post	30	case	_	TokenRange=126:129
-32	timbiú	timbiú	NOUN	N	Number=Sing|Rel=Abs	23	advcl	_	SpaceAfter=No|TokenRange=130:136
-33	.	.	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No|TokenRange=136:137
-
-# sent_id = Casasnovas2006:6:7:66
-# text = Awá kurí ti uruyari, tauyuká kurí arupí aé.
-# text_eng = TODO
-# text_eng_ggl = Anyone who doesn't believe will be killed out there.
-# text_por = Quem não acreditar será morta por aí.
-# text_source = p. 81, No. 10
-# text_orig = Awá kurí ti uruyari, tauyuká kurí arupí aé.
-# text_annotator = JLG
-# title_orig = Wakará
-# title_por_orig = A garça
-# title_eng = The heron
-# acknowledgement = DACILAT Project, FAPESP's Process No. 2022/09158-5
-1	Awá	awá	PRON	RELF	PronType=Rel	6	nsubj	_	TokenRange=0:3
-2	kurí	kurí	PART	FUT	Tense=Fut	4	advmod	_	TokenRange=4:8
-3	ti	ti	PART	NEG	PartType=Neg|Polarity=Neg	4	advmod	_	TokenRange=9:11
-4	uruyari	ruyari	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	1	acl:relcl	_	SpaceAfter=No|TokenRange=12:19
-5	,	,	PUNCT	PUNCT	_	6	punct	_	TokenRange=19:20
-6	tauyuká	yuká	VERB	V	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	TokenRange=24:29
-7	kurí	kurí	PART	FUT	Tense=Fut	6	advmod	_	TokenRange=30:34
-8	arupí	arupí	ADV	ADVC	AdvType=Loc	6	advmod	_	TokenRange=35:40
-9	aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	6	dislocated	_	SpaceAfter=No|TokenRange=41:43
-10	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|TokenRange=43:44
-
-# sent_id = Casasnovas2006:6:8:67
-# text = Pewatá kurí pituna ramé, asuí pepituú ara ramé.
-# text_eng = TODO
-# text_eng_ggl = You will walk during the night and rest during the day.
-# text_por = Vocês andarão durante a noite e descansarão durante o dia.
-# text_source = p. 81, No. 11
-# text_orig = Pewatá kurí pituna ramé, asuí pepituú ara ramé.
-# text_annotator = JLG
-# title_orig = Wakará
-# title_por_orig = A garça
-# title_eng = The heron
-# acknowledgement = DACILAT Project, FAPESP's Process No. 2022/09158-5
-1	Pewatá	watá	VERB	V	Mood=Imp,Ind|Number=Plur|Person=2|VerbForm=Fin	0	root	_	TokenRange=0:6
-2	kurí	kurí	PART	FUT	Tense=Fut	1	advmod	_	TokenRange=7:11
-3	pituna	pituna	NOUN	N	Number=Sing	1	obl	_	TokenRange=12:18
-4	ramé	ramé	ADP	ADP	AdpType=Post	3	case	_	SpaceAfter=No|TokenRange=19:23
-5	,	,	PUNCT	PUNCT	_	7	punct	_	TokenRange=23:24
-6	asuí	asuí	CCONJ	CCONJ	_	7	cc	_	TokenRange=25:29
-7	pepituú	pituú	VERB	V	Mood=Imp,Ind|Number=Plur|Person=2|VerbForm=Fin	1	conj	_	TokenRange=30:37
-8	ara	ara	NOUN	N	Number=Sing	7	obl	_	TokenRange=38:41
-9	ramé	ramé	ADP	ADP	AdpType=Post	8	case	_	SpaceAfter=No|TokenRange=42:46
-10	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=46:47
-
-# sent_id = Casasnovas2006:8:8:76
-# text = Ape, paá, ta uyeréu yawaratewasú-itá, yawé, paá, ta ukanhemu ta usú kaá kití.
-# text_eng = TODO
-# text_eng_ggl = Transforming into huge jaguars and disappearing into the bush.
-# text_por = Transformando-se em enormes onças e sumiram pelo mato.
-# text_source = p. 85, No. 9
-# text_orig = Ape, paá, ta uyeréu yawaraté wasuitá, yawé, paá, ta ukanhemu ta usú kaá kití.
-# text_annotator = JLG
-# title = Yawaraté mira
-# title_orig = Yawaraté Mira
-# title_por_orig = Gente-onça
-# title_eng = Jaguar people
-# text_sec = Ape paá ta uyeréu yawaratewasú-itá, yawé paá ta ukanhemu ta usú kaá kití.
-# text_por_sec = Aí, dizem que eles transformaram-se em grandes onças, assim, dizem, foram sumindo em direção à mata.
-# text_sec_source = Avila (2021)
-# text_por_sec_source = Avila (2021)
-# acknowledgement = DACILAT Project, FAPESP's Process No. 2022/09158-5
-1	Ape	ape	ADV	ADVT	AdvType=Tim	6	advmod	_	SpaceAfter=No|TokenRange=0:3
-2	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=3:4
-3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	6	advmod	_	SpaceAfter=No|TokenRange=5:8
-4	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=8:9
-5	ta	ta	PRON	PRON	Number=Plur|Person=3|PronType=Prs	6	nsubj	_	TokenRange=10:12
-6	uyeréu	yeréu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=13:19
-7	yawaratewasú-itá	yawaratewasú	NOUN	N	Number=Plur	6	obj	_	SpaceAfter=No|TokenRange=20:36
-8	,	,	PUNCT	PUNCT	_	9	punct	_	TokenRange=36:37
-9	yawé	yawé	ADV	ADVA	AdvType=Man	14	advmod	_	SpaceAfter=No|TokenRange=38:42
-10	,	,	PUNCT	PUNCT	_	11	punct	_	TokenRange=42:43
-11	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	14	advmod	_	SpaceAfter=No|TokenRange=44:47
-12	,	,	PUNCT	PUNCT	_	11	punct	_	TokenRange=47:48
-13	ta	ta	PRON	PRON	Number=Plur|Person=3|PronType=Prs	14	nsubj	_	TokenRange=49:51
-14	ukanhemu	kanhemu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	6	parataxis	_	TokenRange=52:60
-15	ta	ta	PRON	PRON	Number=Plur|Person=3|PronType=Prs	16	nsubj	_	TokenRange=61:63
-16	usú	sú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	6	parataxis	_	TokenRange=64:67
-17	kaá	kaá	NOUN	N	Number=Sing	16	iobj	_	TokenRange=68:71
-18	kití	kití	ADP	ADP	AdpType=Post	17	case	_	SpaceAfter=No|TokenRange=72:76
-19	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|TokenRange=76:77
-
-# sent_id = Casasnovas2006:9:8:92
-# text = Ape, paá, i manha umeẽ i xupé pusanga umusasawa arã i pira rupí, ti arã nhaã urubú-kunhã-itá umaã aé.
-# text_eng = TODO
-# text_eng_ggl = Then his mother gave him medicine to put on his body so that the vultures wouldn't see him.
-# text_por = Depois a mãe deu-lhe remédio para passar no corpo a fim de que os urubus não o vissem.
-# text_source = p. 88, No. 8-9
-# text_orig = Ape, paá, imanha umeé ixupé pusanga umusasawa arã ipira rupí, ti arã nhaã urubú kunhãitá umaã aé.
-# text_annotator = JLG
-# title = Tapayuna mirĩ puranga
-# title_orig = Tapayuna Mirí Puranga
-# title_por_orig = A moreninha
-# title_eng = The little brunette
-# text_sec = Ape paá i manha umeẽ i xupé pusanga umusasawa arã i pira rupí, ti arã nhaã urubú-kunhã-itá umaã aé.
-# text_por_sec = Então, contam, a mãe deu-lhe puçanga para passar pelo corpo, a fim de que as urubús fêmeas não o vissem.
-# text_sec_source = Avila (2021)
-# text_por_sec_source = Avila (2021)
-# annotator_comment = sentence already in 'yrl_complin-ud-test.conllu' (Avila2021:0:0:542)
-# acknowledgement = DACILAT Project, FAPESP's Process No. 2022/09158-5
-1	Ape	ape	ADV	ADVT	AdvType=Tim	7	advmod	_	SpaceAfter=No|TokenRange=0:3
-2	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=3:4
-3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	7	advmod	_	SpaceAfter=No|TokenRange=5:8
-4	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=8:9
-5	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	TokenRange=10:11
-6	manha	manha	NOUN	N	Number=Sing	7	nsubj	_	TokenRange=12:17
-7	umeẽ	meẽ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=18:22
-8	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	obl	_	TokenRange=23:24
-9	xupé	xupé	ADP	ADP	AdpType=Post	8	case	_	TokenRange=25:29
-10	pusanga	pusanga	NOUN	N	Number=Sing	7	obj	_	TokenRange=30:37
-11	umusasawa	musasawa	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	10	acl:relcl	_	TokenRange=38:47
-12	arã	arã	SCONJ	SCONJ	_	11	mark	_	TokenRange=48:51
-13	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	TokenRange=52:53
-14	pira	pira	NOUN	N	Number=Sing	11	obl	_	TokenRange=54:58
-15	rupí	rupí	ADP	ADP	AdpType=Post	14	case	_	SpaceAfter=No|TokenRange=59:63
-16	,	,	PUNCT	PUNCT	_	21	punct	_	TokenRange=63:64
-17	ti	ti	PART	NEG	PartType=Neg|Polarity=Neg	21	advmod	_	TokenRange=65:67
-18	arã	arã	SCONJ	SCONJ	_	21	mark	_	TokenRange=68:71
-19	nhaã	nhaã	DET	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	20	det	_	TokenRange=72:76
-20	urubú-kunhã-itá	urubú-kunhã	NOUN	N	Number=Plur	21	nsubj	_	TokenRange=77:92
-21	umaã	maã	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	11	advcl	_	TokenRange=93:97
-22	aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No|TokenRange=98:100
-23	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|TokenRange=100:101
-
-# sent_id = Casasnovas2006:9:17:101
-# text = Ape, paá, nhaã apigá uyana uyumana aé, urasú suka kití ximirikú arã.
-# text_eng = TODO
-# text_eng_ggl = Soon that man ran and hugged her and took her to his house as his wife.
-# text_por = Logo aquele homem correu e abraçou-a e a levou para sua casa como esposa.
-# text_source = p. 89, No. 18
-# text_orig = Ape, paá, nhaã apigá uyana uyumana aé, urasú suka kití ximirikú arã.
-# text_annotator = JLG
-# title = Tapayuna mirĩ puranga
-# title_orig = Tapayuna Mirí Puranga
-# title_por_orig = A moreninha
-# title_eng = The little brunette
-# acknowledgement = DACILAT Project, FAPESP's Process No. 2022/09158-5
-1	Ape	ape	ADV	ADVT	AdvType=Tim	7	advmod	_	SpaceAfter=No|TokenRange=0:3
-2	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=3:4
-3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	7	advmod	_	SpaceAfter=No|TokenRange=5:8
-4	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=8:9
-5	nhaã	nhaã	DET	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	6	det	_	TokenRange=10:14
-6	apigá	apigá	NOUN	N	Number=Sing	7	nsubj	_	TokenRange=15:20
-7	uyana	yana	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=21:26
-8	uyumana	yumana	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	7	parataxis	_	TokenRange=27:34
-9	aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No|TokenRange=35:37
-10	,	,	PUNCT	PUNCT	_	11	punct	_	TokenRange=37:38
-11	urasú	rasú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	7	parataxis	_	TokenRange=39:44
-12	suka	uka	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	11	obl	_	TokenRange=45:49
-13	kití	kití	ADP	ADP	AdpType=Post	12	case	_	TokenRange=50:54
-14	ximirikú	simirikú	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	11	obl	_	TokenRange=55:63
-15	arã	arã	ADP	ADP	AdpType=Post	14	case	_	SpaceAfter=No|TokenRange=64:67
-16	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|TokenRange=67:68
-
-# sent_id = Casasnovas2006:9:26:110
-# text = Amú kwema, paá, i mena unheẽ: asú rẽ apinaitika.
-# text_eng = TODO
-# text_eng_ggl = The other day the husband said: I'm going fishing.
-# text_por = Outro dia o marido disse: vou pescar.
-# text_source = p. 89, No. 26
-# text_orig = Amú kwema, paá, imena unheé: asúré apinaitika.
-# text_annotator = JLG
-# title = Tapayuna mirĩ puranga
-# title_orig = Tapayuna Mirí Puranga
-# title_por_orig = A moreninha
-# title_eng = The little brunette
-# text_sec = Amú kuẽma paá i mena unheẽ: ― Asú rẽ apinaitika.
-# text_por_sec = No outro dia, contam, seu marido disse: ― Vou pescar.
-# text_sec_source = Avila (2021)
-# text_por_sec_source = Avila (2021)
-# acknowledgement = DACILAT Project, FAPESP's Process No. 2022/09158-5
-1	Amú	amú	DET	IND	Number=Sing|PronType=Ind	2	det	_	TokenRange=0:3
-2	kwema	kwema	NOUN	N	Number=Sing	8	obl	_	SpaceAfter=No|TokenRange=4:9
-3	,	,	PUNCT	PUNCT	_	4	punct	_	TokenRange=9:10
-4	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	8	advmod	_	SpaceAfter=No|TokenRange=11:14
-5	,	,	PUNCT	PUNCT	_	4	punct	_	TokenRange=14:15
-6	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	TokenRange=16:17
-7	mena	mena	NOUN	N	Number=Sing	8	nsubj	_	TokenRange=18:22
-8	unheẽ	nheẽ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=23:28
-9	:	:	PUNCT	PUNCT	_	12	punct	_	TokenRange=28:29
-10	asú	sú	AUX	AUXFR	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	12	aux	_	TokenRange=30:33
-11	rẽ	rẽ	PART	IMPF	_	12	advmod	_	TokenRange=34:36
-12	apinaitika	pinaitika	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	8	ccomp	_	SpaceAfter=No|TokenRange=37:47
-13	.	.	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|TokenRange=47:48
-
-# sent_id = Casasnovas2006:9:32:116
-# text = Mairamé, paá, waimĩ usendú tiapú unheengari puranga umbeú sesewara, ape, paá, waimĩ usemu ukara kití, umaã, paá, iwaté ana uyupiri usú uikú, usú ana iwaka kití i membira mirĩ irumu, i anama-itá piri.
-# text_eng = TODO
-# text_eng_ggl = When the old woman heard a beautiful farewell song, she went outside and saw that she was already going up. She went to heaven with her little son, close to her relatives.
-# text_por = Quando a velha escutou um canto bonito de despedida, saiu para fora e viu que ela já ia subindo. Foi para o céu com seu filhinho, perto de seus parentes.
-# text_source = p. 89, No. 32
-# text_orig = Mairamé, paá, waimí usendú tiapú unhengai puranga umbeú sesewara, ape, paá, waimí usemu ukara kití, umaã, paá, iwatéana uyupiri usú uikú, usuana iwaka kití imembira mirí irumu, ianamaitá piri.
-# text_annotator = JLG
-# title = Tapayuna mirĩ puranga
-# title_orig = Tapayuna Mirí Puranga
-# title_por_orig = A moreninha
-# title_eng = The little brunette
-# text_sec = Mairamé paá waimĩ usendú, tiapú unheengari puranga, umbeú sesewara, ape paá waimĩ usemu ukara kití, umaã paá iwaté ana uyupiri usú uikú, [...].
-# text_por_sec = Quando a velha a escutou, ela cantava alto e belamente, despedindo-se, aí a velha saiu para o terreiro e viu que ela já ia subindo alto, [...].
-# text_sec_source = Avila (2021)
-# text_por_sec_source = Avila (2021)
-# annotator_comment = sentence already in 'yrl_complin-ud-test.conllu' (Avila2021:0:0:306)
-# acknowledgement = DACILAT Project, FAPESP's Process No. 2022/09158-5
-1	Mairamé	mairamé	SCONJ	SCONJR	_	6	mark	_	SpaceAfter=No|TokenRange=0:7
-2	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=7:8
-3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	6	advmod	_	SpaceAfter=No|TokenRange=9:12
-4	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=12:13
-5	waimĩ	waimĩ	NOUN	N	Number=Sing	6	nsubj	_	TokenRange=14:19
-6	usendú	sendú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	18	advcl	_	TokenRange=20:26
-7	tiapú	tiapú	ADV	ADVA	AdvType=Man	8	advmod	_	TokenRange=27:32
-8	unheengari	nheengari	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	6	ccomp	_	TokenRange=33:43
-9	puranga	puranga	ADV	ADVA	AdvType=Man	8	advmod	_	TokenRange=44:51
-10	umbeú	mbeú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	6	parataxis	_	TokenRange=52:57
-11	sesewara	sesewara	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	10	obj	_	SpaceAfter=No|TokenRange=58:66
-12	,	,	PUNCT	PUNCT	_	13	punct	_	TokenRange=66:67
-13	ape	ape	ADV	ADVT	AdvType=Tim	18	advmod	_	SpaceAfter=No|TokenRange=68:71
-14	,	,	PUNCT	PUNCT	_	15	punct	_	TokenRange=71:72
-15	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	18	advmod	_	SpaceAfter=No|TokenRange=73:76
-16	,	,	PUNCT	PUNCT	_	15	punct	_	TokenRange=76:77
-17	waimĩ	waimĩ	NOUN	N	Number=Sing	18	nsubj	_	TokenRange=78:83
-18	usemu	semu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=84:89
-19	ukara	ukara	NOUN	N	Number=Sing|Rel=Abs	18	obl	_	TokenRange=90:95
-20	kití	kití	ADP	ADP	AdpType=Post	19	case	_	SpaceAfter=No|TokenRange=96:100
-21	,	,	PUNCT	PUNCT	_	22	punct	_	TokenRange=100:101
-22	umaã	maã	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	18	parataxis	_	SpaceAfter=No|TokenRange=102:106
-23	,	,	PUNCT	PUNCT	_	24	punct	_	TokenRange=106:107
-24	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	22	advmod	_	SpaceAfter=No|TokenRange=108:111
-25	,	,	PUNCT	PUNCT	_	24	punct	_	TokenRange=111:112
-26	iwaté	iwaté	ADV	ADVC	AdvType=Loc	28	advmod	_	TokenRange=113:118
-27	ana	ana	PART	PFV	Aspect=Perf	28	advmod	_	TokenRange=119:122
-28	uyupiri	yupiri	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	22	ccomp	_	TokenRange=123:130
-29	usú	sú	AUX	AUXFR	Mood=Ind|Person=3|VerbForm=Fin	28	aux	_	TokenRange=131:134
-30	uikú	ikú	AUX	AUXFS	Mood=Ind|Person=3|VerbForm=Fin	28	aux	_	SpaceAfter=No|TokenRange=135:139
-31	,	,	PUNCT	PUNCT	_	32	punct	_	TokenRange=139:140
-32	usú	sú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	28	parataxis	_	TokenRange=141:144
-33	ana	ana	PART	PFV	Aspect=Perf	32	advmod	_	TokenRange=145:148
-34	iwaka	iwaka	NOUN	N	Number=Sing	32	iobj	_	TokenRange=149:154
-35	kití	kití	ADP	ADP	AdpType=Post	34	case	_	TokenRange=155:159
-36	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	_	TokenRange=160:161
-37	membira	membira	NOUN	N	Number=Sing	32	obl	_	TokenRange=162:169
-38	mirĩ	mirĩ	ADJ	A	_	37	amod	_	TokenRange=170:174
-39	irumu	irumu	ADP	ADP	AdpType=Post	37	case	_	SpaceAfter=No|TokenRange=175:180
-40	,	,	PUNCT	PUNCT	_	42	punct	_	TokenRange=180:181
-41	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	42	nmod:poss	_	TokenRange=182:183
-42	anama-itá	anama	NOUN	N	Number=Plur	32	obl	_	TokenRange=184:193
-43	piri	piri	ADP	ADP	AdpType=Post	42	case	_	SpaceAfter=No|TokenRange=194:198
-44	.	.	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No|TokenRange=198:199
-
-# sent_id = Casasnovas2006:10:12:131
-# text = Kuíri rerikuté remanduári puranga indé arã ti arã reruyari retana ne resé.
-# text_eng = TODO
-# text_eng_ggl = Now you have to think about not being too proud of what you don't have.
-# text_por = Agora você tem de pensar para não se orgulhar demais daquilo que você não tem.
-# text_source = p. 93, No. 15
-# text_orig = Kuíri rerikuté remandwari puranga indé arã ti arã reruyari retana ne resé.
-# text_annotator = JLG
-# title = Wainambí, mangwarí
-# title_orig = Wainambí, Mangwarí
-# title_por_orig = O Beija-flor e o Maguari
-# title_por = O beija-flor e o maguari
-# title_eng = The hummingbird and the maguari
-# acknowledgement = DACILAT Project, FAPESP's Process No. 2022/09158-5
-1	Kuíri	kuíri	ADV	ADVT	AdvType=Tim	2	advmod	_	TokenRange=0:5
-2	rerikuté	rikuté	VERB	V	Mood=Imp,Ind|Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=6:14
-3	remanduári	manduári	VERB	V	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	2	xcomp	_	TokenRange=15:25
-4	puranga	puranga	ADV	ADVA	AdvType=Man	3	advmod	_	TokenRange=26:33
-5	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	3	obl	_	TokenRange=34:38
-6	arã	arã	ADP	ADP	AdpType=Post	5	case	_	TokenRange=39:42
-7	ti	ti	PART	NEG	PartType=Neg|Polarity=Neg	9	advmod	_	TokenRange=43:45
-8	arã	arã	SCONJ	SCONJ	_	9	mark	_	TokenRange=46:49
-9	reruyari	ruyari	VERB	V	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	3	ccomp	_	TokenRange=50:58
-10	retana	retana	ADV	ADVS	AdvType=Deg	9	advmod	_	TokenRange=59:65
-11	ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|PronType=Prs	9	obl	_	TokenRange=66:68
-12	resé	resé	ADP	ADP	AdpType=Post|Rel=Cont	11	case	_	SpaceAfter=No|TokenRange=69:73
-13	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=73:74
-
-# sent_id = Casasnovas2006:11:6:137
-# text = Ape, paá, yepé ara Kurasí usenúi nhaã mukũi tayera-itá mena-itá.
-# text_eng = TODO
-# text_eng_ggl = One day the Sun called the husbands of his two daughters.
-# text_por = Um dia o Sol chamou os maridos de suas duas filhas.
-# text_source = p. 94, No. 6
-# text_orig = Ape, paá, yepé ara Kurasí usenúi nhaã mukũi tayeraitá menaitá.
-# text_annotator = JLG
-# title = Kurasí resewara
-# title_orig = Kurasí Resewara
-# title_por_orig = História do Sol
-# title_eng = Story of the Sun
-# acknowledgement = DACILAT Project, FAPESP's Process No. 2022/09158-5
-# reviewer1 = Leonel Figueiredo de Alencar
-1	Ape	ape	ADV	ADVT	AdvType=Tim	8	advmod	_	SpaceAfter=No|TokenRange=0:3
-2	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=3:4
-3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	8	advmod	_	SpaceAfter=No|TokenRange=5:8
-4	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=8:9
-5	yepé	yepé	DET	ART	Definite=Ind|PronType=Art	6	det	_	TokenRange=10:14
-6	ara	ara	NOUN	N	Number=Sing	8	obl	_	TokenRange=15:18
-7	Kurasí	kurasí	NOUN	N	Number=Sing	8	nsubj	_	TokenRange=19:25
-8	usenúi	senúi	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=26:32
-9	nhaã	nhaã	DET	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	12	det	_	TokenRange=33:37
-10	mukũi	mukũi	NUM	CARD	NumType=Card	11	nummod	_	TokenRange=38:43
-11	tayera-itá	tayera	NOUN	N	Number=Plur|Number[psor]=Sing|Person[psor]=3|Rel=NCont	12	nmod:poss	_	TokenRange=44:54
-12	mena-itá	mena	NOUN	N	Number=Plur	8	obj	_	SpaceAfter=No|TokenRange=55:63
-13	.	.	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|TokenRange=63:64
-
-# sent_id = Casasnovas2006:11:29:160
-# text = Aape, paá, aintá usú aintá uwatá kukwera rupí.
-# text_eng = TODO
-# text_por = Eles foram ver na capoeira.
-# text_source = p. 95, No. 38
-# text_orig = Aápe, paá, aintá usú aintá uwatá kukwera rupí.
-# text_annotator = Juliana Lopes Gurgel
-# acknowledgement = DACILAT Project, FAPESP's Process No. 2022/09158-5
-# reviewer1 = Leonel Figueiredo de Alencar
-1	Aape	aape	ADV	ADVT	AdvType=Tim	8	advmod	_	SpaceAfter=No|TokenRange=0:4
-2	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=4:5
-3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	8	advmod	_	SpaceAfter=No|TokenRange=6:9
-4	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=9:10
-5	aintá	aintá	PRON	PRON	Number=Plur|Person=3|PronType=Prs	8	nsubj	_	TokenRange=11:16
-6	usú	sú	AUX	AUXFR	Mood=Ind|Person=3|VerbForm=Fin	8	aux	_	TokenRange=17:20
-7	aintá	aintá	PRON	PRON	Number=Plur|Person=3|PronType=Prs	8	expl	_	TokenRange=21:26
-8	uwatá	watá	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=27:32
-9	kukwera	kukwera	NOUN	N	Number=Sing	8	obl	_	TokenRange=33:40
-10	rupí	rupí	ADP	ADP	AdpType=Post	9	case	_	SpaceAfter=No|TokenRange=41:45
-11	.	.	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|TokenRange=45:46
-
-# sent_id = Casasnovas2006:7:1:1
-# text = Yepé ara paá taína-itá taunheẽ ta ramunha tamakwarí tuyué supé: — Abú, puxiwera paá marandua yandé.
-# text_eng = One day, they say, children said to their grandfather, old Tamaquari: "Grandpa, we have bad news.
-# text_por = Um dia, contam, crianças disseram para o seu avô, o velho Tamaquari: — Vovô, temos uma má notícia. [Adapt. transl.]
-# text_source = p. 83, No. 1-2
-# title = Tamakwarí Ukwasá
-# title_por = A sabedoria do Tamaquari
-# text_orig = Yepé ara paá, tainaitá taunheé taramunha tamakwarí tuyué supé: Abú, puxwera paá marandúa yandé.
-# text_annotator = Leonel Figueiredo de Alencar (LFdeA)
-1	Yepé	yepé	DET	ART	Definite=Ind|PronType=Art	2	det	_	TokenRange=0:4
-2	ara	ara	NOUN	N	Number=Sing	5	obl	_	TokenRange=5:8
-3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	5	advmod	_	TokenRange=9:12
-4	taína-itá	taína	NOUN	N	Number=Plur	5	nsubj	_	TokenRange=13:22
-5	taunheẽ	nheẽ	VERB	V	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	TokenRange=23:30
-6	ta	ta	PRON	PRON2	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	TokenRange=31:33
-7	ramunha	tamunha	NOUN	N	Number=Sing|Rel=Cont	5	iobj	_	TokenRange=34:41
-8	tamakwarí	tamakwarí	PROPN	PROPN	_	9	nmod:poss	_	TokenRange=42:51
-9	tuyué	tuyué	NOUN	N	Number=Sing	7	appos	_	TokenRange=52:57
-10	supé	supé	ADP	ADP	AdpType=Post	7	case	_	SpaceAfter=No|TokenRange=58:62
-11	:	:	PUNCT	PUNCT	_	17	punct	_	TokenRange=62:63
-12	—	—	PUNCT	PUNCT	_	17	punct	_	TokenRange=63:64
-13	Abú	abú	NOUN	N	Number=Sing	17	vocative	_	SpaceAfter=No|TokenRange=65:68
-14	,	,	PUNCT	PUNCT	_	13	punct	_	TokenRange=68:69
-15	puxiwera	puxiwera	ADJ	A	_	17	amod	_	TokenRange=70:78
-16	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	17	advmod	_	TokenRange=79:82
-17	marandua	marandua	NOUN	N	Number=Sing	5	ccomp	_	TokenRange=83:91
-18	yandé	yandé	PRON	PRON	Number=Plur|Person=1|PronType=Prs	17	dislocated	_	SpaceAfter=No|TokenRange=92:97
-19	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=97:98
-
-# sent_id = Casasnovas2006:0:0:18
-# text = Yamunhã-putari panhẽ maã aé umundú waá.
-# text_eng = We want to do everything he said.
-# text_por = Queremos fazer tudo o que ele mandou.
-# text_source = p. 36
-# text_orig = Yamunhã putari panhe maã aé umundú waá.
-# text_annotator = LFdeA
-1-2	Yamunhã-putari	_	_	_	_	_	_	_	TokenRange=0:14
-1	Yamunhã	munhã	VERB	V	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
-2	putari	putari	AUX	AUXN	Compound=Yes|VerbForm=Inf	1	aux	_	_
-3	panhẽ	panhẽ	PRON	TOT	PronType=Tot	4	det	_	TokenRange=15:20
-4	maã	maã	PRON	IND	PronType=Ind	1	obj	_	TokenRange=21:24
-5	aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	TokenRange=25:27
-6	umundú	mundú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	4	acl:relcl	_	TokenRange=28:34
-7	waá	waá	PRON	REL	Number=Sing|PronType=Rel	6	obj	_	SpaceAfter=No|TokenRange=35:38
-8	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=38:39
-
-# sent_id = Casasnovas2006:0:0:19
-# text = Yukasara suú yamaã waá kaá upé usika ana.
-# text_eng = The hunter we saw in the forest has arrived.
-# text_por = Chegou o caçador que vimos na floresta.
-# text_source = p. 37
-# text_orig = Yukasara suú yamaã waá kaá upé usikana
-# text_annotator = LFdeA
-1	Yukasara	yukasara	NOUN	N	Number=Sing|Style=Rare	7	nsubj	_	LDeriv=yuká|StandardForm=Uyukasara|StandardPerson=3|TokenRange=0:8
-2	suú	suú	NOUN	N	Number=Sing	1	nmod	_	TokenRange=9:12
-3	yamaã	maã	VERB	V	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	1	acl:relcl	_	TokenRange=13:18
-4	waá	waá	PRON	REL	Number=Sing|PronType=Rel	3	obj	_	TokenRange=19:22
-5	kaá	kaá	NOUN	N	Number=Sing	3	obl	_	TokenRange=23:26
-6	upé	upé	ADP	ADP	AdpType=Post	5	case	_	TokenRange=27:30
-7	usika	sika	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=31:36
-8	ana	ana	PART	PFV	Aspect=Perf	7	advmod	_	SpaceAfter=No|TokenRange=37:40
-9	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|TokenRange=40:41
-
-# sent_id = Rodrigues1890:1-1-1:170:170
-# text = Mairamé reputari ramé isú se piri.
-# text_eng = TODO
-# text_por = Quando quiseres vai ter comigo.
-# text_source = p. 28
-# text_orig = Mairamé re putare ramé içu ce pêre.
-# text_annotator = Leonel Figueiredo de Alencar
-# text_orig_transcriber = Susan Gabriela Huallpa Huanacuni, Biblioteca Brasiliana Guita e José Mindlin
-# text_por_modernizer = Susan Gabriela Huallpa Huanacuni, Biblioteca Brasiliana Guita e José Mindlin
-# text_por_gloss = Quando tu quiseres quando vai migo ter com.
-1	Mairamé	mairamé	SCONJ	SCONJR	_	2	mark	_	TokenRange=0:7
-2	reputari	putari	VERB	V	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	4	advcl	_	TokenRange=8:16
-3	ramé	ramé	SCONJ	SCONJ	_	2	mark	_	TokenRange=17:21
-4	isú	sú	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=22:25
-5	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	obl	_	TokenRange=26:28
-6	piri	piri	ADP	ADP	AdpType=Post	5	case	_	SpaceAfter=No|TokenRange=29:33
-7	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=33:34
-
-# sent_id = Rodrigues1890:1-1-4:1:101
-# text = Yepé apigawa menasara urikú ximirikú taíra.
-# text_eng = A married man had a wife and children.
-# text_por = Um homem casado tinha mulher e filhos.
-# title_orig = CURUPIRA PANEMA IRUMO
-# title_por = O Curupira e o infeliz
-# text_source = p. 39
-# text_orig = Yepé apegaua menaçara u ricó che miricó taira.
-# text_annotator = LFdeA
-1	Yepé	yepé	DET	ART	Definite=Ind|PronType=Art	2	det	_	TokenRange=0:4
-2	apigawa	apigawa	NOUN	N	Number=Sing	3	nmod:poss	_	TokenRange=5:12
-3	menasara	menasara	NOUN	N	Number=Sing	4	nsubj	_	TokenRange=13:21
-4	urikú	rikú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=22:27
-5	ximirikú	simirikú	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	4	obj	_	TokenRange=28:36
-6	taíra	taíra	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	5	conj	_	SpaceAfter=No|TokenRange=37:42
-7	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=42:43
-
-# sent_id = Rodrigues1890:1-1-9:101:101
-# text = — Se ramunha, remeẽ aú ne remiára?
-# text_eng = "My grandfather, will you give me your game to eat?"
-# text_por = — Meu avô, tu me dás tua caça para comer?
-# text_source = p. 77
-# text_orig = — Ce ramonha, re meen cha ú ne remiara?
-# title_orig = CURUPIRA CAÍMA ETA IRUMO
-# title_por = O curupira e os perdidos
-# text_annotator = LFdeA
-1	—	—	PUNCT	PUNCT	_	5	punct	_	TokenRange=-1:0
-2	Se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	TokenRange=1:3
-3	ramunha	tamunha	NOUN	N	Number=Sing|Rel=Cont	5	vocative	_	SpaceAfter=No|TokenRange=4:11
-4	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=11:12
-5	remeẽ	meẽ	VERB	V	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=13:18
-6	aú	ú	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	5	xcomp	_	TokenRange=19:21
-7	ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	TokenRange=22:24
-8	remiára	semiára	NOUN	N	Number=Sing|Rel=Cont	6	obj	_	SpaceAfter=No|TokenRange=25:32
-9	?	?	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=32:33
-
-# sent_id = Rodrigues1890:1-1-9:102:102
-# text = — Eré.
-# text_eng = "Yes."
-# text_por = — Sim.
-# text_source = p. 77
-# text_orig = — Eré.
+# sent_id = Rodrigues1890:1-1-1:13:103
+# text = — Eẽ! será se miarerú?
+# text_eng = "Is it possible my grandson?"
+# text_por = — É possível meu neto?
+# text_por_gloss = — Sim! é possível meu neto?
+# text_source = p. 24
+# text_orig = — Heen! cerá ce miarerú?
 # text_annotator = LFdeA
 1	—	—	PUNCT	PUNCT	_	2	punct	_	TokenRange=-1:0
-2	Eré	eré	PART	CONS	PartType=Mod|Polarity=Pos	0	root	_	SpaceAfter=No|TokenRange=1:4
-3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=4:5
+2	Eẽ	eẽ	PART	AFF	_	0	root	_	SpaceAfter=No|TokenRange=1:3
+3	!	!	PUNCT	PUNCT	_	2	punct	_	TokenRange=3:4
+4	será	será	PART	PQ	PartType=Int	2	advmod	_	TokenRange=5:9
+5	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	TokenRange=10:12
+6	miarerú	temiarerú	NOUN	N	Number=Sing|Rel=Cont|Typo=Yes	2	vocative	_	CorrectForm=remiarerú|SpaceAfter=No|TokenRange=13:20
+7	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=20:21
 
-# sent_id = Rodrigues1890:1-1-9:104:104
-# text = Umeẽ, aintá uú.
-# text_eng = He gave it to them, they ate it.
-# text_eng_ggl = Yes, they ate.
-# text_por = Deu, eles comeram.
-# text_source = p. 77
-# text_orig = O meen, aintá o ú.
+# sent_id = Rodrigues1890:1-1-4:7:107
+# text = Aé upaka.
+# text_eng = He woke up.
+# text_por = Ele acordou.
+# text_source = p. 39
+# text_orig = Aé u poca.
+# title_number = IV
+# title_orig = CURUPIRA CURUMI ETA IRUMO
+# variant_number = 1
+# place = Rio Branco
+# title_por = O Curupira e os meninos
 # text_annotator = LFdeA
-1	Umeẽ	meẽ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=0:4
-2	,	,	PUNCT	PUNCT	_	4	punct	_	TokenRange=4:5
-3	aintá	aintá	PRON	PRON	Number=Plur|Person=3|PronType=Prs	4	nsubj	_	TokenRange=6:11
-4	uú	ú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	1	parataxis	_	SpaceAfter=No|TokenRange=12:14
-5	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=14:15
+1	Aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:2
+2	upaka	paka	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=3:8
+3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=8:9
 
-# sent_id = Rodrigues1890:1-1-9:158:158
-# text = Aiwana usú aintá rakakwera usasema usú uikú.
-# text_eng = He then went after them screaming.
-# text_por = Foi então atrás deles gritando.
+# sent_id = Rodrigues1890:1-1-9:154:154
+# text = Kurupira usuaxara: — Yawé tenhẽ!
+# text_eng = Curupira replied: "That's the one!"
+# text_por = O Curupira respondeu: — É esse mesmo!
 # text_source = p. 78
-# text_orig = Aé ana o ço aintá racacuera o çacema o ço o icó.
+# text_orig = Curupira oçuachara. — Yaué tenhen!
 # text_annotator = LFdeA
-1	Aiwana	aiwana	ADV	ADVT	AdvType=Tim	2	advmod	_	TokenRange=0:6
-2	usú	sú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=7:10
-3	aintá	aintá	PRON	PRON2	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	obl	_	TokenRange=11:16
-4	rakakwera	rakakwera	ADP	ADP	AdpType=Post|Rel=Cont	3	case	_	TokenRange=17:26
-5	usasema	sasema	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	2	parataxis	_	TokenRange=27:34
-6	usú	sú	AUX	AUXFR	Mood=Ind|Person=3|VerbForm=Fin	5	aux	_	TokenRange=35:38
-7	uikú	ikú	AUX	AUXFS	Mood=Ind|Person=3|VerbForm=Fin	5	aux	_	SpaceAfter=No|TokenRange=39:43
-8	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=43:44
-
-# sent_id = Rodrigues1890:1-1-9:159:159
-# text = — Se rukwera! se rukwera!…
-# text_eng = "My flesh! my flesh!…"
-# text_por = — Minha carne! minha carne!…
-# text_source = p. 78
-# text_orig = — Ce roô cuera! ce roô cuera!...
-# text_annotator = LFdeA
-1	—	—	PUNCT	PUNCT	_	3	punct	_	TokenRange=-1:0
-2	Se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	TokenRange=1:3
-3	rukwera	sukwera	NOUN	N	Number=Sing|Rel=Cont	0	root	_	SpaceAfter=No|TokenRange=4:11
-4	!	!	PUNCT	PUNCT	_	3	punct	_	TokenRange=11:12
-5	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	TokenRange=13:15
-6	rukwera	sukwera	NOUN	N	Number=Sing|Rel=Cont	3	parataxis	_	SpaceAfter=No|TokenRange=16:23
-7	!	!	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|TokenRange=23:24
-8	…	…	PUNCT	PUNCT	_	3	punct	_	TokenRange=24:25
+1	Kurupira	kurupira	NOUN	N	Number=Sing	2	nsubj	_	TokenRange=0:8
+2	usuaxara	suaxara	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=9:17
+3	:	:	PUNCT	PUNCT	_	5	punct	_	TokenRange=17:18
+4	—	—	PUNCT	PUNCT	_	5	punct	_	TokenRange=18:19
+5	Yawé	yawé	ADV	ADVA	AdvType=Man	2	ccomp	_	TokenRange=20:24
+6	tenhẽ	tenhẽ	PART	FOC	Foc=Yes|PartType=Emp	5	advmod	_	SpaceAfter=No|TokenRange=25:30
+7	!	!	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=30:31
 
 # sent_id = Rodrigues1890:1-1-9:160:160
 # text = Sukwera usuaxara i xupé "Oho!" ukaíma-itá i marika upé.
@@ -2483,81 +1879,6 @@
 12	upé	upé	ADP	ADP	AdpType=Post	11	case	_	SpaceAfter=No|TokenRange=51:54
 13	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=54:55
 
-# sent_id = Rodrigues1890:1-2-3:501:501
-# text = Muíri yasí riré umusema mukũi taína, yepé kunhã, yepé apigawa.
-# text_eng = After a few months she gave birth to two children, a woman and a man.
-# text_por = Depois de alguns meses pariu duas crianças, uma mulher e um homem.
-# text_source = Rodrigues, 120
-# text_orig = Muire yacé riré u mucema mucoin taina, yepé cunhan, yepé apegaua.
-# title_orig = CUNHAN ETÁ MALOCA
-# text_sec = Muíri yasí riré umusemu mukũi taína, yepé kunhã, yepé apigawa.
-# text_sec_source = Avila (2021)
-# text_por_source = Avila (2021)
-# text_annotator = LFdeA
-1	Muíri	muíri	DET	INDQ	PronType=Ind	2	det	_	TokenRange=0:5
-2	yasí	yasí	NOUN	N	Number=Sing	4	obl	_	TokenRange=6:10
-3	riré	riré	ADP	ADP	AdpType=Post	2	case	_	TokenRange=11:15
-4	umusema	musema	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=16:23
-5	mukũi	mukũi	NUM	CARD	NumType=Card	6	nummod	_	TokenRange=24:29
-6	taína	taína	NOUN	N	Number=Sing	4	obj	_	SpaceAfter=No|TokenRange=30:35
-7	,	,	PUNCT	PUNCT	_	9	punct	_	TokenRange=35:36
-8	yepé	yepé	DET	ART	Definite=Ind|PronType=Art	9	det	_	TokenRange=37:41
-9	kunhã	kunhã	NOUN	N	Number=Sing	6	appos	_	SpaceAfter=No|TokenRange=42:47
-10	,	,	PUNCT	PUNCT	_	12	punct	_	TokenRange=47:48
-11	yepé	yepé	DET	ART	Definite=Ind|PronType=Art	12	det	_	TokenRange=49:53
-12	apigawa	apigawa	NOUN	N	Number=Sing	9	conj	_	SpaceAfter=No|TokenRange=54:61
-13	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=61:62
-
-# sent_id = Rodrigues1890:2-7:1:101
-# text = — Mitú eruri se igara asú arama aú tuyuka.
-# text_eng = "Mutum bring my canoe so I can go eat clay."
-# text_eng_ggl = "Mutum brings my canoe so I can go eat clay."
-# text_por = — Mutum traz minha canoa para eu ir comer barro.
-# text_source = p. 159
-# title_number = VII
-# text_orig = — Mytu erure ce igara cha çu arama cha ú tuyuca.
-# text_annotator = LFdeA
-1	—	—	PUNCT	PUNCT	_	3	punct	_	TokenRange=-1:0
-2	Mitú	mitú	NOUN	N	Number=Sing	3	vocative	_	TokenRange=1:5
-3	eruri	ruri	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=6:11
-4	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	TokenRange=12:14
-5	igara	igara	NOUN	N	Number=Sing	3	obj	_	TokenRange=15:20
-6	asú	sú	AUX	AUXFR	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	8	aux	_	TokenRange=21:24
-7	arama	arama	SCONJ	SCONJ	_	8	mark	_	TokenRange=25:30
-8	aú	ú	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	3	advcl	_	TokenRange=31:33
-9	tuyuka	tuyuka	NOUN	N	Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=34:40
-10	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=40:41
-
-# sent_id = Rodrigues1890:2-9:1:101
-# text = Wainambí, paá, usú Mawarí piri.
-# text_eng = Hummingbird, they say, went to Maguary.
-# text_por = O Beija-flor, contam, foi ter com o Maguary.
-# text_source = p. 163
-# text_orig = Uanamby, paá, u çu Mauary pêre.
-# title_orig = MAUARY UANAMBY IRUMO
-# title_por = O maguari e o beija-flor
-# title_number = X
-# text_annotator = LFdeA
-1	Wainambí	wainambí	NOUN	N	Number=Sing	5	nsubj	_	SpaceAfter=No|TokenRange=0:8
-2	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=8:9
-3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	5	advmod	_	SpaceAfter=No|TokenRange=10:13
-4	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=13:14
-5	usú	sú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=15:18
-6	Mawarí	mawarí	NOUN	N	Number=Sing	5	obl	_	TokenRange=19:25
-7	piri	piri	ADP	ADP	AdpType=Post	6	case	_	SpaceAfter=No|TokenRange=26:30
-8	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=30:31
-
-# sent_id = Rodrigues1890:2-9:5:105
-# text = — Yasú.
-# text_eng = "Let's do it.
-# text_por = — Vamos.
-# text_source = p. 163
-# text_orig = — Yá çu.
-# text_annotator = LFdeA
-1	—	—	PUNCT	PUNCT	_	2	punct	_	TokenRange=-1:0
-2	Yasú	sú	VERB	V	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=1:5
-3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=5:6
-
 # sent_id = Rodrigues1890:2-11:35:35
 # text = — Oh! se ruaya!
 # text_eng = "Oh! my brother-in-law!"
@@ -2579,136 +1900,174 @@
 5	ruaya	suaya	NOUN	N	Number=Sing|Rel=Cont	0	root	_	SpaceAfter=No|TokenRange=8:13
 6	!	!	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=13:14
 
-# sent_id = Rodrigues1890:2-14:45:650
-# text = Aiwana unheẽ ximirikú supé: — Iruri kisé.
-# text_eng = TODO
-# text_por = Disse à mulher: — Traze a faca.
-# text_por_gloss = Então disse mulher à: — Traz a faca.
-# text_source = p. 193
-# text_orig = Aé uana ué in che mericó çupé: — Irure quicé,
-# text_annotator = Leonel Figueiredo de Alencar
+# sent_id = Rodrigues1890:2-14:1:500
+# text = Mikura urikú, paá, tayera mena Arirambá.
+# text_eng = The opossum, they say, had a kingfisher son-in-law.
+# text_eng_ggl = The mucura, they say, had an ariramba son-in-law.
+# text_por = A mucura, contam, tinha um genro ariramba.
+# text_por_gloss = A Mucura tinha, contam, genro Ariramba.
+# text_por_orig = Dizem que a Mucura tinha uma filha casada com o Ariramba,
+# text_source = p. 191
+# text_orig = Micura u ricó, paá, taira mena Arirambá.
+# title_orig = MICURA ARIRAMBÁ IRUMO
+# title_por = A micura e a ariramba
+# title_number = XV
+# place = Amazonas
+# text_sec = Mikura urikú paá tayera mena warirambá.
+# text_por_sec = A mucura, contam, tinha um genro ariramba.
+# text_sec_source = Avila (2021)
+# text_por_sec_source = Avila (2021)
 # text_orig_transcriber = Susan Gabriela Huallpa Huanacuni, Biblioteca Brasiliana Guita e José Mindlin
-# text_por_modernizer = Susan Gabriela Huallpa Huanacuni, Biblioteca Brasiliana Guita e José Mindlin
-1	Aiwana	aiwana	ADV	ADVT	AdvType=Tim	2	advmod	_	TokenRange=0:6
-2	unheẽ	nheẽ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=7:12
-3	ximirikú	simirikú	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	2	iobj	_	TokenRange=13:21
-4	supé	supé	ADP	ADP	AdpType=Post	3	case	_	SpaceAfter=No|TokenRange=22:26
-5	:	:	PUNCT	PUNCT	_	7	punct	_	TokenRange=26:27
-6	—	—	PUNCT	PUNCT	_	7	punct	_	TokenRange=27:28
-7	Iruri	ruri	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	ccomp	_	TokenRange=29:34
-8	kisé	kisé	NOUN	N	Number=Sing	7	obj	_	SpaceAfter=No|TokenRange=35:39
+# text_annotator = LFdeA
+1	Mikura	mikura	NOUN	N	Number=Sing	2	nsubj	_	TokenRange=0:6
+2	urikú	rikú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=7:12
+3	,	,	PUNCT	PUNCT	_	4	punct	_	TokenRange=12:13
+4	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	2	advmod	_	SpaceAfter=No|TokenRange=14:17
+5	,	,	PUNCT	PUNCT	_	4	punct	_	TokenRange=17:18
+6	tayera	tayera	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	7	nmod:poss	_	TokenRange=19:25
+7	mena	mena	NOUN	N	Number=Sing	2	obj	_	TokenRange=26:30
+8	Arirambá	arirambá	NOUN	N	Number=Sing	7	nmod	_	SpaceAfter=No|TokenRange=31:39
 9	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=39:40
 
-# sent_id = Rodrigues1890:3-2:100:1000
-# text = Pamarí-itá umunhã raĩ aintá ruka paraná árupi.
-# text_eng = The Pamaris still make their houses on the river.
-# text_por = Os pamaris ainda fazem as casas deles em cima do rio.
-# text_source = p. 214
-# text_orig = Pamari etá u munhan ráin aintá ruca paraná arpe.
-# title = O dilúvio
-# title_number = II
-# place = Rio Purus
-# text_sec = Pamarí-itá umunhã rẽ aintá ruka paraná árupi.
-# text_por_sec = Os pamaris ainda fazem suas casas em cima do rio.
+# sent_id = Rodrigues1890:3-6:1:1001
+# text = Yepé apigawa ximirikú irumu urikú taíra-itá pú-mukũi.
+# text_eng = A man and his wife had seven sons.
+# text_por = Um homem e sua esposa tinham sete filhos.
+# text_source = p. 223
+# title_orig = TAMECAN
+# title_por = As Plêiades
+# text_orig = Yepé apegaua chemericó irumo u ricó taíra etá po mocoin.
+# text_annotator = LFdeA
+1	Yepé	yepé	DET	ART	Definite=Ind|PronType=Art	2	det	_	TokenRange=0:4
+2	apigawa	apigawa	NOUN	N	Number=Sing	5	nsubj	_	TokenRange=5:12
+3	ximirikú	simirikú	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	2	nmod	_	TokenRange=13:21
+4	irumu	irumu	ADP	ADP	AdpType=Post	3	case	_	TokenRange=22:27
+5	urikú	rikú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=28:33
+6	taíra-itá	taíra	NOUN	N	Number=Plur|Number[psor]=Sing|Person[psor]=3|Rel=NCont	5	obj	_	TokenRange=34:43
+7	pú-mukũi	pú-mukũi	NUM	CARD	NumType=Card	6	nummod	_	SpaceAfter=No|TokenRange=44:52
+8	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=52:53
+
+# sent_id = Rodrigues1890:3-6:3:1003
+# text = — Papá, ixé ambaú-putari.
+# text_eng = — Daddy, I want to eat.
+# text_por = — Papai, eu quero comer.
+# text_source = p. 223
+# text_orig = Papá, cha ambaú putare.
+# text_annotator = LFdeA
+1	—	—	PUNCT	PUNCT	_	2	punct	_	TokenRange=0:1
+2	Papá	papá	NOUN	N	Number=Sing	5	vocative	_	SpaceAfter=No|TokenRange=2:6
+3	,	,	PUNCT	PUNCT	_	2	punct	_	TokenRange=6:7
+4	ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	TokenRange=8:11
+5-6	ambaú-putari	_	_	_	_	_	_	_	SpaceAfter=No|TokenRange=12:24
+5	ambaú	mbaú	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+6	putari	putari	AUX	AUXN	Compound=Yes|VerbForm=Inf	5	aux	_	_
+7	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=24:25
+
+# sent_id = Rodrigues1890:3-6:4:1004
+# text = — Mamá, ixé ambaú-putari.
+# text_eng = "Mommy, I want to eat."
+# text_por = — Mamãe, eu quero comer.
+# text_source = p. 223
+# text_orig = Mamá, cha ambaú putare.
+# text_annotator = LFdeA
+1	—	—	PUNCT	PUNCT	_	2	punct	_	TokenRange=0:1
+2	Mamá	mamá	NOUN	N	Number=Sing	5	vocative	_	SpaceAfter=No|TokenRange=2:6
+3	,	,	PUNCT	PUNCT	_	2	punct	_	TokenRange=6:7
+4	ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	TokenRange=8:11
+5-6	ambaú-putari	_	_	_	_	_	_	_	SpaceAfter=No|TokenRange=12:24
+5	ambaú	mbaú	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+6	putari	putari	AUX	AUXN	Compound=Yes|VerbForm=Inf	5	aux	_	_
+7	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=24:25
+
+# sent_id = Stradelli1929:0:0:1
+# text = Maã arama reikupukú?
+# text_eng = Why are you delaying?
+# text_por = Por que demoras?
+# text_source = p. 466
+# text_orig = Má aráma reicô-pucú?
+# text_sec = Marama reikupukú?
+# text_sec_source = Avila (2021)
+# text_annotator = LFdeA
+1	Maã	maã	PRON	INT	PronType=Int	3	obl	_	TokenRange=0:3
+2	arama	arama	ADP	ADP	AdpType=Post	1	case	_	TokenRange=4:9
+3	reikupukú	ikupukú	VERB	V	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=10:19
+4	?	?	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=19:20
+
+# sent_id = Magalhaes1876:1-1-6:2:112
+# text = Intí maã arikú aé.
+# text_eng = No sir, I don't have it.
+# text_por = Não senhor, eu não a tenho.
+# text_source = p. 19
+# text_orig = Intimahã xa rekó ahé.
+# text_annotator = LFdeA
+1	Intí	intí	PART	NEG	PartType=Neg|Polarity=Neg	3	advmod	_	TokenRange=0:4
+2	maã	maã	PRON	IND	PronType=Ind	1	fixed	_	TokenRange=5:8
+3	arikú	rikú	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=9:14
+4	aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No|TokenRange=15:17
+5	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=17:18
+
+# sent_id = Magalhaes1876:2-3:1:201
+# text = — Resikari-putari será suú?
+# text_eng = "Do you want to go hunting?"
+# text_por = — Você quer ir ver caça?
+# text_source = p. 96
+# text_orig = — Recicári putári será cuú?
+# text_annotator = LFdeA
+1	—	—	PUNCT	PUNCT	_	2	punct	_	TokenRange=0:1
+2-3	Resikari-putari	_	_	_	_	_	_	_	TokenRange=2:17
+2	Resikari	sikari	VERB	V	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
+3	putari	putari	AUX	AUXN	Compound=Yes|VerbForm=Inf	2	aux	_	_
+4	será	será	PART	PQ	PartType=Int	2	advmod	_	TokenRange=18:22
+5	suú	suú	NOUN	N	Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=23:26
+6	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=26:27
+
+# sent_id = Magalhaes1876:2-19:4:104-2
+# text = — Kurupira utuká mirá rapupema.
+# text_eng = "It's Curupira who's who's hitting the buttress roots."
+# text_eng_ggl = "It's Curupira who's who's beating the sapopemas."
+# text_por = — É o Curupira que está batendo nas sapopemas.
+# text_source = p. 126
+# text_orig = Curupíra opeteca (otucá) mɨrá rapupệma.
+# text_sec = Kurupira upeteka mirá rapupema.
+# text_por_sec = O curupira bate na sapopema da árvore.
 # text_sec_source = Avila (2021)
 # text_por_sec_source = Avila (2021)
 # text_annotator = LFdeA
-1	Pamarí-itá	pamarí	NOUN	N	Number=Plur	2	nsubj	_	TokenRange=0:10
-2	umunhã	munhã	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=11:17
-3	raĩ	raĩ	PART	IMPF	_	2	advmod	_	TokenRange=18:21
-4	aintá	aintá	PRON	PRON2	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	TokenRange=22:27
-5	ruka	uka	NOUN	N	Number=Sing|Rel=Cont	2	obj	_	TokenRange=28:32
-6	paraná	paraná	NOUN	N	Number=Sing	7	nmod:poss	_	TokenRange=33:39
-7-8	árupi	_	_	_	_	_	_	_	SpaceAfter=No|TokenRange=40:45
-7	ara	ara	NOUN	N	Number=Sing	2	obl	_	_
-8	upé	upé	ADP	ADP	AdpType=Post|Clitic=Yes	7	case	_	_
-9	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=45:46
+1	—	—	PUNCT	PUNCT	_	3	punct	_	TokenRange=-1:0
+2	Kurupira	kurupira	NOUN	N	Number=Sing	3	nsubj	_	TokenRange=1:9
+3	utuká	tuká	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=10:15
+4	mirá	mirá	NOUN	N	Number=Sing	5	nmod:poss	_	TokenRange=16:20
+5	rapupema	sapupema	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	3	obj	_	SpaceAfter=No|TokenRange=21:29
+6	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=29:30
 
-# sent_id = Rodrigues1890:3-17:25:25
-# text = Usenú sendira: — Iruri nhaã muirá xayumukirimáu arama sesé.
-# text_eng = TODO
-# text_por = Chamou a irmã. — Traze aquele pau para eu forcejar nele.
-# text_source = p. 267
-# text_orig = U cenó cendyra: — Irure nhaá muirá cha iumu quirimáo arama cecé.
-# text_annotator = Leonel Figueiredo de Alencar
-# text_orig_transcriber = Susan Gabriela Huallpa Huanacuni, Biblioteca Brasiliana Guita e José Mindlin
-# text_por_modernizer = Susan Gabriela Huallpa Huanacuni, Biblioteca Brasiliana Guita e José Mindlin
-1	Usenú	senú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=0:5
-2	sendira	tendira	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	1	iobj	_	SpaceAfter=No|TokenRange=6:13
-3	:	:	PUNCT	PUNCT	_	5	punct	_	TokenRange=13:14
-4	—	—	PUNCT	PUNCT	_	5	punct	_	TokenRange=14:15
-5	Iruri	ruri	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	ccomp	_	TokenRange=16:21
-6	nhaã	nhaã	DET	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	7	det	_	TokenRange=22:26
-7	muirá	muirá	NOUN	N	Number=Sing	5	obj	_	TokenRange=27:32
-8	xayumukirimáu	mukirimáu	VERB	V	Mood=Ind|Number=Sing|Person=1|Style=Arch|VerbForm=Fin|Voice=Mid,Pass	5	advcl	_	ModernForm=ayumukirimbá|TokenRange=33:48
-9	arama	arama	SCONJ	SCONJ	_	8	mark	_	TokenRange=49:54
-10	sesé	resé	ADP	ADP	AdpType=Post|Number[grnd]=Sing|Person[grnd]=3|Rel=NCont	8	obl	_	SpaceAfter=No|TokenRange=55:59
-11	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=59:60
-
-# sent_id = Magalhaes1876:1-1-1:2:104
-# text = Supí, tenhẽ, arikú mukawa.
-# text_eng = Yes, sir, I do.
-# text_por = Sim, senhor, eu tenho.
-# text_source = p. 14
-# text_orig = Çupí, tenhén, xa rẹkộ mukáua.
-# text_annotator = LFdeA
-1	Supí	supí	PART	CERT	PartType=Mod	5	advmod	_	SpaceAfter=No|TokenRange=0:4
-2	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=4:5
-3	tenhẽ	tenhẽ	PART	FOC	Foc=Yes|PartType=Emp	1	advmod	_	SpaceAfter=No|TokenRange=6:11
-4	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=11:12
-5	arikú	rikú	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=13:18
-6	mukawa	mukawa	NOUN	N	Number=Sing	5	obj	_	SpaceAfter=No|TokenRange=19:25
-7	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=25:26
-
-# sent_id = Magalhaes1876:1-2-1:1:109
-# text = Ne rerikú será se mukawa?
-# text_eng = Do you have my shotgun?
-# text_por = Tem você a minha espingarda?
-# text_source = p. 18
-# text_orig = Nẹ rerekó será ce mukáua?
-# text_annotator = LFdeA
-1	Ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|PronType=Prs|Style=Arch	2	nsubj	_	ModernCase=Acc,Nom|ModernForm=Indé|ModernLemma=indé|TokenRange=0:2
-2	rerikú	rikú	VERB	V	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=3:9
-3	será	será	PART	PQ	PartType=Int	2	advmod	_	TokenRange=10:14
-4	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	TokenRange=15:17
-5	mukawa	mukawa	NOUN	N	Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=18:24
-6	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=24:25
-
-# sent_id = Magalhaes1876:2-19:1:101
-# text = — Maã taá nhaã teapú paraná upé?
-# text_eng = "What's that noise over there on the river?"
-# text_por = — Que barulho é esse lá no rio?
-# text_source = p. 126
-# text_orig = Mãhã tahá nhahã teapú paraná opé?
-# text_annotator = LFdeA
-1	—	—	PUNCT	PUNCT	_	2	punct	_	TokenRange=-1:0
-2	Maã	maã	PRON	INT	PronType=Int	0	root	_	TokenRange=1:4
-3	taá	taá	PART	CQ	PartType=Int	2	advmod	_	TokenRange=5:8
-4	nhaã	nhaã	DET	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	5	det	_	TokenRange=9:13
-5	teapú	teapú	NOUN	N	Number=Sing|Rel=Abs	2	nsubj	_	TokenRange=14:19
-6	paraná	paraná	NOUN	N	Number=Sing	5	nmod	_	TokenRange=20:26
-7	upé	upé	ADP	ADP	AdpType=Post	6	case	_	SpaceAfter=No|TokenRange=27:30
-8	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=30:31
-
-# sent_id = Magalhaes1876:1:2:2
-# text = Pituna ukiri uikú ií ripí-pe.
-# text_eng = The night was sleeping at the bottom of the water.
-# text_eng_man = Night was asleep in the bottom of the water.
-# text_eng_man_translator = Anonymous
-# text_por = A noite estava dormindo no fundo da água.
-# text_por_translator = Marcel Twardowsky Avila
-# text_source = p. 164
-# text_orig = Pitúna okệri oikộ ɨ rɨpɨpe.
+# sent_id = Magalhaes1876:1:13:13
+# text = Aé usenúi musapiri miasúa; ximirikú umundú aintá i ruba uka piri, usú upiamu arama yepé tukumã raínha.
+# text_eng = He called the three vassals; his wife sent them to her father's house to fetch a tucumã seed.
+# text_por = Ele chamou os três vassalos; sua esposa mandou-os à casa de seu pai, para irem buscar um caroço de tucumã. [Magalhães, 1876, p. 165, adapt.]
+# text_source = p. 165
+# text_orig = Ahé ocenõĩ muçapɨra miaçúa; xẹmirẹcó omundú aitá i rúba ộca píri, oçộ opiámo arãma iepé tucumã rainha.
 # text_annotator = LFdeA
 # spelling_adaptation = MTA
-1	Pituna	pituna	NOUN	N	Number=Sing	2	nsubj	_	TokenRange=0:6
-2	ukiri	kiri	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=7:12
-3	uikú	ikú	AUX	AUXFS	Mood=Ind|Person=3|VerbForm=Fin	2	aux	_	TokenRange=13:17
-4	ií	ií	NOUN	N	Number=Sing	5	nmod:poss	_	TokenRange=18:20
-5-6	ripí-pe	_	_	_	_	_	_	_	SpaceAfter=No|TokenRange=21:28
-5	ripí	tipí	NOUN	N	Number=Sing|Rel=Cont	2	obl	_	_
-6	pe	upé	ADP	ADP	AdpType=Post|Clitic=Yes	5	case	_	_
-7	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=28:29
+1	Aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:2
+2	usenúi	senúi	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=3:9
+3	musapiri	musapiri	NUM	CARD	NumType=Card	4	nummod	_	TokenRange=10:18
+4	miasúa	miasúa	NOUN	N	Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=19:25
+5	;	;	PUNCT	PUNCT	_	7	punct	_	TokenRange=25:26
+6	ximirikú	simirikú	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	7	nsubj	_	TokenRange=27:35
+7	umundú	mundú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	2	parataxis	_	TokenRange=36:42
+8	aintá	aintá	PRON	PRON	Number=Plur|Person=3|PronType=Prs	7	obj	_	TokenRange=43:48
+9	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	TokenRange=49:50
+10	ruba	tuba	NOUN	N	Number=Sing|Rel=Cont	11	nmod:poss	_	TokenRange=51:55
+11	uka	uka	NOUN	N	Number=Sing|Rel=Abs|Style=Arch	7	obl	_	ModernForm=ruka|ModernRel=Cont|TokenRange=56:59
+12	piri	piri	ADP	ADP	AdpType=Post	11	case	_	SpaceAfter=No|TokenRange=60:64
+13	,	,	PUNCT	PUNCT	_	15	punct	_	TokenRange=64:65
+14	usú	sú	AUX	AUXFR	Mood=Ind|Person=3|VerbForm=Fin	15	aux	_	TokenRange=66:69
+15	upiamu	piamu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	7	advcl	_	TokenRange=70:76
+16	arama	arama	SCONJ	SCONJ	_	15	mark	_	TokenRange=77:82
+17	yepé	yepé	DET	ART	Definite=Ind|PronType=Art	18	det	_	TokenRange=83:87
+18	tukumã	tukumã	NOUN	N	Number=Sing	19	nmod:poss	_	TokenRange=88:94
+19	raínha	taínha	NOUN	N	Number=Sing|Rel=Cont	15	obj	_	SpaceAfter=No|TokenRange=95:101
+20	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=101:102
 
 # sent_id = Magalhaes1876:1:15:15
 # text = Pepirari ramé pekanhemu kurí.
@@ -2724,41 +2083,95 @@
 4	kurí	kurí	PART	FUT	Tense=Fut	3	advmod	_	SpaceAfter=No|TokenRange=24:28
 5	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=28:29
 
-# sent_id = Magalhaes1876:1:19:19
-# text = Yasú yamaã?
-# text_eng = We will see?
-# text_por = Vamos ver? [Marcel Twardowsky Avila]
+# sent_id = Magalhaes1876:1:20:20
+# text = Yakumaíwa unheẽ: — Intí maã, kurumú taá yakanhemu kurí.
+# text_eng = The pilot said, "No, otherwise we'll get lost."
+# text_por = O piloto disse: — Não, senão nós nos perderemos. [Marcel Twardowsky Avila]
 # text_source = p. 166
-# text_orig = Iaçộ iamahã?
+# text_orig = Iacumãɨua onhehẽ: — Intimahã; curumũ tahá iacanhɨma curí.
 # text_annotator = LFdeA
 # spelling_adaptation = MTA
-1	Yasú	sú	AUX	AUXFR	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	2	aux	_	TokenRange=0:4
-2	yamaã	maã	VERB	V	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=5:10
-3	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=10:11
+1	Yakumaíwa	yakumaíwa	NOUN	N	Number=Sing	2	nsubj	_	TokenRange=0:9
+2	unheẽ	nheẽ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=10:15
+3	:	:	PUNCT	PUNCT	_	5	punct	_	TokenRange=15:16
+4	—	—	PUNCT	PUNCT	_	5	punct	_	TokenRange=16:17
+5	Intí	intí	PART	NEG	PartType=Neg|Polarity=Neg	2	ccomp	_	TokenRange=18:22
+6	maã	maã	PRON	IND	PronType=Ind	5	fixed	_	SpaceAfter=No|TokenRange=23:26
+7	,	,	PUNCT	PUNCT	_	10	punct	_	TokenRange=26:27
+8	kurumú	kurumú	SCONJ	SCONJR	_	10	mark	_	TokenRange=28:34
+9	taá	taá	PART	CQ	PartType=Int	10	advmod	_	TokenRange=35:38
+10	yakanhemu	kanhemu	VERB	V	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	5	advcl	_	TokenRange=39:48
+11	kurí	kurí	PART	FUT	Tense=Fut	10	advmod	_	SpaceAfter=No|TokenRange=49:53
+12	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=53:54
 
-# sent_id = Magalhaes1876:1:40:40
-# text = Asuí wirá-itá unheengari ara katú upé, kuẽma uri ramé, umururí arama ara.
-# text_eng = Since then, birds sing at appropriate times, when morning comes, to brighten the day.
-# text_por = Desde então, os pássaros cantam em momentos apropriados, quando quando vem a manhã, para alegrar o dia. [Marcel Twardowsky Avila]
-# text_source = p. 170-171
-# text_orig = Aá çuí uiráitá onhehengári ára catú upé, coẽma oúri ramé, omurộrí arãma ára.
+# sent_id = Magalhaes1876:1:21:21
+# text = Peyapukúi, yasú ana!
+# text_eng = Remai, let's go!
+# text_por = Remai, vamos! [Marcel Twardowsky Avila, adapt.]
+# text_source = p. 166
+# text_orig = Peapucúi, iaçộ ãna.
 # text_annotator = LFdeA
 # spelling_adaptation = MTA
-1	Asuí	asuí	ADV	ADVT	AdvType=Tim	3	advmod	_	TokenRange=0:4
-2	wirá-itá	wirá	NOUN	N	Number=Plur	3	nsubj	_	TokenRange=5:13
-3	unheengari	nheengari	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=14:24
-4	ara	ara	NOUN	N	Number=Sing	3	obl	_	TokenRange=25:28
-5	katú	katú	ADJ	A	_	4	amod	_	TokenRange=29:33
-6	upé	upé	ADP	ADP	AdpType=Post	4	case	_	SpaceAfter=No|TokenRange=34:37
-7	,	,	PUNCT	PUNCT	_	9	punct	_	TokenRange=37:38
-8	kuẽma	kuẽma	NOUN	N	Number=Sing	9	nsubj	_	TokenRange=39:44
-9	uri	yuri	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	3	advcl	_	TokenRange=45:48
-10	ramé	ramé	SCONJ	SCONJ	_	9	mark	_	SpaceAfter=No|TokenRange=49:53
-11	,	,	PUNCT	PUNCT	_	12	punct	_	TokenRange=53:54
-12	umururí	mururí	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	9	advcl	_	TokenRange=55:62
-13	arama	arama	SCONJ	SCONJ	_	12	mark	_	TokenRange=63:68
-14	ara	ara	NOUN	N	Number=Sing	12	obj	_	SpaceAfter=No|TokenRange=69:72
-15	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=72:73
+1	Peyapukúi	yapukúi	VERB	V	Mood=Imp,Ind|Number=Plur|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=0:9
+2	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=9:10
+3	yasú	sú	VERB	V	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	1	parataxis	_	TokenRange=11:15
+4	ana	ana	PART	PFV	Aspect=Perf	3	advmod	_	SpaceAfter=No|TokenRange=16:19
+5	!	!	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=19:20
+
+# sent_id = Magalhaes1876:1:30:30
+# text = Kunhamukú, suka upé, unheẽ i mena supé: — Aintá upirari pituna.
+# text_eng = The girl, at her house, said to her husband: "They opened the night.
+# text_por = A moça, em sua casa, disse a seu marido: — Eles abriram a noite. [Marcel Twardowsky Avila]
+# text_source = p. 168
+# text_orig = Cunhã-mucũ, çộca upé, onhehẽ i mệna çupé: — Aitá opirári pitúna.
+# text_annotator = LFdeA
+# spelling_adaptation = MTA
+1	Kunhamukú	kunhamukú	NOUN	N	Number=Sing	6	nsubj	_	SpaceAfter=No|TokenRange=0:9
+2	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=9:10
+3	suka	uka	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	6	obl	_	TokenRange=11:15
+4	upé	upé	ADP	ADP	AdpType=Post	3	case	_	SpaceAfter=No|TokenRange=16:19
+5	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=19:20
+6	unheẽ	nheẽ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=21:26
+7	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	TokenRange=27:28
+8	mena	mena	NOUN	N	Number=Sing	6	iobj	_	TokenRange=29:33
+9	supé	supé	ADP	ADP	AdpType=Post	8	case	_	SpaceAfter=No|TokenRange=34:38
+10	:	:	PUNCT	PUNCT	_	13	punct	_	TokenRange=38:39
+11	—	—	PUNCT	PUNCT	_	13	punct	_	TokenRange=39:40
+12	Aintá	aintá	PRON	PRON	Number=Plur|Person=3|PronType=Prs	13	nsubj	_	TokenRange=41:46
+13	upirari	pirari	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	6	ccomp	_	TokenRange=47:54
+14	pituna	pituna	NOUN	N	Number=Sing	13	obj	_	SpaceAfter=No|TokenRange=55:61
+15	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|TokenRange=61:62
+
+# sent_id = Magalhaes1876:1:35:35
+# text = Buyawasú membira umaã ramé yasitatawasú, unheẽ i mena supé: — Kuẽma uri uikú; asú ambuí ara pituna suí.
+# text_eng = The daughter of the Cobra Grande, when she saw the morning star, said to her husband: - Morning is coming; I will separate the day from the night.
+# text_por = A filha da Cobra-Grande, quando viu a estrela-d’alva, disse a seu marido: — A manhã está vindo; vou separar o dia da noite. [Marcel Twardowsky Avila, adapt.]
+# text_source = p. 169
+# text_orig = Boia-Uaçú menbɨra omahã ramé Iacɨtatá-uaçú, onhehẽ i ména çupé: — Coẽma oúri oikộ; xa çộ xa muĩn ára pitúna çuí.
+# text_annotator = LFdeA
+# spelling_adaptation = MTA
+1	Buyawasú	buya	NOUN	N	Degree=Aug|Number=Sing	2	nmod:poss	_	TokenRange=0:8
+2	membira	membira	NOUN	N	Number=Sing	3	nsubj	_	TokenRange=9:16
+3	umaã	maã	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	7	advcl	_	TokenRange=17:21
+4	ramé	ramé	SCONJ	SCONJ	_	3	mark	_	TokenRange=22:26
+5	yasitatawasú	yasitatawasú	NOUN	N	Number=Sing	3	obj	_	SpaceAfter=No|TokenRange=27:39
+6	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=39:40
+7	unheẽ	nheẽ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=41:46
+8	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	TokenRange=47:48
+9	mena	mena	NOUN	N	Number=Sing	7	iobj	_	TokenRange=49:53
+10	supé	supé	ADP	ADP	AdpType=Post	9	case	_	SpaceAfter=No|TokenRange=54:58
+11	:	:	PUNCT	PUNCT	_	14	punct	_	TokenRange=58:59
+12	—	—	PUNCT	PUNCT	_	14	punct	_	TokenRange=59:60
+13	Kuẽma	kuẽma	NOUN	N	Number=Sing	14	nsubj	_	TokenRange=61:66
+14	uri	yuri	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	7	ccomp	_	TokenRange=67:70
+15	uikú	ikú	AUX	AUXFS	Mood=Ind|Person=3|VerbForm=Fin	14	aux	_	SpaceAfter=No|TokenRange=71:75
+16	;	;	PUNCT	PUNCT	_	18	punct	_	TokenRange=75:76
+17	asú	sú	AUX	AUXFR	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	18	aux	_	TokenRange=77:80
+18	ambuí	mbuí	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	14	parataxis	_	TokenRange=81:86
+19	ara	ara	NOUN	N	Number=Sing	18	obj	_	TokenRange=87:90
+20	pituna	pituna	NOUN	N	Number=Sing	18	obl	_	TokenRange=91:97
+21	suí	suí	ADP	ADP	AdpType=Post	20	case	_	SpaceAfter=No|TokenRange=98:101
+22	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|TokenRange=101:102
 
 # sent_id = Magalhaes1876:1:43:43
 # text = Penhẽ pemunhã wana panhẽ maã ukanhemu; aresé peyeréu makakaí arama panhẽ ara upé; rewatá mirá rakanga rupí yatiri.
@@ -2790,36 +2203,45 @@
 20	yatiri	yatiri	VERB	V	VerbForm=Inf	16	advcl	_	SpaceAfter=No|TokenRange=107:113
 21	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=113:114
 
-# sent_id = Magalhaes1876:2:9:52
-# text = Amana ara usika ana yautí usemu arama.
-# text_eng = Rainy weather has arrived for the tortoise to come out.
-# text_por = O tempo da chuva chegou para o jabuti sair.
+# sent_id = Magalhaes1876:2:8:51
+# text = Yautí kwayé unheẽ: — Tenupá, yuruparí; amana ara ramé kurí asemu, asú ne rakakwera mamé katú awasemu indé; ameẽ kurí indé arama reyutima rekuyara, ixé.
+# text_eng = The tortoise said like this: "Let it be, devil; when it's raining I'll go out, I'll follow you as far as I can find you; I'll pay you back for burying me."
+# text_por = O jabuti disse assim: — Deixa estar, diabo; quando for o tempo da chuva eu saio, vou em teu encalço até onde te encontrar; eu te darei o troco por me enterrares.
 # text_source = p. 177
 # text_orig = TODO
 # text_annotator = LFdeA
-1	Amana	amana	NOUN	N	Number=Sing	2	nmod:poss	_	TokenRange=0:5
-2	ara	ara	NOUN	N	Number=Sing	3	nsubj	_	TokenRange=6:9
-3	usika	sika	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=10:15
-4	ana	ana	PART	PFV	Aspect=Perf	3	advmod	_	TokenRange=16:19
-5	yautí	yautí	NOUN	N	Number=Sing	6	nsubj	_	TokenRange=20:25
-6	usemu	semu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	3	advcl	_	TokenRange=26:31
-7	arama	arama	SCONJ	SCONJ	_	6	mark	_	SpaceAfter=No|TokenRange=32:37
-8	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=37:38
-
-# sent_id = Magalhaes1876:2:10:53
-# text = Yautí usemu usú ana yurupariwasú rakakwera.
-# text_eng = The tortoise left, went after the big devil.
-# text_por = O jabuti saiu, foi embora atrás da diabona.
-# text_source = p. 177
-# text_orig = TODO
-# text_annotator = LFdeA
-1	Yautí	yautí	NOUN	N	Number=Sing	2	nsubj	_	TokenRange=0:5
-2	usemu	semu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=6:11
-3	usú	sú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	2	parataxis	_	TokenRange=12:15
-4	ana	ana	PART	PFV	Aspect=Perf	3	advmod	_	TokenRange=16:19
-5	yurupariwasú	yuruparí	NOUN	N	Degree=Aug|Number=Sing	3	obl	_	TokenRange=20:32
-6	rakakwera	rakakwera	ADP	ADP	AdpType=Post|Rel=Cont	5	case	_	SpaceAfter=No|TokenRange=33:42
-7	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=42:43
+1	Yautí	yautí	NOUN	N	Number=Sing	3	nsubj	_	TokenRange=0:5
+2	kwayé	kwayé	ADV	ADVA	AdvType=Man	3	advmod	_	TokenRange=6:11
+3	unheẽ	nheẽ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=12:17
+4	:	:	PUNCT	PUNCT	_	14	punct	_	TokenRange=17:18
+5	—	—	PUNCT	PUNCT	_	14	punct	_	TokenRange=18:19
+6	Tenupá	tenupá	INTJ	INTJ	_	14	discourse	_	SpaceAfter=No|TokenRange=20:26
+7	,	,	PUNCT	PUNCT	_	8	punct	_	TokenRange=26:27
+8	yuruparí	yuruparí	NOUN	N	_	14	vocative	_	SpaceAfter=No|TokenRange=28:36
+9	;	;	PUNCT	PUNCT	_	8	punct	_	TokenRange=36:37
+10	amana	amana	NOUN	N	Number=Sing	11	nmod:poss	_	TokenRange=38:43
+11	ara	ara	NOUN	N	Number=Sing	14	obl	_	TokenRange=44:47
+12	ramé	ramé	ADP	ADP	AdpType=Post	11	case	_	TokenRange=48:52
+13	kurí	kurí	PART	FUT	Tense=Fut	14	advmod	_	TokenRange=53:57
+14	asemu	semu	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	3	ccomp	_	SpaceAfter=No|TokenRange=58:63
+15	,	,	PUNCT	PUNCT	_	16	punct	_	TokenRange=63:64
+16	asú	sú	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	14	parataxis	_	TokenRange=65:68
+17	ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|PronType=Prs	16	obl	_	TokenRange=69:71
+18	rakakwera	rakakwera	ADP	ADP	AdpType=Post|Rel=Cont	17	case	_	TokenRange=72:81
+19	mamé	mamé	ADV	ADVLC	AdvType=Loc|PronType=Rel	16	advmod	_	TokenRange=82:86
+20	katú	katú	PART	FOC	Foc=Yes|PartType=Emp	19	advmod	_	TokenRange=87:91
+21	awasemu	wasemu	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	19	advcl:relcl	_	TokenRange=92:99
+22	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	21	obj	_	SpaceAfter=No|TokenRange=100:104
+23	;	;	PUNCT	PUNCT	_	24	punct	_	TokenRange=104:105
+24	ameẽ	meẽ	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	16	parataxis	_	TokenRange=106:110
+25	kurí	kurí	PART	FUT	Tense=Fut	24	advmod	_	TokenRange=111:115
+26	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	24	iobj	_	TokenRange=116:120
+27	arama	arama	ADP	ADP	AdpType=Post	26	case	_	TokenRange=121:126
+28	reyutima	yutima	VERB	V	Mood=Imp,Ind|Number=Sing|Person=2|VerbForm=Fin	29	nmod:poss	_	TokenRange=127:135
+29	rekuyara	sekuyara	NOUN	N	Number=Sing|Rel=Cont	24	obj	_	SpaceAfter=No|TokenRange=136:144
+30	,	,	PUNCT	PUNCT	_	31	punct	_	TokenRange=144:145
+31	ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	24	nsubj	_	SpaceAfter=No|TokenRange=146:149
+32	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=149:150
 
 # sent_id = Magalhaes1876:2:16:59
 # text = Pipura usuaxara: — Rewatá ramé mukũi ara resuantí kurí aé irumu.
@@ -2845,61 +2267,31 @@
 12	irumu	irumu	ADP	ADP	AdpType=Post	11	case	_	SpaceAfter=No|TokenRange=57:62
 13	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=62:63
 
-# sent_id = Magalhaes1876:2:25:68
-# text = Paraná usuaxara: — Anheẽ iné arama nhaã yawé katú maãresé akwáu ana maã se ruba umunhã indé arama.
-# text_eng = The river replied: — I tell you this well because I knew what my father did to you.
-# text_eng_ggl = The river replied: — I tell you this well because I knew what my father did to him.
-# text_por = O rio respondeu: — Eu lhe falo isto assim bem porque eu soube o que meu pai lhe fez.
-# text_por_orig = O rio respondeu: — Eu falo a você isto assim bem porque eu soube o que meu pai fez a você.
-# text_source = p. 180
-# text_orig = Paraná oçuaxára: — Xa nhehẽ inệ arãma nhahã iaué catú mãharẹcệ xa quáu ãna mahã cẹ rúba omunhã indệ arãma.
+# sent_id = Magalhaes1876:2:20:63
+# text = Pipura unheẽ: — Aramé resú wana paraná mirĩ kití; aape kurí rewasemu se ruba turusú.
+# text_eng = The trail spoke: "Then go to the small river; there you will find my great father."
+# text_por = O rastro falou: — Então vá ao rio pequeno; lá acharás meu pai grande.
+# text_source = p. 179
+# text_orig = TODO
 # text_annotator = LFdeA
-1	Paraná	paraná	NOUN	N	Number=Sing	2	nsubj	_	TokenRange=0:6
-2	usuaxara	suaxara	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=7:15
-3	:	:	PUNCT	PUNCT	_	5	punct	_	TokenRange=15:16
-4	—	—	PUNCT	PUNCT	_	5	punct	_	TokenRange=16:17
-5	Anheẽ	nheẽ	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	2	ccomp	_	TokenRange=18:23
-6	iné	iné	PRON	PRON	Number=Sing|Person=2|PronType=Prs	5	iobj	_	TokenRange=24:27
-7	arama	arama	ADP	ADP	AdpType=Post	6	case	_	TokenRange=28:33
-8	nhaã	nhaã	PRON	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	5	obj	_	TokenRange=34:38
-9	yawé	yawé	ADV	ADVA	AdvType=Man	5	advmod	_	TokenRange=39:43
-10	katú	katú	ADV	ADVA	AdvType=Man	5	advmod	_	TokenRange=44:48
-11	maãresé	maãresé	SCONJ	SCONJR	_	12	mark	_	TokenRange=49:56
-12	akwáu	kwáu	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	5	advcl	_	TokenRange=57:62
-13	ana	ana	PART	PFV	Aspect=Perf	12	advmod	_	TokenRange=63:66
-14	maã	maã	PRON	INT	PronType=Int	17	obj	_	TokenRange=67:70
-15	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	TokenRange=71:73
-16	ruba	tuba	NOUN	N	Number=Sing|Rel=Cont	17	nsubj	_	TokenRange=74:78
-17	umunhã	munhã	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	12	ccomp	_	TokenRange=79:85
-18	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	17	obl	_	TokenRange=86:90
-19	arama	arama	ADP	ADP	AdpType=Post	18	case	_	SpaceAfter=No|TokenRange=91:96
-20	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=96:97
-
-# sent_id = Magalhaes1876:3:3:203
-# text = Yawareté usenú, usú akití, upuranú: — Maã-ta resasema reikú, Yautí?
-# text_eng = The jaguar heard it, went there, and asked: — What are you shouting, tortoise?
-# text_por = A onça ouviu, foi para lá , perguntou: — O que tu estás gritando, jabuti?
-# text_orig = Iauárẹtệ ocenõ, oçộ a kẹtệ, opuranú: — Mãnháta reçacẽma rẹikộ, Iauti?
-# text_source = p. 183
-# text_annotator = LFdeA
-# text_transcription = DACILAT Project, FAPESP's Process No. 2022/09158-5
-1	Yawareté	yawareté	NOUN	N	Number=Sing	2	nsubj	_	TokenRange=0:8
-2	usenú	senú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=9:14
-3	,	,	PUNCT	PUNCT	_	4	punct	_	TokenRange=14:15
-4	usú	sú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	2	parataxis	_	TokenRange=16:19
-5	akití	akití	ADV	ADVDI	AdvType=Loc|Deixis=Remt|PronType=Dem	4	advmod	_	SpaceAfter=No|TokenRange=20:25
-6	,	,	PUNCT	PUNCT	_	7	punct	_	TokenRange=25:26
-7	upuranú	puranú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	4	parataxis	_	SpaceAfter=No|TokenRange=27:34
-8	:	:	PUNCT	PUNCT	_	12	punct	_	TokenRange=34:35
-9	—	—	PUNCT	PUNCT	_	12	punct	_	TokenRange=36:37
-10-11	Maã-ta	_	_	_	_	_	_	_	TokenRange=38:44
-10	Maã	maã	PRON	INT	PronType=Int	12	obj	_	_
-11	ta	taá	PART	CQ	Clitic=Yes|PartType=Int	12	advmod	_	_
-12	resasema	sasema	VERB	V	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	7	ccomp	_	TokenRange=45:53
-13	reikú	ikú	AUX	AUXFS	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	12	aux	_	SpaceAfter=No|TokenRange=54:59
-14	,	,	PUNCT	PUNCT	_	15	punct	_	TokenRange=59:60
-15	Yautí	yautí	NOUN	N	Number=Sing	12	vocative	_	SpaceAfter=No|TokenRange=61:66
-16	?	?	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No|TokenRange=66:67
+1	Pipura	pipura	NOUN	N	Number=Sing	2	nsubj	_	TokenRange=0:6
+2	unheẽ	nheẽ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=7:12
+3	:	:	PUNCT	PUNCT	_	6	punct	_	TokenRange=12:13
+4	—	—	PUNCT	PUNCT	_	6	punct	_	TokenRange=13:14
+5	Aramé	aramé	ADV	ADVJ	AdvType=Cau	6	advmod	_	TokenRange=15:20
+6	resú	sú	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	ccomp	_	TokenRange=21:25
+7	wana	wana	PART	PFV	Aspect=Perf	6	advmod	_	TokenRange=26:30
+8	paraná	paraná	NOUN	N	Number=Sing	6	obl	_	TokenRange=31:37
+9	mirĩ	mirĩ	ADJ	A	_	8	amod	_	TokenRange=38:42
+10	kití	kití	ADP	ADP	AdpType=Post	8	case	_	SpaceAfter=No|TokenRange=43:47
+11	;	;	PUNCT	PUNCT	_	14	punct	_	TokenRange=47:48
+12	aape	aape	ADV	ADVDI	AdvType=Loc|Deixis=Remt|PronType=Dem	14	advmod	_	TokenRange=49:53
+13	kurí	kurí	PART	FUT	Tense=Fut	14	advmod	_	TokenRange=54:58
+14	rewasemu	wasemu	VERB	V	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	6	parataxis	_	TokenRange=59:67
+15	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	TokenRange=68:70
+16	ruba	tuba	NOUN	N	Number=Sing|Rel=Cont	14	obj	_	TokenRange=71:75
+17	turusú	turusú	ADJ	A	_	16	amod	_	SpaceAfter=No|TokenRange=76:82
+18	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=82:83
 
 # sent_id = Magalhaes1876:10:1:1001
 # text = Yepé apigawa unheẽ: — Asú apisika nhaã yautí.
@@ -2922,155 +2314,250 @@
 9	yautí	yautí	NOUN	N	Number=Sing	7	obj	_	SpaceAfter=No|TokenRange=38:43
 10	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=43:44
 
-# sent_id = Amorim1928:19:3:3
-# text = Yepé payé tuyué uikú waá ape upuká sé, ariré unheẽ: — Awá ukwáu, wirandé ana tenhẽ usika iké mira usara-itá uyumupinima waá se anga pupé.
-# text_eng = An old shaman who was there laughed heartily, then said: "Who knows, tomorrow the man-eaters will arrive and paint themselves in my shadow."
-# text_por = Um pajé velho que estava aí riu gostoso, depois disse: — Quem sabe, amanhã mesmo já chegam os comedores de gente que se pintam na minha sombra.
-# text_source = p. 309, No. 2-3
-# text_orig = Iepé paié tuiué oiku uaá ape opuká sé, ariré oneen: — Auá okuau, uirandé ana tenhé osyka iké mira-usaraetá oiumupinima uaá se anga pypé.
-# text_sec = Iepé paié tuiué oiku uaá ape opuká sé, ariré onheen: — Auá okuau, uirandé ana tenhé osyka iké mira-usaraetá oiumupinima uaá se anga pypé.
-# text_sec_source = Maslova (2018:155)
-# text_transcriber = Maslova (2018:155)
+# sent_id = Amorim1928:19:50:50
+# text = Nhaã tiapuwasú umunhã waá iwí urirí, paá, nhaã payé tuyué tenhẽ awá umunhã aé umukameẽ arama i kirimbasawa upaĩ mira xupé.
+# text_eng_ggl = That big bang that made the earth shake, they say, was that same old shaman who made it to show everyone his courage.
+# text_por = Aquele estrondo grande que fez a terra tremer, contam, foi esse mesmo pajé velho quem o fez para mostrar a toda a gente a valentia dele.
+# text_source = p. 310, No. 16
+# text_orig = Naa tyapu uasu omunhan uaá yuy oryry, paa, nhaa paié tuiué tenhé auá omunhan aé omukameen arama i kyrymbasaua upãe mira xupé.
 # text_annotator = LFdeA
-1	Yepé	yepé	DET	ART	Definite=Ind|PronType=Art	2	det	_	TokenRange=0:4
-2	payé	payé	NOUN	N	Number=Sing	3	nmod:poss	_	TokenRange=5:9
-3	tuyué	tuyué	NOUN	N	Number=Sing	7	nsubj	_	TokenRange=10:15
-4	uikú	ikú	AUX	COP	Mood=Ind|Person=3|VerbForm=Fin	6	cop	_	TokenRange=16:20
-5	waá	waá	PRON	REL	Number=Sing|PronType=Rel	6	nsubj	_	TokenRange=21:24
-6	ape	ape	ADV	ADVDI	AdvType=Loc|Deixis=Remt|PronType=Dem	3	acl:relcl	_	TokenRange=25:28
-7	upuká	puká	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=29:34
-8	sé	sé	ADV	ADVA	AdvType=Man	7	advmod	_	SpaceAfter=No|TokenRange=35:37
-9	,	,	PUNCT	PUNCT	_	11	punct	_	TokenRange=37:38
-10	ariré	ariré	ADV	ADVT	AdvType=Tim	11	advmod	_	TokenRange=39:44
-11	unheẽ	nheẽ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	7	parataxis	_	SpaceAfter=No|TokenRange=45:50
-12	:	:	PUNCT	PUNCT	_	15	punct	_	TokenRange=50:51
-13	—	—	PUNCT	PUNCT	_	15	punct	_	TokenRange=51:52
-14	Awá	awá	PRON	INT	PronType=Int	15	nsubj	_	TokenRange=53:56
-15	ukwáu	kwáu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	11	ccomp	_	SpaceAfter=No|TokenRange=57:62
-16	,	,	PUNCT	PUNCT	_	20	punct	_	TokenRange=62:63
-17	wirandé	wirandé	ADV	ADVT	AdvType=Tim	20	advmod	_	TokenRange=64:71
-18	ana	ana	PART	PFV	Aspect=Perf	20	advmod	_	TokenRange=72:75
-19	tenhẽ	tenhẽ	PART	FOC	Foc=Yes|PartType=Emp	20	advmod	_	TokenRange=76:81
-20	usika	sika	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	15	ccomp	_	TokenRange=82:87
-21	iké	iké	ADV	ADVDX	AdvType=Loc|Deixis=Prox|PronType=Dem	20	advmod	_	TokenRange=88:91
-22	mira	mira	NOUN	N	Number=Sing	23	nmod:poss	_	TokenRange=92:96
-23	usara-itá	usara	NOUN	N	Number=Plur	20	nsubj	_	TokenRange=97:106
-24	uyumupinima	yumupinima	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	23	acl:relcl	_	TokenRange=107:118
-25	waá	waá	PRON	REL	Number=Sing|PronType=Rel	24	nsubj	_	TokenRange=119:122
-26	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	TokenRange=123:125
-27	anga	anga	NOUN	N	Number=Sing	24	obl	_	TokenRange=126:130
-28	pupé	pupé	ADP	ADP	AdpType=Post	27	case	_	SpaceAfter=No|TokenRange=131:135
-29	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|TokenRange=135:136
+1	Nhaã	nhaã	DET	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	2	det	_	TokenRange=0:4
+2	tiapuwasú	tiapú	NOUN	N	Degree=Aug|Number=Sing	15	dislocated	_	TokenRange=5:14
+3	umunhã	munhã	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	2	acl:relcl	_	TokenRange=15:21
+4	waá	waá	PRON	REL	Number=Sing|PronType=Rel	3	nsubj	_	TokenRange=22:25
+5	iwí	iwí	NOUN	N	Number=Sing	6	nsubj	_	TokenRange=26:29
+6	urirí	rirí	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	3	ccomp	_	SpaceAfter=No|TokenRange=30:35
+7	,	,	PUNCT	PUNCT	_	8	punct	_	TokenRange=35:36
+8	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	14	advmod	_	SpaceAfter=No|TokenRange=37:40
+9	,	,	PUNCT	PUNCT	_	8	punct	_	TokenRange=40:41
+10	nhaã	nhaã	DET	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	11	det	_	TokenRange=42:46
+11	payé	payé	NOUN	N	Number=Sing	12	nmod:poss	_	TokenRange=47:51
+12	tuyué	tuyué	NOUN	N	Number=Sing	14	nsubj	_	TokenRange=52:57
+13	tenhẽ	tenhẽ	PART	FOC	Foc=Yes|PartType=Emp	12	advmod	_	TokenRange=58:63
+14	awá	awá	PRON	RELF	PronType=Rel	0	root	_	TokenRange=64:67
+15	umunhã	munhã	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	14	acl:relcl	_	TokenRange=68:74
+16	aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	15	obj	_	TokenRange=75:77
+17	umukameẽ	mukameẽ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	15	advcl	_	TokenRange=78:86
+18	arama	arama	SCONJ	SCONJ	_	17	mark	_	TokenRange=87:92
+19	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	TokenRange=93:94
+20	kirimbasawa	kirimbasawa	NOUN	N	Number=Sing	17	obj	_	TokenRange=95:106
+21	upaĩ	upaĩ	DET	TOT	PronType=Tot	22	det	_	TokenRange=107:111
+22	mira	mira	NOUN	N	Number=Sing	17	iobj	_	TokenRange=112:116
+23	xupé	xupé	ADP	ADP	AdpType=Post	22	case	_	SpaceAfter=No|TokenRange=117:121
+24	.	.	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No|TokenRange=121:122
 
-# sent_id = Amorim1928:21:38:38
-# text = Aé umusakú yandé pira yandé manha pira umusakú yandé pira!
-# text_por = Ela aquenta nosso corpo como corpo de nossa mãe!
-# text_source = p. 355-369, No. 38
-# text_orig = Aé omusaku iandé pira iandé manha pira omusaku iandé pira!
+# sent_id = Amorim1928:19:51:51
+# text = Kawará upurungitá kwayawé: — Kukuí, aikwé ana mira setá kwá paraná apira kití, iwasú kurí rewasemu tendawa puranga ne tawa arama.
+# text_eng = Kauará said: "Kukuhy, there are already a lot of people at the head of this river, it will be difficult to find a beautiful place for your city."
+# text_por = Kauará falou assim: — Kukuhy, já tem muita gente para a cabeceira deste rio, será custoso encontrares lugar bonito para tua cidade.
+# text_por_sec_alt = Maslova (2018:160-161)
+# text_source = p. 311, No. 50-51
+# text_orig = Kauará opurungetá koiaué: — Kukuhi, aikué ana mira setá koá paraná apyra kyty, iuasu kuri reuasemo tendaua puranga ne táua arama.
+# text_sec = [...], iwasú kurí rewasemu tendawa puranga ne tawa arama.
+# text_sec_source = Avila (2021)
+# text_por_sec = [...], será custoso encontrares um bom lugar para a tua cidade.
+# text_por_sec_source = Avila (2021)
+# text_transcriber = Maslova (2018:160-161)
+# text_annotator = LFdeA
+1	Kawará	kawará	PROPN	PROPN	_	2	nsubj	_	TokenRange=0:6
+2	upurungitá	purungitá	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=7:17
+3	kwayawé	kwayawé	ADV	ADVA	AdvType=Man	2	advmod	_	SpaceAfter=No|TokenRange=18:25
+4	:	:	PUNCT	PUNCT	_	8	punct	_	TokenRange=25:26
+5	—	—	PUNCT	PUNCT	_	8	punct	_	TokenRange=26:27
+6	Kukuí	kukuí	PROPN	PROPN	_	8	vocative	_	SpaceAfter=No|TokenRange=28:33
+7	,	,	PUNCT	PUNCT	_	6	punct	_	TokenRange=33:34
+8	aikwé	aikwé	PART	EXST	PartType=Exs	2	ccomp	_	TokenRange=35:40
+9	ana	ana	PART	PFV	Aspect=Perf	8	advmod	_	TokenRange=41:44
+10	mira	mira	NOUN	N	Number=Sing	8	nsubj	_	TokenRange=45:49
+11	setá	setá	DET	INDQ	PronType=Ind	10	det	_	TokenRange=50:54
+12	kwá	kwá	DET	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	13	det	_	TokenRange=55:58
+13	paraná	paraná	NOUN	N	Number=Sing	14	nmod:poss	_	TokenRange=59:65
+14	apira	apira	NOUN	N	Number=Sing	8	obl	_	TokenRange=66:71
+15	kití	kití	ADP	ADP	AdpType=Post	14	case	_	SpaceAfter=No|TokenRange=72:76
+16	,	,	PUNCT	PUNCT	_	17	punct	_	TokenRange=76:77
+17	iwasú	iwasú	ADJ	A	_	8	parataxis	_	TokenRange=78:83
+18	kurí	kurí	PART	FUT	Tense=Fut	17	advmod	_	TokenRange=84:88
+19	rewasemu	wasemu	VERB	V	Mood=Imp,Ind|Number=Sing|Person=2|VerbForm=Fin	17	csubj	_	TokenRange=89:97
+20	tendawa	tendawa	NOUN	N	Number=Sing|Rel=Abs	19	obj	_	TokenRange=98:105
+21	puranga	puranga	ADJ	A	_	20	amod	_	TokenRange=106:113
+22	ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	23	nmod:poss	_	TokenRange=114:116
+23	tawa	tawa	NOUN	N	Number=Sing	19	obl	_	TokenRange=117:121
+24	arama	arama	ADP	ADP	AdpType=Post	23	case	_	SpaceAfter=No|TokenRange=122:127
+25	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=127:128
+
+# sent_id = Amorim1928:19:74:74
+# text = Muíri yasí nhuntu ana uwatari Yasí umanú arama mairamé aé usú umaramunhã Ukayarí mira-etá resé.
+# text_eng = TODO
+# text_por = Já faltavam somente algumas luas para a Lua morrer quando ele foi guerrear contra as gentes do Ucaiari.
+# text_source = p. 312, No. 74
+# text_orig = Muuyre iasy nhunto ana oatare Iasy omanu arama maeramé aé osu omaramunhan Ukaiari miraetá resé.
+# text_annotator = LFdeA
+# text_orig_transcriber = Gabriela Lourenço Fernandes, Biblioteca Brasiliana Guita e José Mindlin
+# text_por_modernizer = Gabriela Lourenço Fernandes, Biblioteca Brasiliana Guita e José Mindlin
+1	Muíri	muíri	DET	INDQ	PronType=Ind	2	det	_	TokenRange=0:5
+2	yasí	yasí	NOUN	N	Number=Sing	5	nsubj	_	TokenRange=6:10
+3	nhuntu	nhuntu	ADV	ADV	_	5	advmod	_	TokenRange=11:17
+4	ana	ana	PART	PFV	Aspect=Perf	5	advmod	_	TokenRange=18:21
+5	uwatari	watari	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=22:29
+6	Yasí	yasí	NOUN	N	Number=Sing	7	nsubj	_	TokenRange=30:34
+7	umanú	manú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	5	advcl	_	TokenRange=35:40
+8	arama	arama	SCONJ	SCONJ	_	7	mark	_	TokenRange=41:46
+9	mairamé	mairamé	SCONJ	SCONJR	_	12	mark	_	TokenRange=47:54
+10	aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	12	nsubj	_	TokenRange=55:57
+11	usú	sú	AUX	AUXFR	Mood=Ind|Person=3|VerbForm=Fin	12	aux	_	TokenRange=58:61
+12	umaramunhã	maramunhã	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	5	advcl	_	TokenRange=62:72
+13	Ukayarí	ukayarí	PROPN	PROPN	_	14	nmod:poss	_	TokenRange=73:80
+14	mira-etá	mira	NOUN	N	Number=Plur	12	obl	_	TokenRange=81:89
+15	resé	resé	ADP	ADP	AdpType=Post|Rel=Cont	14	case	_	SpaceAfter=No|TokenRange=90:94
+16	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=94:95
+
+# sent_id = Amorim1928:21:5:1000
+# text = Kurimirĩ xinga paá aintá usaã sakusawa, sé usika aintá pira resé iwitú yawé, ape ana tenhẽ, nti awá ukwáu mayawé, aintá ukiri nhaã sakusawa pitérupi.
+# text_eng = After a while, they say, they felt pleasant heat reach their body like wind, and then, they say, no one knows how, they slept in the middle of that heat.
+# text_por = Daí a bocadinho, contam, sentiram calor gostoso chegar no seu corpo como vento, aí mesmo logo, contam, ninguém sabe como, dormiram no meio desse calor.
+# text_source = p. 355, No. 5
+# title_orig = TATÁ IÝPYRUNGAUA
+# title_por = Origem do fogo
+# title_number = I
+# text_orig = Kurimiri xinga paa aetá osaan sakusaua, sé osyka aetá pira resé yuytu iaué, ape ana tenhé, ntyo auá okuau maaiaué, aetá okere nhaa sakusaua pyterupé.
+# text_annotator = LFdeA
+# cross_reference = Avila2021:0:0:392
+# inputline = Yepé/art kurumiwasú nhaã mira-itá suiwara/adp unheẽ paá: — Amaã panhẽ yandé sasiára, maã/int taá yarikú?
+1	Kurimirĩ	kurimirĩ	ADV	ADVT	AdvType=Tim	5	advmod	_	TokenRange=0:8
+2	xinga	xinga	ADV	ADVS	AdvType=Deg	1	advmod	_	TokenRange=9:14
+3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	5	advmod	_	TokenRange=15:18
+4	aintá	aintá	PRON	PRON	Number=Plur|Person=3|PronType=Prs	5	nsubj	_	TokenRange=19:24
+5	usaã	saã	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=25:29
+6	sakusawa	sakusawa	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	5	obj	_	SpaceAfter=No|TokenRange=30:38
+7	,	,	PUNCT	PUNCT	_	9	punct	_	TokenRange=38:39
+8	sé	sé	ADJ	A	_	9	advmod	_	TokenRange=40:42
+9	usika	sika	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	5	parataxis	_	TokenRange=43:48
+10	aintá	aintá	PRON	PRON2	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	TokenRange=49:54
+11	pira	pira	NOUN	N	Number=Sing	9	obl	_	TokenRange=55:59
+12	resé	resé	ADP	ADP	AdpType=Post|Rel=Cont	11	case	_	TokenRange=60:64
+13	iwitú	iwitú	NOUN	N	Number=Sing	9	obl	_	TokenRange=65:70
+14	yawé	yawé	ADP	ADP	AdpType=Post	13	case	_	SpaceAfter=No|TokenRange=71:75
+15	,	,	PUNCT	PUNCT	_	16	punct	_	TokenRange=75:76
+16	ape	ape	ADV	ADVT	AdvType=Tim	26	advmod	_	TokenRange=77:80
+17	ana	ana	PART	PFV	Aspect=Perf	26	advmod	_	TokenRange=81:84
+18	tenhẽ	tenhẽ	PART	FOC	Foc=Yes|PartType=Emp	17	advmod	_	SpaceAfter=No|TokenRange=85:90
+19	,	,	PUNCT	PUNCT	_	22	punct	_	TokenRange=90:91
+20	nti	nti	PART	NEG	PartType=Neg|Polarity=Neg	22	advmod	_	TokenRange=92:95
+21	awá	awá	PRON	IND	PronType=Ind	22	nsubj	_	TokenRange=96:99
+22	ukwáu	kwáu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	26	parataxis	_	TokenRange=100:105
+23	mayawé	mayawé	ADV	ADVRA	AdvType=Man|PronType=Int	22	advmod	_	SpaceAfter=No|TokenRange=106:112
+24	,	,	PUNCT	PUNCT	_	22	punct	_	TokenRange=112:113
+25	aintá	aintá	PRON	PRON	Number=Plur|Person=3|PronType=Prs	26	nsubj	_	TokenRange=114:119
+26	ukiri	kiri	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	9	parataxis	_	TokenRange=120:125
+27	nhaã	nhaã	DET	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	28	det	_	TokenRange=126:130
+28	sakusawa	sakusawa	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	29	nmod:poss	_	TokenRange=131:139
+29-30	pitérupi	_	_	_	_	_	_	_	SpaceAfter=No|TokenRange=0:8
+29	pitera	pitera	NOUN	N	Number=Sing	26	obl	_	_
+30	upé	upé	ADP	ADP	AdpType=Post|Clitic=Yes	29	case	_	_
+31	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=149:150
+
+# sent_id = Amorim1928:21:40:40-2
+# text = Mirá resé tenhẽ aé uyumunhã!
+# text_por = De pau ela se faz!
+# text_source = p. 355-369, No. 40
+# text_orig = Myrá resé tenhé aé oiumunhan!
 # text_eng = TODO
 # text_orig_transcriber = Gabriela Lourenço Fernandes, Biblioteca Brasiliana Guita e José Mindlin
 # text_por_modernizer = Gabriela Lourenço Fernandes, Biblioteca Brasiliana Guita e José Mindlin
 # text_annotator = LFdeA
-1	Aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:2
-2	umusakú	musakú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=3:10
-3	yandé	yandé	PRON	PRON2	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs|Style=Arch	4	nmod:poss	_	ModernForm=yané|ModernLemma=yané|TokenRange=11:16
-4	pira	pira	NOUN	N	Number=Sing	2	obj	_	TokenRange=17:21
-5	yandé	yandé	PRON	PRON2	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs|Style=Arch	6	nmod:poss	_	ModernForm=yané|ModernLemma=yané|TokenRange=22:27
-6	manha	manha	NOUN	N	Number=Sing	7	nmod:poss	_	TokenRange=28:33
-7	pira	pira	NOUN	N	Number=Sing	8	nsubj	_	TokenRange=34:38
-8	umusakú	musakú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	2	parataxis	_	TokenRange=39:46
-9	yandé	yandé	PRON	PRON2	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs|Style=Arch	10	nmod:poss	_	ModernForm=yané|ModernLemma=yané|TokenRange=47:52
-10	pira	pira	NOUN	N	Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=53:57
-11	!	!	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=57:58
+1	Mirá	mirá	NOUN	N	Number=Sing	5	obl	_	TokenRange=0:4
+2	resé	resé	ADP	ADP	AdpType=Post|Rel=Cont	1	case	_	TokenRange=5:9
+3	tenhẽ	tenhẽ	PART	FOC	Foc=Yes|PartType=Emp	1	advmod	_	TokenRange=10:15
+4	aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	TokenRange=16:18
+5	uyumunhã	munhã	VERB	V	Mood=Ind|Person=3|VerbForm=Fin|Voice=Mid,Pass	0	root	_	SpaceAfter=No|TokenRange=19:27
+6	!	!	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=27:28
 
-# sent_id = Amorim1928:21:206:1206
-# text = Yepé kurumiwasú nhaã mira-itá suiwara unheẽ paá: — Amaã panhẽ yandé sasiára, maã taá yarikú?
-# text_eng = One of the young men among these people, they say, said: — I see us all sad, what do we have?
-# text_por = Um dos moços dentre essa gente, contam, disse: — Vejo todos nós tristes, que temos nós?
-# text_source = p. 363, No. 206-207
-# text_orig = Iepé kurumiuasu nhaa miraetá suhiuara onheen paa: — Xamaan upanhe iandé sasyara, maa taa iareku?
-# text_sec = Amaã panhẽ yandé sasiára, maã taá yarikú?
-# text_por_sec = Vejo todos nós tristes, o que temos nós?
-# text_sec_source = Avila (2021)
-# text_por_sec_source = Avila (2021)
+# sent_id = Amorim1928:21:43:43
+# text = Yepé usú igara pitérupi, uyupúi usú uikú Sakú Manha, amú uyapukúi usú uikú igara rupitá-pe.
+# text_por = Um foi no meio da canoa, dando de comer à Mãe do Quente, o outro foi remando na popa.
+# text_source = p. 355-369, No. 43
+# text_orig = Iepé osu ygara puterupé, oiupui osu oiku Saku Manha, amu oyapukue osu oiku ygara rupytá pe.
+# text_eng = TODO
+# text_orig_transcriber = Gabriela Lourenço Fernandes, Biblioteca Brasiliana Guita e José Mindlin
+# text_por_modernizer = Gabriela Lourenço Fernandes, Biblioteca Brasiliana Guita e José Mindlin
 # text_annotator = LFdeA
-1	Yepé	yepé	DET	ART	Definite=Ind|PronType=Art	2	det	_	TokenRange=0:4
-2	kurumiwasú	kurumiwasú	NOUN	N	Number=Sing	6	nsubj	_	TokenRange=5:15
-3	nhaã	nhaã	DET	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	4	det	_	TokenRange=16:20
-4	mira-itá	mira	NOUN	N	Number=Plur	2	nmod	_	TokenRange=21:29
-5	suiwara	suiwara	ADP	ADP	AdpType=Post	4	case	_	TokenRange=30:37
-6	unheẽ	nheẽ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=38:43
-7	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	6	advmod	_	SpaceAfter=No|TokenRange=44:47
-8	:	:	PUNCT	PUNCT	_	10	punct	_	TokenRange=47:48
-9	—	—	PUNCT	PUNCT	_	10	punct	_	TokenRange=48:49
-10	Amaã	maã	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	6	ccomp	_	TokenRange=50:54
-11	panhẽ	panhẽ	DET	TOT	PronType=Tot	12	det	_	TokenRange=55:60
-12	yandé	yandé	PRON	PRON	Number=Plur|Person=1|PronType=Prs	10	obj	_	TokenRange=61:66
-13	sasiára	sasiára	ADJ	A	_	10	xcomp	_	SpaceAfter=No|TokenRange=67:74
-14	,	,	PUNCT	PUNCT	_	17	punct	_	TokenRange=74:75
-15	maã	maã	PRON	INT	PronType=Int	17	obj	_	TokenRange=76:79
-16	taá	taá	PART	CQ	PartType=Int	17	advmod	_	TokenRange=80:83
-17	yarikú	rikú	VERB	V	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	10	parataxis	_	SpaceAfter=No|TokenRange=84:90
-18	?	?	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No|TokenRange=90:91
+1	Yepé	yepé	PRON	ART	Definite=Ind|PronType=Art	2	nsubj	_	TokenRange=0:4
+2	usú	sú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=5:8
+3	igara	igara	NOUN	N	Number=Sing	4	nmod:poss	_	TokenRange=9:14
+4-5	pitérupi	_	_	_	_	_	_	_	SpaceAfter=No|TokenRange=22:30
+4	pitera	pitera	NOUN	N	Number=Sing	2	obl	_	TokenRange=15:21
+5	upé	upé	ADP	ADP	AdpType=Post|Clitic=Yes	4	case	_	_
+6	,	,	PUNCT	PUNCT	_	7	punct	_	TokenRange=30:31
+7	uyupúi	yupúi	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	2	parataxis	_	TokenRange=32:38
+8	usú	sú	AUX	AUXFR	Mood=Ind|Person=3|VerbForm=Fin	7	aux	_	TokenRange=39:42
+9	uikú	ikú	AUX	AUXFS	Mood=Ind|Person=3|VerbForm=Fin	7	aux	_	TokenRange=43:47
+10	Sakú	sakú	NOUN	N	Number=Sing	11	nmod:poss	_	TokenRange=48:52
+11	Manha	manha	NOUN	N	Number=Sing	7	obj	_	SpaceAfter=No|TokenRange=53:58
+12	,	,	PUNCT	PUNCT	_	14	punct	_	TokenRange=58:59
+13	amú	amú	PRON	IND	Number=Sing|PronType=Ind	14	nsubj	_	TokenRange=60:63
+14	uyapukúi	yapukúi	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	7	parataxis	_	TokenRange=64:72
+15	usú	sú	AUX	AUXFR	Mood=Ind|Person=3|VerbForm=Fin	14	aux	_	TokenRange=73:76
+16	uikú	ikú	AUX	AUXFS	Mood=Ind|Person=3|VerbForm=Fin	14	aux	_	TokenRange=77:81
+17	igara	igara	NOUN	N	Number=Sing	18	nmod:poss	_	TokenRange=82:87
+18-19	rupitá-pe	_	_	_	_	_	_	_	SpaceAfter=No|TokenRange=88:97
+18	rupitá	supitá	NOUN	N	Number=Sing|Rel=Cont	14	obl	_	_
+19	pe	upé	ADP	ADP	AdpType=Post|Clitic=Yes	18	case	_	_
+20	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=97:98
 
-# sent_id = Amorim1928:22:138:138
-# text = Eré, kurumĩwasú, yasú yamusurí yandé piá, paá, yepé kunhãmukú unheẽ yakaré xupé!
-# text_eng = Well, boy, let's make our hearts happy, they say, said a girl to the alligator.
-# text_por = Bem, moço, vamos alegrar nosso coração, contam, disse uma moça ao Jacaré.
-# text_por_orig = Eré, moço, vamos alegrar nosso coração, contam, disse uma moça ao Jacaré.
-# text_source = p. 377, No. 38
-# text_orig_transcriber = Maslova (2018:125)
-# text_orig = Eré, kurumiuasu, iasu iamusury iandé pŷa, paa, iepé kunhãmuku onheen iakaré xupé!
-# text_annotator = Leonel Figueiredo de Alencar
-# reviewer1 = Hélio Leonam Barroso Silva
-1	Eré	eré	PART	CONS	PartType=Mod|Polarity=Pos	6	advmod	_	SpaceAfter=No|TokenRange=0:3
-2	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=3:4
-3	kurumĩwasú	kurumĩwasú	NOUN	N	Number=Sing	6	vocative	_	SpaceAfter=No|TokenRange=5:15
-4	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=15:16
-5	yasú	sú	AUX	AUXFR	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	6	aux	_	TokenRange=17:21
-6	yamusurí	musurí	VERB	V	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	14	ccomp	_	TokenRange=22:30
-7	yandé	yandé	PRON	PRON2	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs|Style=Arch	8	nmod:poss	_	ModernForm=yané|ModernLemma=yané|TokenRange=31:36
-8	piá	piá	NOUN	N	Number=Sing	6	obj	_	SpaceAfter=No|TokenRange=37:40
-9	,	,	PUNCT	PUNCT	_	10	punct	_	TokenRange=40:41
-10	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	14	advmod	_	SpaceAfter=No|TokenRange=42:45
-11	,	,	PUNCT	PUNCT	_	10	punct	_	TokenRange=45:46
-12	yepé	yepé	DET	ART	Definite=Ind|PronType=Art	13	det	_	TokenRange=47:51
-13	kunhãmukú	kunhãmukú	NOUN	N	Number=Sing	14	nsubj	_	TokenRange=52:61
-14	unheẽ	nheẽ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=62:67
-15	yakaré	yakaré	NOUN	N	Number=Sing	14	iobj	_	TokenRange=68:74
-16	xupé	xupé	ADP	ADP	AdpType=Post	15	case	_	SpaceAfter=No|TokenRange=75:79
-17	!	!	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No|TokenRange=79:80
-
-# sent_id = Amorim1928:6:382:382
-# text = Aé wapika ana uikú ií pu pé, ape upinú-pinú, umunhã uikú xiririwasú.
-# text_por = Já sentado dentro d’água aí principiou ventaventando, fazendo chiriri grande.
-# text_source = p. 149-168, No. 382
-# text_orig = Aé iuapyka ana oiku y py pé, ápe opinupinu, omunhan oiku xiriri uasu.
+# sent_id = Amorim1928:6:379:379
+# text = Ateíma-etá tuixawa indé kurí.
+# text_por = Serás o chefe dos preguiçosos.
+# text_por_source = p. 145, No. 377
+# text_source = p. 165, No. 379
+# text_orig = Iateymaetá tuixaua ndé kuri.
 # title_orig = MIRA BARÉ: PORONOMINARE
 # text_eng = TODO
-# text_sec = Aé uwapika ana uikú ií pupé, ape upinúpinú, umunhã uikú siririwasú.
-# text_por_sec = Ele já estava sentado dentro d'água, aí ficou peidando, fazendo bolha grande.
-# text_sec_source = Avila (2021)
-# text_por_sec_source = Avila (2021)
 # text_orig_transcriber = Gabriela Lourenço Fernandes, Biblioteca Brasiliana Guita e José Mindlin
 # text_por_modernizer = Gabriela Lourenço Fernandes, Biblioteca Brasiliana Guita e José Mindlin
-# inputline = Aé/pron wapika/=mf:m|uwapika ana uikú ií pu/=typo:c|pupé pé/=x, ape/advdi upinú-pinú, umunhã uikú xiririwasú/=aug.
+# inputline = Ateíma-etá tuixawa/@ indé kurí.
 # text_annotator = LFdeA
-1	Aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:2
-2	wapika	wapika	VERB	V	Style=Arch|VerbForm=Inf	0	root	_	ModernForm=uwapika|ModernPerson=3|ModernVerbform=Fin|TokenRange=3:9
-3	ana	ana	PART	PFV	Aspect=Perf	2	advmod	_	TokenRange=10:13
-4	uikú	ikú	AUX	AUXFS	Mood=Ind|Person=3|VerbForm=Fin	2	aux	_	TokenRange=14:18
-5	ií	ií	NOUN	N	Number=Sing	2	obl	_	TokenRange=19:21
-6	pu	pupé	ADP	ADP	AdpType=Post|Typo=Yes	5	case	_	CorrectForm=pupé|TokenRange=22:24
-7	pé	_	X	X	_	6	goeswith	_	SpaceAfter=No|TokenRange=25:27
-8	,	,	PUNCT	PUNCT	_	10	punct	_	TokenRange=27:28
-9	ape	ape	ADV	ADVDI	AdvType=Loc|Deixis=Remt|PronType=Dem	10	advmod	_	TokenRange=29:32
-10	upinú-pinú	pinú	VERB	V	Mood=Ind|Person=3|Red=Yes|VerbForm=Fin	2	parataxis	_	SpaceAfter=No|TokenRange=33:43
-11	,	,	PUNCT	PUNCT	_	12	punct	_	TokenRange=43:44
-12	umunhã	munhã	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	10	parataxis	_	TokenRange=45:51
-13	uikú	ikú	AUX	AUXFS	Mood=Ind|Person=3|VerbForm=Fin	12	aux	_	TokenRange=52:56
-14	xiririwasú	xirirí	NOUN	N	Degree=Aug|Number=Sing	12	obj	_	SpaceAfter=No|TokenRange=57:67
-15	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=67:68
+1	Ateíma-etá	ateíma	NOUN	N	Number=Plur	2	nmod:poss	_	TokenRange=0:10
+2	tuixawa	tuixawa	NOUN	N	Number=Sing|Rel=Abs	0	root	_	TokenRange=11:18
+3	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	TokenRange=19:23
+4	kurí	kurí	PART	FUT	Tense=Fut	2	advmod	_	SpaceAfter=No|TokenRange=24:28
+5	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=28:29
+
+# sent_id = Amorim1928:9:6:6
+# text = Mairamé Kwarasí usú ukanhemu amú iwaka suaxara kití Tupana pirera uwari i pira suí, uyusikí ií ara rupí upitá arama ana iwiwasú.
+# text_eng = When the Sun was about to disappear to the other side of the sky, Tupana's skin fell from his body, stretching over the water to become large land.
+# text_por = Quando o Sol ia desaparecer para o outro lado do céu, a pele de Tupana caiu do corpo dele, estendeu-se por cima da água para já ficar terra grande.
+# text_source = p. 211, No. 6
+# text_orig = Maeramé Kaurasy osu okanhymo amu iuaka suaixarakyty Tupana pirera oare i pira suhi, oiuseky у ara rupi opytá arama ana yuy uasu.
+# text_transcriber = Maslova (2018:94)
+# text_sec = [...] Tupana pirera uwari i pira suí, uyusikí ií ara rupí upitá arama ana iwiwasú.
+# text_por_sec = [...] a pele de Tupana caiu de seu corpo, estendeu-se por cima da água para converter-se em terra grande.
+# text_sec_source = Avila (2021)
+# text_por_sec_source = Avila (2021)
+# text_annotator = LFdeA
+1	Mairamé	mairamé	SCONJ	SCONJR	_	4	mark	_	TokenRange=0:7
+2	Kwarasí	kwarasí	NOUN	N	Number=Sing	4	nsubj	_	TokenRange=8:15
+3	usú	sú	AUX	AUXFR	Mood=Ind|Person=3|VerbForm=Fin	4	aux	_	TokenRange=16:19
+4	ukanhemu	kanhemu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	11	advcl	_	TokenRange=20:28
+5	amú	amú	DET	IND	Number=Sing|PronType=Ind	7	det	_	TokenRange=29:32
+6	iwaka	iwaka	NOUN	N	Number=Sing	7	nmod:poss	_	TokenRange=33:38
+7	suaxara	suaxara	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	4	obl	_	TokenRange=39:46
+8	kití	kití	ADP	ADP	AdpType=Post	7	case	_	TokenRange=47:51
+9	Tupana	tupana	NOUN	N	Number=Sing	10	nmod:poss	_	TokenRange=52:58
+10	pirera	pirera	NOUN	N	Number=Sing	11	nsubj	_	TokenRange=59:65
+11	uwari	wari	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=66:71
+12	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	TokenRange=72:73
+13	pira	pira	NOUN	N	Number=Sing	11	obl	_	TokenRange=74:78
+14	suí	suí	ADP	ADP	AdpType=Post	13	case	_	SpaceAfter=No|TokenRange=79:82
+15	,	,	PUNCT	PUNCT	_	16	punct	_	TokenRange=82:83
+16	uyusikí	yusikí	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	11	parataxis	_	TokenRange=84:91
+17	ií	ií	NOUN	N	Number=Sing	18	nmod:poss	_	TokenRange=92:94
+18	ara	ara	NOUN	N	Number=Sing	16	obl	_	TokenRange=95:98
+19	rupí	rupí	ADP	ADP	AdpType=Post	18	case	_	TokenRange=99:103
+20	upitá	pitá	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	16	advcl	_	TokenRange=104:109
+21	arama	arama	SCONJ	SCONJ	_	20	mark	_	TokenRange=110:115
+22	ana	ana	PART	PFV	Aspect=Perf	20	advmod	_	TokenRange=116:119
+23	iwiwasú	iwí	NOUN	N	Degree=Aug|Number=Sing	20	xcomp	_	SpaceAfter=No|TokenRange=120:127
+24	.	.	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No|TokenRange=127:128
 
 # sent_id = Amorim1928:2:5:5005
 # text = Mayawé aintá intí upitá-kwáu aintá rimirikú-itá tetame uyuíri aintá tetama kití aintá rimirikú-itá irumu.
@@ -3100,37 +2587,6 @@
 15	rimirikú-itá	simirikú	NOUN	N	Number=Plur|Rel=Cont	10	obl	_	TokenRange=86:98
 16	irumu	irumu	ADP	ADP	AdpType=Post	15	case	_	SpaceAfter=No|TokenRange=99:104
 17	.	.	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No|TokenRange=104:105
-
-# sent_id = Amorim1928:2:6:5006
-# text = Mayawé Buopé sikú upurasí pituna yawé-yawé Yuruparí Iwitera upé upanhẽ apigawa-etá uyawáu aintá remiré aetá suí pituna irumu.
-# text_eng = As Buopé used to dance Jurupari every night in Serra do Jurupari, all the men ran away from their wives at nightfall.
-# text_eng_ggl = As it was Buopé's custom of dancing Jurupari every night in Serra do Jurupari, all the men ran away from their wives at nightfall.
-# text_por = Como era costume de Buopé de dançar Jurupari todas as noites na Serra do Jurupari, todos os homens fugiam de suas mulheres ao vir da noite.
-# text_source = p. 23, No. 6
-# text_orig = Maaiaué Buopé seku opurasê pytuna iaué-iaué Iurupari-Yuytŷrupé upanhe apigauaetá oiauau aetá remiré aetá suhi pytuna yrumo.
-# text_orig_transcriber = Gabriela Lourenço Fernandes, Biblioteca Brasiliana Guita e José Mindlin
-# text_por_modernizer = Gabriela Lourenço Fernandes, Biblioteca Brasiliana Guita e José Mindlin
-# text_annotator = LFdeA
-# inputline = Mayawé/sconjr Buopé sikú upurasí pituna yawé-yawé/indq Yuruparí Iwitera upé/adp upanhẽ apigawa-etá uyawáu aintá/pron2 remiré/=typo:c|rimirikú-etá aetá/=typo:c|-etá:x|x suí pituna irumu/adp.
-1	Mayawé	mayawé	SCONJ	SCONJR	_	3	mark	_	TokenRange=0:6
-2	Buopé	buopé	PROPN	PROPN	_	3	nmod:poss	_	TokenRange=7:12
-3	sikú	tikú	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont|Style=Arch	12	advcl	_	ModernForm=rikú|ModernRel=Cont|TokenRange=13:17
-4	upurasí	purasí	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	3	csubj	_	TokenRange=18:25
-5	pituna	pituna	NOUN	N	Number=Sing	4	obj	_	TokenRange=26:32
-6	yawé-yawé	yawé	DET	INDQ	PronType=Ind|Red=Yes	5	det	_	TokenRange=33:42
-7	Yuruparí	yuruparí	PROPN	PROPN	_	8	nmod:poss	_	TokenRange=43:51
-8	Iwitera	iwitera	NOUN	N	Number=Sing	4	obl	_	TokenRange=52:59
-9	upé	upé	ADP	ADP	AdpType=Post	8	case	_	TokenRange=60:63
-10	upanhẽ	upanhẽ	DET	TOT	PronType=Tot	11	det	_	TokenRange=64:70
-11	apigawa-etá	apigawa	NOUN	N	Number=Plur	12	nsubj	_	TokenRange=71:82
-12	uyawáu	yawáu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=83:89
-13	aintá	aintá	PRON	PRON2	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	TokenRange=90:95
-14	remiré	simirikú	NOUN	N	Number=Plur|Rel=Cont|Typo=Yes	12	obl	_	CorrectForm=rimirikú-etá|TokenRange=96:102
-15	aetá	_	X	X	_	14	goeswith	_	CorrectForm=-etá|TokenRange=103:107
-16	suí	suí	ADP	ADP	AdpType=Post	14	case	_	TokenRange=108:111
-17	pituna	pituna	NOUN	N	Number=Sing	12	obl	_	TokenRange=112:118
-18	irumu	irumu	ADP	ADP	AdpType=Post	17	case	_	SpaceAfter=No|TokenRange=119:124
-19	.	.	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No|TokenRange=124:125
 
 # sent_id = Amorim1928:2:221:5620
 # text = Kuẽma renundé paá aintá usemu ukara kití, ape aintá yepé-yepé uyeréu yeperesé tapiira kaapura, uwiké kaá kití.
@@ -3164,369 +2620,375 @@
 19	kití	kití	ADP	ADP	AdpType=Post	18	case	_	SpaceAfter=No|TokenRange=105:109
 20	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=109:110
 
-# sent_id = Amorim1928:2:451:5351
-# text = Yeperesé tapurú-tapurú uyumunhã aintá suí.
-# text_eng = Soon many tapurus, they say, were generated [from their bodies].
-# text_por = Logo muitos tapurus, contam, geraram-se [dos corpos] deles.
-# text_por_orig = Tapuru, tapuru, contam, se gerou logo deles.
-# text_source = p. 28, No. 116
-# text_orig = Iepéresé tapuru, tapuru paa oiumunhan aetá suhi.
-# text_annotator = LFdeA
-# text_sec = Yeperesé tapurú-tapurú uyumunhã aintá [pira] suí.
-# text_por_sec = Logo muitos tapurus, contam, geraram-se [dos corpos] deles.
+# sent_id = Amorim1928:2:98:5698
+# text = Yepé apigawa nhũ paá upitá, aé uyupisirú yepé kumã iwa árupi.
+# text_eng_ggl = Only one man escaped, they say, because he fled into a rowan tree.
+# text_eng = Only one man escaped, they say, because he fled upon a rowan tree.
+# text_por = Escapou somente um homem, contam, por ter fugido para cima de uma sorveira.
+# text_source = p. 28, No. 98
+# text_orig = Iepé apigaua nhu paa opytá, aé oiupysyru iepé kumáyua árepe.
+# text_sec = Yepé apigawa nhũ paá upitá, aé uyupisirú yepé kumã-iwa árupi.
+# text_por_sec = Apenas um homem ficou, ele salvou-se em cima de uma sorveira.
 # text_sec_source = Avila (2021)
 # text_por_sec_source = Avila (2021)
+# text_annotator = LFdeA
+1	Yepé	yepé	NUM	CARD	NumType=Card	2	nummod	_	TokenRange=0:4
+2	apigawa	apigawa	NOUN	N	Number=Sing	5	nsubj	_	TokenRange=5:12
+3	nhũ	nhũ	ADV	ADV	_	2	advmod	_	TokenRange=13:16
+4	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	5	advmod	_	TokenRange=17:20
+5	upitá	pitá	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=21:26
+6	,	,	PUNCT	PUNCT	_	8	punct	_	TokenRange=26:27
+7	aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	TokenRange=28:30
+8	uyupisirú	yupisirú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	5	parataxis	_	TokenRange=31:40
+9	yepé	yepé	DET	ART	Definite=Ind|PronType=Art	10	det	_	TokenRange=41:45
+10	kumã	kumã	NOUN	N	Number=Sing	11	nmod:poss	_	TokenRange=46:50
+11	iwa	iwa	NOUN	N	Number=Sing	12	nmod:poss	_	TokenRange=51:54
+12-13	árupi	_	_	_	_	_	_	_	SpaceAfter=No|TokenRange=55:60
+12	ara	ara	NOUN	N	Number=Sing	8	obl	_	_
+13	upé	upé	ADP	ADP	AdpType=Post|Clitic=Yes	12	case	_	_
+14	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=60:61
+
+# sent_id = Amorim1928:2:227:227
+# text = Yandé ramunha-etá intíu umutĩ aintá paya-etá, yawé kurí yandé yamunhã yuíri.
+# text_eng = Our grandparents didn't shame our parents, we should too.
+# text_por = Nossos avós não envergonharam nossos pais, nós assim também havemos de fazer.
+# text_source = p. 34, No. 227
+# text_orig = Iandé ramunhaetá ntyo omutin aetá paiaetá, iaué kuri iandé iamunhan iuŷre.
 # text_orig_transcriber = Gabriela Lourenço Fernandes, Biblioteca Brasiliana Guita e José Mindlin
-1	Yeperesé	yeperesé	ADV	ADVT	AdvType=Tim	3	advmod	_	TokenRange=0:8
-2	tapurú-tapurú	tapurú	NOUN	N	Number=Sing|Red=Yes	3	nsubj	_	TokenRange=9:22
-3	uyumunhã	munhã	VERB	V	Mood=Ind|Person=3|VerbForm=Fin|Voice=Mid,Pass	0	root	_	TokenRange=23:31
-4	aintá	aintá	PRON	PRON2	Case=Gen|Number=Plur|Person=3|PronType=Prs	3	obl	_	TokenRange=32:37
-5	suí	suí	ADP	ADP	AdpType=Post	4	case	_	SpaceAfter=No|TokenRange=38:41
-6	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=41:42
-
-# sent_id = Amorim1928:2:500:6000
-# text = Remukaturú rẽ siiya akayú rupí yané maã-itá uikú waá yané itakwara pupé.
-# text_eng = Keep our things in our cave for many years to come.
-# text_por = Guarda ainda por muitos anos as nossas coisas que estão na nossa gruta.
-# text_source = p. 32, No. 185
-# text_orig = Remukaturu ranhé seyia akaiu rupi iandé maaetá oiku uá iandé itákoara pýpé.
-# title_orig = BUOPÉ MARAMUNHANGAUETÁ
-# title_por = Guerra de Buopé
-# title_eng = Buopé's war
+# cross_reference = Avila2021:0:0:226
 # text_annotator = LFdeA
-1	Remukaturú	mukaturú	VERB	V	Mood=Imp,Ind|Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=0:10
-2	rẽ	rẽ	PART	IMPF	_	1	advmod	_	TokenRange=11:13
-3	siiya	siiya	DET	INDQ	PronType=Ind	4	det	_	TokenRange=14:19
-4	akayú	akayú	NOUN	N	Number=Sing	1	obl	_	TokenRange=20:25
-5	rupí	rupí	ADP	ADP	AdpType=Post	4	case	_	TokenRange=26:30
-6	yané	yané	PRON	PRON2	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	TokenRange=31:35
-7	maã-itá	maã	NOUN	N	Number=Plur	1	obj	_	TokenRange=36:43
-8	uikú	ikú	AUX	COP	Mood=Ind|Person=3|VerbForm=Fin	11	cop	_	TokenRange=44:48
-9	waá	waá	PRON	REL	Number=Sing|PronType=Rel	11	nsubj	_	TokenRange=49:52
-10	yané	yané	PRON	PRON2	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	TokenRange=53:57
-11	itakwara	itakwara	NOUN	N	Number=Sing	7	acl:relcl	_	TokenRange=58:66
-12	pupé	pupé	ADP	ADP	AdpType=Post	11	case	_	SpaceAfter=No|TokenRange=67:71
-13	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=71:72
+1	Yandé	yandé	PRON	PRON2	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	ModernForm=Yané|ModernLemma=yané|TokenRange=0:5
+2	ramunha-etá	tamunha	NOUN	N	Number=Plur|Rel=Cont	4	nsubj	_	TokenRange=6:17
+3	intíu	intíu	PART	NEG	PartType=Neg|Polarity=Neg	4	advmod	_	TokenRange=18:23
+4	umutĩ	mutĩ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=24:29
+5	aintá	aintá	PRON	PRON2	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	TokenRange=30:35
+6	paya-etá	paya	NOUN	N	Number=Plur	4	obj	_	SpaceAfter=No|TokenRange=36:44
+7	,	,	PUNCT	PUNCT	_	11	punct	_	TokenRange=44:45
+8	yawé	yawé	ADV	ADVA	AdvType=Man	11	advmod	_	TokenRange=46:50
+9	kurí	kurí	PART	FUT	Tense=Fut	11	advmod	_	TokenRange=51:55
+10	yandé	yandé	PRON	PRON	Number=Plur|Person=1|PronType=Prs	11	nsubj	_	TokenRange=56:61
+11	yamunhã	munhã	VERB	V	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	4	parataxis	_	TokenRange=62:69
+12	yuíri	yuíri	ADV	ADVG	AdvType=Deg	11	advmod	_	SpaceAfter=No|TokenRange=70:75
+13	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=75:76
 
-# sent_id = Amorim1928:12:40:40
-# text = I membira upuká, ariré unheẽ: — Maĩ, tenhẽ renheẽ yawé, yandé será yakwáu wirandé awá umupusanú ixé!
-# text_eng = The son laughed, then said: "Mom, don't say that, do we know if someone will cure me tomorrow?"
-# text_por = O filho se riu, depois disse: — Mãe, não digas assim, sabemos nós se alguém amanhã não me cura!
-# text_source = p. 258, No. 16-17
-# text_orig = I membŷra opuká, ariré onheen: — Main, teinhé renheen iaué, iandé será iakuau uirandé auá omupusanu ixé!
-# text_sec = [...], yandé será yakwáu wirandé awá umupusanú ixé?!
+# sent_id = Amorim1928:6-1:350:350
+# text = Supí, paá, usendú kirirí Puráe nheenga, mairamé Puráe umbawa aé unheẽ: — Eẽ, Puráe, puranga maã renheẽ waá, intí xasendú indé maãresé se piá apekatú uikú kwá suí.
+# text_eng = Supi, they say, listened in silence to Purae's speech, when Purae finished he said: — Yes, Purae, what you say is beautiful, I can't hear you because my heart is far from here.
+# text_por = Supi, contam, ouviu calado a fala de Purae, quando Purae acabou disse: — Sim, Purae, é bonito o que tu dizes, não te ouço porque meu coração está longe daqui.
+# text_source = p. 126, No. 204-205
+# text_orig = Supy, paá, osendu kiriri Puráe nheẽnga, maeramé Puráe ombáu aé onheen. — Enen, Puráe, ipuránga maá renheen uá, nty xasendu ndé maáresé se pŷá apêkatú oiku iké suhi.
+# text_sec = Supy paá usendú kirirí Puráe nheenga, [...]. Eẽ, Puráe, puranga maã renheẽ waá, ti asendú indé maãresé se piá apekatú uikú kwá suí.
 # text_sec_source = Avila (2021)
-# text_por_sec = [...] sabemos nós se alguém amanhã não me cura?!
-# text_por_sec_source = Avila (2021)
 # text_annotator = LFdeA
-1	I	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	TokenRange=0:1
-2	membira	membira	NOUN	N	Number=Sing	3	nsubj	_	TokenRange=2:9
-3	upuká	puká	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=10:15
-4	,	,	PUNCT	PUNCT	_	6	punct	_	TokenRange=15:16
-5	ariré	ariré	ADV	ADVT	AdvType=Tim	6	advmod	_	TokenRange=17:22
-6	unheẽ	nheẽ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	3	parataxis	_	SpaceAfter=No|TokenRange=23:28
-7	:	:	PUNCT	PUNCT	_	12	punct	_	TokenRange=28:29
-8	—	—	PUNCT	PUNCT	_	12	punct	_	TokenRange=29:30
-9	Maĩ	maĩ	NOUN	N	Number=Sing	12	vocative	_	SpaceAfter=No|TokenRange=31:34
-10	,	,	PUNCT	PUNCT	_	9	punct	_	TokenRange=34:35
-11	tenhẽ	tenhẽ	PART	NEGI	Mood=Imp|PartType=Neg|Polarity=Neg	12	advmod	_	TokenRange=36:41
-12	renheẽ	nheẽ	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	6	ccomp	_	TokenRange=42:48
-13	yawé	yawé	ADV	ADVA	AdvType=Man	12	advmod	_	SpaceAfter=No|TokenRange=49:53
-14	,	,	PUNCT	PUNCT	_	17	punct	_	TokenRange=53:54
-15	yandé	yandé	PRON	PRON	Number=Plur|Person=1|PronType=Prs	17	nsubj	_	TokenRange=55:60
-16	será	será	PART	PQ	PartType=Int	17	advmod	_	TokenRange=61:65
-17	yakwáu	kwáu	VERB	V	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	12	parataxis	_	TokenRange=66:72
-18	wirandé	wirandé	ADV	ADVT	AdvType=Tim	20	advmod	_	TokenRange=73:80
-19	awá	awá	PRON	IND	PronType=Ind	20	nsubj	_	TokenRange=81:84
-20	umupusanú	mupusanú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	17	ccomp	_	TokenRange=85:94
-21	ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	20	obj	_	SpaceAfter=No|TokenRange=95:98
-22	!	!	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=98:99
+1	Supí	supí	PROPN	PROPN	_	5	nsubj	_	SpaceAfter=No|TokenRange=0:4
+2	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=4:5
+3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	5	advmod	_	SpaceAfter=No|TokenRange=6:9
+4	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=9:10
+5	usendú	sendú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=11:17
+6	kirirí	kirirí	ADJ	A	_	5	advcl	_	TokenRange=18:24
+7	Puráe	puráe	PROPN	PROPN	_	8	nmod:poss	_	TokenRange=25:30
+8	nheenga	nheenga	NOUN	N	Number=Sing	5	obj	_	SpaceAfter=No|TokenRange=31:38
+9	,	,	PUNCT	PUNCT	_	14	punct	_	TokenRange=38:39
+10	mairamé	mairamé	SCONJ	SCONJR	_	12	mark	_	TokenRange=40:47
+11	Puráe	puráe	PROPN	PROPN	_	12	nsubj	_	TokenRange=48:53
+12	umbawa	mbawa	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	14	advcl	_	TokenRange=54:60
+13	aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	14	nsubj	_	TokenRange=61:63
+14	unheẽ	nheẽ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	5	parataxis	_	SpaceAfter=No|TokenRange=64:69
+15	:	:	PUNCT	PUNCT	_	21	punct	_	TokenRange=69:70
+16	—	—	PUNCT	PUNCT	_	21	punct	_	TokenRange=70:71
+17	Eẽ	eẽ	PART	AFF	_	21	advmod	_	SpaceAfter=No|TokenRange=72:74
+18	,	,	PUNCT	PUNCT	_	19	punct	_	TokenRange=74:75
+19	Puráe	puráe	PROPN	PROPN	_	21	vocative	_	SpaceAfter=No|TokenRange=76:81
+20	,	,	PUNCT	PUNCT	_	19	punct	_	TokenRange=81:82
+21	puranga	puranga	ADJ	A	_	14	ccomp	_	TokenRange=83:90
+22	maã	maã	PRON	INT	PronType=Int	21	nsubj	_	TokenRange=91:94
+23	renheẽ	nheẽ	VERB	V	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	22	acl:relcl	_	TokenRange=95:101
+24	waá	waá	PRON	REL	Number=Sing|PronType=Rel	23	obj	_	SpaceAfter=No|TokenRange=102:105
+25	,	,	PUNCT	PUNCT	_	27	punct	_	TokenRange=105:106
+26	intí	intí	PART	NEG	PartType=Neg|Polarity=Neg	27	advmod	_	TokenRange=107:109
+27	xasendú	sendú	VERB	V	Mood=Ind|Number=Sing|Person=1|Style=Arch|VerbForm=Fin	21	parataxis	_	ModernForm=asendú|TokenRange=110:116
+28	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	27	obj	_	TokenRange=117:121
+29	maãresé	maãresé	SCONJ	SCONJR	_	32	mark	_	TokenRange=122:129
+30	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	31	nmod:poss	_	TokenRange=130:132
+31	piá	piá	NOUN	N	Number=Sing	32	nsubj	_	TokenRange=133:136
+32	apekatú	apekatú	ADV	ADVC	AdvType=Loc	27	advcl	_	TokenRange=137:144
+33	uikú	ikú	AUX	AUXFS	Mood=Ind|Person=3|VerbForm=Fin	32	aux	_	TokenRange=145:149
+34	kwá	kwá	ADV	ADVDX	AdvType=Loc|Deixis=Prox|PronType=Dem	32	obl	_	TokenRange=150:153
+35	suí	suí	ADP	ADP	AdpType=Post	34	case	_	SpaceAfter=No|TokenRange=154:157
+36	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=157:158
 
-# sent_id = Seixas1853:0:100:100
-# text = Eẽ xipiaka mayé usú sinipuka iwaka kití!!!
-# text_eng = See how it goes so bright to the sky!!!
-# text_por = Vê como vai tão brilhante para o céu!!!
-# text_source = p. XV
-# text_orig = hehen chípiáca maié ussô cêne-púcá euáca quetê
-# text_sec = Eẽ, rexipiaka mayé usú sinipuka iwaka kití!
-# text_sec_pos = Eẽ/intj, rexipiaka mayé usú sinipuka iwaka kití!
-# text_por_sec = Vê como vai tão brilhante para o céu!
-# text_sec_source = Avila (2021)
-# text_por_sec_source = Avila (2021)
+# sent_id = Amorim1928:15:5:5
+# text = Tenhẽ pemunhã saruá, kurumú Buyawasú umbaú yandé.
+# text_eng = Don't make saruá, Big Snake might eat us.
+# text_por = Não façam saruá, pode Cobra Grande nos comer.
+# text_source = p. 281, No. 5
+# text_orig = Teinhé pemunhan saruá, kurumu Mboiasu ombaú andé.
+# text_orig_transcriber = Gabriela Lourenço Fernandes, Biblioteca Brasiliana Guita e José Mindlin
+# text_por_transcriber = Gabriela Lourenço Fernandes, Biblioteca Brasiliana Guita e José Mindlin
+# cross_reference = Avila2021:0:0:596
 # text_annotator = LFdeA
-1	Eẽ	eẽ	PART	AFF	_	2	advmod	_	TokenRange=0:2
-2	xipiaka	xipiaka	VERB	V	Style=Arch|VerbForm=Inf	0	root	_	ModernForm=rexipiaka|ModernMood=Imp|ModernNumber=Sing|ModernPerson=2|ModernVerbForm=Fin|TokenRange=3:10
-3	mayé	mayé	ADV	ADVRA	AdvType=Man|PronType=Int	4	advmod	_	TokenRange=11:15
-4	usú	sú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	2	ccomp	_	TokenRange=16:19
-5	sinipuka	rinipuka	VERB	V2	Mood=Ind|Number=Sing|Person=3|Rel=NCont|VerbForm=Fin	4	parataxis	_	TokenRange=20:28
-6	iwaka	iwaka	NOUN	N	Number=Sing	4	obl	_	TokenRange=29:34
-7	kití	kití	ADP	ADP	AdpType=Post	6	case	_	SpaceAfter=No|TokenRange=35:39
-8	!	!	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=39:40
-9	!	!	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=40:41
-10	!	!	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=41:42
+1	Tenhẽ	tenhẽ	PART	NEGI	Mood=Imp|PartType=Neg|Polarity=Neg	2	advmod	_	TokenRange=0:5
+2	pemunhã	munhã	VERB	V	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	TokenRange=6:13
+3	saruá	saruá	NOUN	N	Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=14:19
+4	,	,	PUNCT	PUNCT	_	7	punct	_	TokenRange=19:20
+5	kurumú	kurumú	SCONJ	SCONJR	_	7	mark	_	TokenRange=21:27
+6	Buyawasú	buya	NOUN	N	Degree=Aug|Number=Sing	7	nsubj	_	TokenRange=28:36
+7	umbaú	mbaú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	2	advcl	_	TokenRange=37:42
+8	yandé	yandé	PRON	PRON	Number=Plur|Person=1|PronType=Prs	7	obj	_	SpaceAfter=No|TokenRange=43:48
+9	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=48:49
 
-# sent_id = Sympson1877:0:0:100
-# text = Remaã será nhaã kunhã upurungitá waá se irumu?
-# text_eng = Did you see that lady who was talking to me?
-# text_por = Viste aquela dama que comigo conversava?
-# text_source = p. 9
-# text_orig = Re mahá será, nhaá cunhá hu purunguetá uaá se irumo?
-# text_annotator = LFdeA
-1	Remaã	maã	VERB	V	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=0:5
-2	será	será	PART	PQ	PartType=Int	1	advmod	_	TokenRange=6:10
-3	nhaã	nhaã	DET	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	4	det	_	TokenRange=11:15
-4	kunhã	kunhã	NOUN	N	Number=Sing	1	obj	_	TokenRange=16:21
-5	upurungitá	purungitá	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	4	acl:relcl	_	TokenRange=22:32
-6	waá	waá	PRON	REL	Number=Sing|PronType=Rel	5	nsubj	_	TokenRange=33:36
-7	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	obl	_	TokenRange=37:39
-8	irumu	irumu	ADP	ADP	AdpType=Post	7	case	_	SpaceAfter=No|TokenRange=40:45
-9	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=45:46
-
-# sent_id = Sympson1877:0:0:302
-# text = Remaú será?
-# text_eng = Do you eat?
-# text_por = Tu comes?
-# text_source = p. 33
-# text_orig = Re mahu será?
-# text_annotator = LFdeA
-1	Remaú	maú	VERB	V	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=0:5
-2	será	será	PART	PQ	PartType=Int	1	advmod	_	SpaceAfter=No|TokenRange=6:10
-3	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=10:11
-
-# sent_id = Sympson1877:0:0:307
-# text = Yandé yamaú?
+# sent_id = Sympson1877:0:0:306
+# text = Yamaú?
 # text_eng = Do we eat?
 # text_por = Nós comemos?
 # text_source = p. 33
-# text_orig = Yané ya mahu?
+# text_orig = Ya mahu?
 # text_annotator = LFdeA
-1	Yandé	yandé	PRON	PRON	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	TokenRange=0:5
-2	yamaú	maú	VERB	V	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=6:11
-3	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=11:12
+1	Yamaú	maú	VERB	V	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=0:5
+2	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=5:6
 
-# sent_id = Sympson1877:0:0:330
-# text = Remaú kurí será?
+# sent_id = Sympson1877:0:0:309
+# text = Penhẽ pemaú será?
+# text_eng = Do you eat?
+# text_por = Vós comeis?
+# text_source = p. 33
+# text_orig = Penhê pe mahu será?
+# text_annotator = LFdeA
+1	Penhẽ	penhẽ	PRON	PRON	Number=Plur|Person=2|PronType=Prs	2	nsubj	_	TokenRange=0:5
+2	pemaú	maú	VERB	V	Mood=Ind|Number=Plur|Person=2|VerbForm=Fin	0	root	_	TokenRange=6:11
+3	será	será	PART	PQ	PartType=Int	2	advmod	_	SpaceAfter=No|TokenRange=12:16
+4	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=16:17
+
+# sent_id = Sympson1877:0:0:310
+# text = Aintá umaú será?
+# text_eng = Do they eat?
+# text_por = Eles comem?
+# text_source = p. 33
+# text_orig = Aitá hu mahu será?
+# text_orig_alt = Entá hu mahu será?
+# text_annotator = LFdeA
+1	Aintá	aintá	PRON	PRON	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:5
+2	umaú	maú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=6:10
+3	será	será	PART	PQ	PartType=Int	2	advmod	_	SpaceAfter=No|TokenRange=11:15
+4	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=15:16
+
+# sent_id = Sympson1877:0:0:320
+# text = Remaú ana será?
+# text_eng = Did you eat?
+# text_por = Tu comeste?
+# text_source = p. 33
+# text_orig = Re mahu-ána será?
+# text_annotator = LFdeA
+1	Remaú	maú	VERB	V	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=0:5
+2	ana	ana	PART	PFV	Aspect=Perf	1	advmod	_	TokenRange=6:9
+3	será	será	PART	PQ	PartType=Int	1	advmod	_	SpaceAfter=No|TokenRange=10:14
+4	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=14:15
+
+# sent_id = Sympson1877:0:0:331
+# text = Indé remaú kurí será?
 # text_eng = Will you eat?
 # text_por = Tu comerás?
 # text_source = p. 33
-# text_orig = Re mahu-cury será?
+# text_orig = Iné re mahu cury será?
 # text_annotator = LFdeA
-1	Remaú	maú	VERB	V	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=0:5
-2	kurí	kurí	PART	FUT	Tense=Fut	1	advmod	_	TokenRange=6:10
-3	será	será	PART	PQ	PartType=Int	1	advmod	_	SpaceAfter=No|TokenRange=11:15
+1	Indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	TokenRange=0:4
+2	remaú	maú	VERB	V	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=5:10
+3	kurí	kurí	PART	FUT	Tense=Fut	2	advmod	_	TokenRange=11:15
+4	será	será	PART	PQ	PartType=Int	2	advmod	_	SpaceAfter=No|TokenRange=16:20
+5	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=20:21
+
+# sent_id = Hartt1938:0:0:1-2
+# text = Xasú xamupiririka se mantega.
+# text_eng = I'm going to fry my butter.
+# text_por = Vou frigir minha manteiga.
+# text_source = p. 319, No. 1a
+# text_orig = xasó xamopyryryk se mantéga (Santarém).
+# place = Santarém
+# text_annotator = LFdeA
+1	Xasú	sú	AUX	AUXFR	Mood=Ind|Number=Sing|Person=1|Style=Arch|VerbForm=Fin	2	aux	_	ModernForm=Asú|TokenRange=0:4
+2	xamupiririka	mupiririka	VERB	V	Mood=Ind|Number=Sing|Person=1|Style=Arch|VerbForm=Fin	0	root	_	ModernForm=amupiririka|TokenRange=5:17
+3	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	TokenRange=18:20
+4	mantega	mantega	NOUN	N	Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=21:28
+5	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=28:29
+
+# sent_id = Hartt1938:0:0:6
+# text = Rerikú será sapukaya rupiá?
+# text_eng = Do you have chicken eggs?
+# text_por = Tens ovos de galinha?
+# text_source = p. 319, No. 6
+# text_orig = rerekó será sapukáia rupiá?
+# text_annotator = DMA
+# reviewer1 = LFdeA
+1	Rerikú	rikú	VERB	V	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=0:6
+2	será	será	PART	PQ	PartType=Int	1	advmod	_	TokenRange=7:11
+3	sapukaya	sapukaya	NOUN	N	Number=Sing	4	nmod:poss	_	TokenRange=12:20
+4	rupiá	supiá	NOUN	N	Number=Sing|Rel=Cont	1	obj	_	SpaceAfter=No|TokenRange=21:26
+5	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=26:27
+
+# sent_id = Hartt1938:0:0:18
+# text = Muíri taá waruá?
+# text_eng = How much does the mirror cost?
+# text_por = Quanto custa o espelho?
+# text_source = p. 320, No. 18
+# text_orig = muyr taé uaruá?
+# text_annotator = DMA
+# reviewer1 = LFdeA
+1	Muíri	muíri	PRON	INT	PronType=Int	0	root	_	TokenRange=0:5
+2	taá	taá	PART	CQ	PartType=Int	1	advmod	_	TokenRange=6:9
+3	waruá	waruá	NOUN	N	Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=10:15
 4	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=15:16
 
-# sent_id = DLGA2019:101:2:102
-# text = Supí.
-# text_eng = Yes, it is.
-# text_por = É, sim.
-# text_source = HE 3, p. 181
-# text_orig = Çupí.
+# sent_id = Hartt1938:0:0:28
+# text = Mamé taá ne retama?
+# text_eng = Where is your land?
+# text_por = Onde é tua terra?
+# text_source = p. 321, No. 28
+# text_orig = máme taá neretama?
+# text_annotator = DMA
+# reviewer = LFdeA
+1	Mamé	mamé	ADV	ADVRC	AdvType=Loc|PronType=Int	4	advmod	_	TokenRange=0:4
+2	taá	taá	PART	CQ	PartType=Int	4	advmod	_	TokenRange=5:8
+3	ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	TokenRange=9:11
+4	retama	tetama	NOUN	N	Number=Sing|Rel=Cont	0	root	_	SpaceAfter=No|TokenRange=12:18
+5	?	?	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=18:19
+
+# sent_id = Hartt1938:0:0:46
+# text = Kwaá ne rikú intí i katú.
+# text_eng = This fashion of yours is not good.
+# text_por = Esta tua moda não está boa.
+# text_source = p. 322, No. 46
+# text_orig = kuaa nerekó intí ikatú.
+# text_sec = Kwaá ne rikú ti i katú.
+# text_por_sec = Esta tua moda não está boa.
+# text_sec_source = Avila (2021)
+# text_por_sec_source = Avila (2021)
+# text_annotator = DMA
+# reviewer = LFdeA
+1	Kwaá	kwaá	DET	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	3	det	_	TokenRange=0:4
+2	ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|PronType=Prs	3	nmod:poss	_	TokenRange=5:7
+3	rikú	rikú	NOUN	N	Number=Sing	6	nsubj	_	TokenRange=8:12
+4	intí	intí	PART	NEG	PartType=Neg|Polarity=Neg	6	advmod	_	TokenRange=13:15
+5	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	expl	_	TokenRange=16:17
+6	katú	katú	ADJ	A	_	0	root	_	SpaceAfter=No|TokenRange=18:22
+7	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|TokenRange=22:23
+
+# sent_id = Hartt1938:0:0:63
+# text = I manha upitera i mimbira yurú.
+# text_por = A mãe beijou seu filho.
+# text_source = p. 323, No. 63
+# text_orig = imáinya opyter imymyra yurú.
+# text_por_alt = A mãe beijou a boca do filho.
+# text_por_alt_translator = LFdeA
+# text_annotator = Dominick Maia Alexandre
+# reviewer1 = LFdeA
+1	I	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	TokenRange=0:1
+2	manha	manha	NOUN	N	Number=Sing	3	nsubj	_	TokenRange=2:7
+3	upitera	pitera	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=8:15
+4	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	TokenRange=16:17
+5	mimbira	mimbira	NOUN	N	Number=Sing	6	nmod:poss	_	TokenRange=18:25
+6	yurú	yurú	NOUN	N	Number=Sing	3	obj	_	SpaceAfter=No|TokenRange=26:30
+7	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=30:31
+
+# sent_id = Hartt1938:0:0:95
+# text = Axari se kisé itapewa árupi.
+# text_eng = I left my knife on the stone.
+# text_por = Deixei minha faca sobre a pedra.
+# text_source = p. 326, No. 95
+# text_orig = xaxiár sekysé itapéua árpe.
+# text_sec = Axari se kisé itapewa árupi.
+# text_por_sec = Deixei minha faca sobre a laje.
+# text_sec_source = Avila (2021)
+# text_por_sec_source = Avila (2021)
 # text_annotator = LFdeA
-1	Supí	supí	ADJ	A	_	0	root	_	SpaceAfter=No|TokenRange=0:4
-2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=4:5
+1	Axari	xari	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=0:5
+2	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	TokenRange=6:8
+3	kisé	kisé	NOUN	N	Number=Sing	1	obj	_	TokenRange=9:13
+4	itapewa	itapewa	NOUN	N	Number=Sing	5	nmod:poss	_	TokenRange=14:21
+5-6	árupi	_	_	_	_	_	_	_	SpaceAfter=No|TokenRange=22:27
+5	ara	ara	NOUN	N	Number=Sing	1	obl	_	_
+6	upé	upé	ADP	ADP	AdpType=Post|Clitic=Yes	5	case	_	_
+7	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=27:28
 
-# sent_id = Hartt1938:0:0:7
-# text = Intí asendú katú.
-# text_eng = I can't hear well.
-# text_por = Não ouço bem.
-# text_source = p. 319, No. 7
-# text_orig = intí xasenú katú.
-# text_annotator = DMA
-# reviewer1 = LFdeA
-1	Intí	intí	PART	NEG	PartType=Neg|Polarity=Neg	2	advmod	_	TokenRange=0:4
-2	asendú	sendú	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=5:11
-3	katú	katú	ADV	ADVS	AdvType=Deg	2	advmod	_	SpaceAfter=No|TokenRange=12:16
-4	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=16:17
-
-# sent_id = Hartt1938:0:0:20
-# text = Mundawasú uyawáu.
-# text_eng = The thief fled.
-# text_por = O ladrão fugiu.
-# text_source = p. 320, No. 20
-# text_orig = muná uasú oyanáu.
-# text_annotator = DMA
-# reviewer1 = LFdeA
-1	Mundawasú	mundawasú	NOUN	N	Number=Sing	2	nsubj	_	TokenRange=0:9
-2	uyawáu	yawáu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=10:16
-3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=16:17
-
-# sent_id = Hartt1938:0:0:23
-# text = Epirari aé ukena!
-# text_eng = Open that door!
-# text_por = Abre aquela porta!
-# text_source = p. 320, No. 23
-# text_orig = epirár ñaé okéna!
-# text_annotator = DMA
-# reviewer1 = LFdeA
-1	Epirari	pirari	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=0:7
-2	aé	aé	DET	DEMSN	Deixis=Remt|PronType=Dem	3	det	_	TokenRange=8:10
-3	ukena	ukena	NOUN	N	Number=Sing|Rel=Abs	1	obj	_	SpaceAfter=No|TokenRange=11:16
-4	!	!	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=16:17
-
-# sent_id = Hartt1938:0:0:37
-# text = Se mimbira uyawáu se suí.
-# text_eng = My son (daughter) ran away from me (woman speaking).
-# text_por = Meu filho (filha) fugiu de mim (mulher que fala).
-# text_source = p. 321, No. 37
-# text_orig = semymyra oyauáu sesuí.
-# text_annotator = DMA
-# reviewer = LFdeA
-1	Se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	TokenRange=0:2
-2	mimbira	mimbira	NOUN	N	Number=Sing	3	nsubj	_	TokenRange=3:10
-3	uyawáu	yawáu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=11:17
-4	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	obl	_	TokenRange=18:20
-5	suí	suí	ADP	ADP	AdpType=Post	4	case	_	SpaceAfter=No|TokenRange=21:24
-6	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=24:25
-
-# sent_id = Hartt1938:0:0:41
-# text = Maã yasí taá kwaá?
-# text_eng = What month are we in?
-# text_por = Em que mês estamos?
-# text_por_alt = Que mês é este?
-# text_por_alt_translator = LFdeA
-# text_source = p. 322, No. 41
-# text_orig = maé yasy taé kuaé?
-# text_annotator = DMA
-# reviewer = LFdeA
-# inputline = Maã/int yasí/@ taá kwaá/demx?
-1	Maã	maã	DET	INT	PronType=Int	2	det	_	TokenRange=0:3
-2	yasí	yasí	NOUN	N	Number=Sing	0	root	_	TokenRange=4:8
-3	taá	taá	PART	CQ	PartType=Int	2	advmod	_	TokenRange=9:12
-4	kwaá	kwaá	PRON	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	2	nsubj	_	SpaceAfter=No|TokenRange=13:17
-5	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=17:18
-
-# sent_id = Hartt1938:0:0:42
-# text = Kwaá imirá saimé i pirera.
-# text_eng = The bark of this stick is rough.
-# text_por = A casca deste pau é áspera.
-# text_source = p. 322, No. 42
-# text_orig = kuaé ymyrá saimé ipiréra.
-# text_sec = Kwá mirá saimbé i pirera.
-# text_por_sec = A casca deste pau é áspera.
-# text_sec_source = Avila (2021)
-# text_por_sec_source = Avila (2021)
-# text_por_alt = Esta árvore, a casca dela é áspera.
-# text_por_alt_translator = LFdeA
-# text_annotator = DMA
-# reviewer = LFdeA
-1	Kwaá	kwaá	DET	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	2	det	_	TokenRange=0:4
-2	imirá	imirá	NOUN	N	Number=Sing	3	dislocated	_	TokenRange=5:10
-3	saimé	saimé	ADJ	A	_	0	root	_	TokenRange=11:16
-4	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	TokenRange=17:18
-5	pirera	pirera	NOUN	N	Number=Sing	3	nsubj	_	SpaceAfter=No|TokenRange=19:25
-6	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=25:26
-
-# sent_id = Hartt1938:0:0:48
-# text = Xasú ranhẽ apituú.
-# text_eng = Let me go and rest.
-# text_por = Deixe-me ir descansar.
-# text_source = p. 322, No. 48
-# text_orig = xasó rañé apytuú.
-# text_sec = Asú rẽ apituú
-# text_por_sec = Deixe-me ir descansar.
-# text_sec_source = Avila (2021)
-# text_por_sec_source = Avila (2021)
-# text_annotator = DMA
-# reviewer = LFdeA
-1	Xasú	sú	AUX	AUXFR	Mood=Ind|Number=Sing|Person=1|Style=Arch|VerbForm=Fin	3	aux	_	ModernForm=Asú|TokenRange=0:4
-2	ranhẽ	ranhẽ	PART	IMPF	_	3	advmod	_	TokenRange=5:10
-3	apituú	pituú	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=11:17
-4	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=17:18
-
-# sent_id = Costa1909:1:50:50
-# text = Ukiri umanduári.
-# text_eng = It fell silent, thought,
-# text_eng_ggl = He fell silent, thought,
-# text_por = Calou-se, pensou,
+# sent_id = Costa1909:1:53:53
+# text = Akwáu katú kurí puxí usuantí ixé.
+# text_eng = I don't know if he will receive me well or badly.
+# text_por = Não sei se me receberá bem ou mal.
 # text_por_source = Stradelli (2014, p. 116)
+# text_por_alt = Bem sei que me receberá mal.
+# text_por_alt_translator = LFdeA
 # text_source = p. 165
-# text_orig = U-kiri u-manduari.
+# text_orig = A-quau catú curi puxi u-çuainti ixé.
 # text_annotator = LFdeA
-1	Ukiri	kiri	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=0:5
-2	umanduári	manduári	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	1	parataxis	_	SpaceAfter=No|TokenRange=6:15
-3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=15:16
+1	Akwáu	kwáu	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=0:5
+2	katú	katú	ADV	ADVS	AdvType=Deg	1	advmod	_	TokenRange=6:10
+3	kurí	kurí	PART	FUT	Tense=Fut	1	advmod	_	TokenRange=11:15
+4	puxí	puxí	ADV	ADVA	AdvType=Man	1	advmod	_	TokenRange=16:20
+5	usuantí	suantí	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	1	ccomp	_	TokenRange=21:28
+6	ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	5	obj	_	SpaceAfter=No|TokenRange=29:32
+7	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=32:33
 
-# sent_id = Aguiar1898:21-6:1:541
-# text = Tupana unheẽ yuíri iwí supé: — Remusema ne suí maã sikwé waá-itá, suú waá-itá uwatá waá, yusikí waá iwí rupí, suú upaĩ katú.
-# text_eng = God also said to the earth: "Produce living beings, animals that walk and crawl on the earth, animals of all kinds."
-# text_por = Deus também disse à terra: Produze seres viventes, animais que andem, e se arrastem pela terra, animais de todas as espécies.
+# sent_id = Costa1909:10-2:2:2002
+# text = Se mbira.
+# text_eng = Yes, he's my son.
+# text_por = É meu filho.
+# text_source = p. 188
+# text_orig = Cembira.
+# text_annotator = LFdeA
+1	Se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	TokenRange=0:2
+2	mbira	mbira	NOUN	N	Number=Sing	0	root	_	SpaceAfter=No|TokenRange=3:8
+3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=8:9
+
+# sent_id = Aguiar1898:9:1:1001
+# text = Ave Maria, i pura graça suí, yané Yara ne irumu; yumumeú katú iné upaĩ kunhã pitera-pe, yumumeú katú yuwá ne marika suí, Jesus.
+# text_eng = Hail Mary, full of grace, our Lord be with you, blessed are you among all women, blessed is the fruit of your womb, Jesus.
+# text_por = Ave Maria, cheia de graça, nosso Senhor seja contigo, bendita és tu entre todas as mulheres, bendito é o fruto do teu ventre, Jesus.
+# text_source = p. 37
+# title_orig = AVE MARIA
+# text_orig = Ave-Maria, ipura graça çui, ianê Iàra ne iruma ; iu-mumehun-catú iné upãin cunhan pïtérape, iu-mumehun-catú iuhá nê maricá çui, Jesus.
+# text_annotator = LFdeA
+1	Ave	ave	INTJ	INTJ	_	2	discourse	_	TokenRange=0:3
+2	Maria	maria	PROPN	PROPN	_	5	vocative	_	SpaceAfter=No|TokenRange=4:9
+3	,	,	PUNCT	PUNCT	_	2	punct	_	TokenRange=9:10
+4	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	TokenRange=11:12
+5	pura	pura	VERB	V2	Mood=Ind|VerbForm=Fin	0	root	_	TokenRange=13:17
+6	graça	graça	NOUN	N	Number=Sing	5	obl	_	OrigLang=por|TokenRange=18:23
+7	suí	suí	ADP	ADP	AdpType=Post	6	case	_	SpaceAfter=No|TokenRange=24:27
+8	,	,	PUNCT	PUNCT	_	11	punct	_	TokenRange=27:28
+9	yané	yané	PRON	PRON2	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	TokenRange=29:33
+10	Yara	yara	NOUN	N	Number=Sing	11	nsubj	_	TokenRange=34:38
+11	ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|PronType=Prs	5	parataxis	_	TokenRange=39:41
+12	irumu	irumu	ADP	ADP	AdpType=Post	11	case	_	SpaceAfter=No|TokenRange=42:47
+13	;	;	PUNCT	PUNCT	_	14	punct	_	TokenRange=47:48
+14	yumumeú	mumeú	VERB	V	Style=Arch|VerbForm=Inf|Voice=Mid,Pass	5	parataxis	_	ModernForm=uyumumeú|ModernPerson=3|ModernVerbForm=Fin|TokenRange=49:56
+15	katú	katú	ADV	ADVA	AdvType=Man	14	advmod	_	TokenRange=57:61
+16	iné	iné	PRON	PRON	Number=Sing|Person=2|PronType=Prs	14	nsubj	_	TokenRange=62:65
+17	upaĩ	upaĩ	DET	TOT	PronType=Tot	18	det	_	TokenRange=66:70
+18	kunhã	kunhã	NOUN	N	Number=Sing	19	nmod:poss	_	TokenRange=71:76
+19-20	pitera-pe	_	_	_	_	_	_	_	SpaceAfter=No|TokenRange=77:86
+19	pitera	pitera	NOUN	N	Number=Sing	14	obl	_	_
+20	pe	upé	ADP	ADP	AdpType=Post|Clitic=Yes	19	case	_	_
+21	,	,	PUNCT	PUNCT	_	22	punct	_	TokenRange=86:87
+22	yumumeú	yumumeú	VERB	V	Style=Arch|VerbForm=Inf	14	parataxis	_	ModernForm=uyumumeú|ModernPerson=3|ModernVerbForm=Fin|TokenRange=88:95
+23	katú	katú	ADV	ADVA	AdvType=Man	22	advmod	_	TokenRange=96:100
+24	yuwá	yuwá	NOUN	N	Number=Sing	22	nsubj	_	TokenRange=101:105
+25	ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	26	nmod:poss	_	TokenRange=106:108
+26	marika	marika	NOUN	N	Number=Sing	24	nmod	_	TokenRange=109:115
+27	suí	suí	ADP	ADP	AdpType=Post	26	case	_	SpaceAfter=No|TokenRange=116:119
+28	,	,	PUNCT	PUNCT	_	29	punct	_	TokenRange=119:120
+29	Jesus	jesus	PROPN	PROPN	_	24	appos	_	SpaceAfter=No|TokenRange=121:126
+30	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=126:127
+
+# sent_id = Aguiar1898:21-6:3:543
+# text = Tupana uxipiá maã katú waá.
+# text_eng = God saw that it was good.
+# text_por = Deus viu que era bom.
 # text_source = p. 69
-# title_por = Criação do mundo
-# chapter_title_por = Sexto dia
-# text_orig = Tupana u-hinhin ïuïri ïuhï çupé: — Re-mucema ne çui mahã cequéaitá, çuùaitá u-atá uahá, iucêquï uahá ïuhï rupi, çuu' upãin catu'
+# text_orig = Tupana u-xipiá mahã catu' uahá.
 # text_annotator = LFdeA
 1	Tupana	tupana	NOUN	N	Number=Sing	2	nsubj	_	TokenRange=0:6
-2	unheẽ	nheẽ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=7:12
-3	yuíri	yuíri	ADV	ADVG	AdvType=Deg	2	advmod	_	TokenRange=13:18
-4	iwí	iwí	NOUN	N	Number=Sing	2	iobj	_	TokenRange=19:22
-5	supé	supé	ADP	ADP	AdpType=Post	4	case	_	SpaceAfter=No|TokenRange=23:27
-6	:	:	PUNCT	PUNCT	_	8	punct	_	TokenRange=27:28
-7	—	—	PUNCT	PUNCT	_	8	punct	_	TokenRange=28:29
-8	Remusema	musema	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	ccomp	_	TokenRange=30:38
-9	ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|PronType=Prs	8	obl	_	TokenRange=39:41
-10	suí	suí	ADP	ADP	AdpType=Post	9	case	_	TokenRange=42:45
-11	maã	maã	PRON	IND	PronType=Ind	8	obj	_	TokenRange=46:49
-12	sikwé	rikwé	VERB	V2	Mood=Ind|Number=Sing|Person=3|Rel=NCont|VerbForm=Fin	11	acl:relcl	_	TokenRange=50:55
-13	waá-itá	waá	PRON	REL	Number=Plur|PronType=Rel	12	nsubj	_	SpaceAfter=No|TokenRange=56:63
-14	,	,	PUNCT	PUNCT	_	15	punct	_	TokenRange=63:64
-15	suú	suú	NOUN	N	Number=Sing	12	conj	_	TokenRange=65:68
-16	waá-itá	waá	PRON	REL	Number=Plur|PronType=Rel	15	nsubj	_	TokenRange=69:76
-17	uwatá	watá	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	15	acl:relcl	_	TokenRange=77:82
-18	waá	waá	PRON	REL	Number=Sing|PronType=Rel	17	nsubj	_	SpaceAfter=No|TokenRange=83:86
-19	,	,	PUNCT	PUNCT	_	20	punct	_	TokenRange=86:87
-20	yusikí	yusikí	VERB	V	Style=Arch|VerbForm=Inf	17	conj	_	ModernForm=uyusikí|ModernPerson=3|ModernVerbForm=Fin|TokenRange=88:94
-21	waá	waá	PRON	REL	Number=Sing|PronType=Rel	20	nsubj	_	TokenRange=95:98
-22	iwí	iwí	NOUN	N	Number=Sing	20	obl	_	TokenRange=99:102
-23	rupí	rupí	ADP	ADP	AdpType=Post	22	case	_	SpaceAfter=No|TokenRange=103:107
-24	,	,	PUNCT	PUNCT	_	25	punct	_	TokenRange=107:108
-25	suú	suú	NOUN	N	Number=Sing	15	appos	_	TokenRange=109:112
-26	upaĩ	upaĩ	DET	TOT	PronType=Tot	25	det	_	TokenRange=113:117
-27	katú	katú	ADV	ADVS	AdvType=Deg	26	advmod	_	SpaceAfter=No|TokenRange=118:122
-28	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=122:123
-
-# sent_id = Aguiar1898:21-6:6:546
-# text = Tupana umunhã mira i rangawa yawé waá: i rangawa yawé waá Tupana umunhã aé: apigawa i kunhã umunhã aintá.
-# text_eng = God created man in his own image: in his image and likeness God made him, male and female he created them.
-# text_por = Deus criou o homem à sua imagem: à sua imagem e semelhança Deus o fez, homem e mulher criou-os.
-# text_source = p. 71
-# text_orig = Tupana u-munhan mira i-rangáua iaué uahá: i-rangáua iaué uahá Tupana u-munhan aé: apgáua i cunhan u-munhan aitá.
-# text_annotator = LFdeA
-1	Tupana	tupana	NOUN	N	Number=Sing	2	nsubj	_	TokenRange=0:6
-2	umunhã	munhã	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=7:13
-3	mira	mira	NOUN	N	Number=Sing	2	obj	_	TokenRange=14:18
-4	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	ModernForm=s|ModernSpaceAfter=No|TokenRange=19:20
-5	rangawa	sangawa	NOUN	N	Number=Sing|Rel=Cont	3	acl:relcl	_	ModernForm=angawa|ModernNumber[psor]=Sing|ModernPerson[psor]=3|ModernRel=NCont|TokenRange=21:28
-6	yawé	yawé	ADP	ADP	AdpType=Post	5	case	_	TokenRange=29:33
-7	waá	waá	PRON	REL	Number=Sing|PronType=Rel	5	nsubj	_	SpaceAfter=No|TokenRange=34:37
-8	:	:	PUNCT	PUNCT	_	14	punct	_	TokenRange=37:38
-9	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Style=Arch	10	nmod:poss	_	ModernForm=s|ModernSpaceAfter=No|TokenRange=39:40
-10	rangawa	sangawa	NOUN	N	Number=Sing|Rel=Cont|Style=Arch	12	acl:relcl	_	ModernForm=angawa|ModernNumber[psor]=Sing|ModernPerson[psor]=3|ModernRel=NCont|TokenRange=41:48
-11	yawé	yawé	ADP	ADP	AdpType=Post	10	case	_	TokenRange=49:53
-12	waá	waá	PRON	REL	Number=Sing|PronType=Rel	14	xcomp	_	TokenRange=54:57
-13	Tupana	tupana	NOUN	N	Number=Sing	14	nsubj	_	TokenRange=58:64
-14	umunhã	munhã	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	2	parataxis	_	TokenRange=65:71
-15	aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No|TokenRange=72:74
-16	:	:	PUNCT	PUNCT	_	20	punct	_	TokenRange=74:75
-17	apigawa	apigawa	NOUN	N	Number=Sing	20	dislocated	_	TokenRange=76:83
-18	i	i	CCONJ	CCONJ	_	19	cc	_	TokenRange=84:85
-19	kunhã	kunhã	NOUN	N	Number=Sing	17	conj	_	TokenRange=86:91
-20	umunhã	munhã	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	14	parataxis	_	TokenRange=92:98
-21	aintá	aintá	PRON	PRON	Number=Plur|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No|TokenRange=99:104
-22	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=104:105
-
-# sent_id = Studart1926:3650:2-2:36502
-# text = Pisayé ramé.
-# text_eng = At midnight.
-# text_por = À meia-noite.
-# text_source = p. 36
-# text_orig = peçaiê ana.
-# text_annotator = Hélio Leonam Barroso Silva
-# text_orig_transcriber = Hélio Leonam Barroso Silva
-# text_por_modernizer = Hélio Leonam Barroso Silva
-# inputline = Pisayé ramé/adp. (p. 36) À meia-noite. - peçaiê ramé.
-# reviewer1 = Leonel Figueiredo de Alencar
-1	Pisayé	pisayé	NOUN	N	Number=Sing	0	root	_	TokenRange=0:6
-2	ramé	ramé	ADP	ADP	AdpType=Post	1	case	_	SpaceAfter=No|TokenRange=7:11
-3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=11:12
+2	uxipiá	xipiá	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=7:13
+3	maã	maã	PRON	IND	PronType=Ind	2	obj	_	TokenRange=14:17
+4	katú	katú	ADJ	A	_	3	acl:relcl	_	TokenRange=18:22
+5	waá	waá	PRON	REL	Number=Sing|PronType=Rel	4	nsubj	_	SpaceAfter=No|TokenRange=23:26
+6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=26:27
 

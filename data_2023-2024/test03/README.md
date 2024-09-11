@@ -1,6 +1,6 @@
 # Folder contents
 ## Overview
-This folder contains the relevant data of the second run of first parsing experiment of the PIBIC project of 2023 and 2024. The file `yrl_complin-ud-test.conllu` contains all the 1750 sentences from the version of UD_Nheengatu-CompLin as of September 10, 2024 ([commit](https://github.com/CompLin/nheengatu/commit/eb6529a96166213db9de1bb020229cb85444a9b6). The file `sample.conllu` contains the same sentences, excepting those with the _Casasnovas2006_ `sent_id` prefix. It totals 1564 sentences. The files `test-1.conllu`, `train-1.conll`, `test-2.conllu`, `train-2.conll` etc. result sucessively spliting the `all.conllu` file. The split was performed 10 times by the `TestSuite.py` script, each time alocating 10% and 90% of the sentences from the `sample.conllu` file to the test set and train set, respectively.
+This folder contains the relevant data of the second run of first parsing experiment of the PIBIC project of 2023 and 2024. The file `yrl_complin-ud-test.conllu` contains all the 1750 sentences from the version of UD_Nheengatu-CompLin as of September 10, 2024 ([commit](https://github.com/CompLin/nheengatu/commit/eb6529a96166213db9de1bb020229cb85444a9b6). The file `sample.conllu` contains the same sentences, excepting those with `sent_id` starting with _Casasnovas2006_. It totals 1564 sentences. The files `test-1.conllu`, `train-1.conll`, `test-2.conllu`, `train-2.conll` etc. result sucessively spliting the `all.conllu` file. The split was performed 10 times by the `TestSuite.py` script, each time alocating 10% and 90% of the sentences from the `sample.conllu` file to the test set and train set, respectively.
 
 The `sample.conllu` file was built with the following commands:
 
@@ -17,9 +17,12 @@ The `sample.conllu` file was built with the following commands:
 1564
 >>> import os
 >>> USER=os.path.expanduser('~')
->>> Yauti.writeSentsConllu(sents,os.path.join(USER,'pibic/data_2023-2024/test03','sample.conllu'))
+>>> Yauti.writeSentsConllu(sample,os.path.join(USER,'pibic/data_2023-2024/test03','sample.conllu'))
 
 ```
+
+## Log with the commands excetuted for the test
+log.txt
 
 ## The train and test files
 test-10.conllu
@@ -68,5 +71,5 @@ gold-tok-tags-8.txt
 gold-tok-tags-9.txt
 
 ## Summary results in terms of mean LAS and standard deviation
-results01.txt
+results.txt
 
