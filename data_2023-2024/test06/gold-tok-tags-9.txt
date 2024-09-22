@@ -1,0 +1,1 @@
+Parsing from gold tokenization with gold tags - forms: 1907, UAS: 86.73%, LAS: 82.17%
